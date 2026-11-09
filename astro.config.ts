@@ -3,7 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 import nimbus, {
   defineConfig as defineNimbusConfig,
 } from "@cloudflare/nimbus-docs";
-import { tableScroll } from "@cloudflare/nimbus-docs/markdown";
+import { externalLinks, tableScroll } from "@cloudflare/nimbus-docs/markdown";
 
 const nimbusConfig = defineNimbusConfig({
   // CHANGE_ME: your site's canonical origin (no trailing slash). Drives
@@ -123,7 +123,14 @@ export default defineConfig({
       markdown: {
         // Wrap wide tables so they scroll instead of overflowing the page
         // (styled by `.nb-table-scroll` in src/styles/prose.css).
-        hastPlugins: [tableScroll()],
+        hastPlugins: [
+          tableScroll(),
+          externalLinks({
+            arrow: null,
+            internalHosts: [new URL(nimbusConfig.site).host],
+            rel: ["noopener", "noreferrer"],
+          }),
+        ],
         // `## Install {#install}` gives a heading a fixed id. A heading that
         // ends in other `{…}` text, such as `{account_id}` in a .md file, is
         // read as attributes too; remove this to keep it as text.

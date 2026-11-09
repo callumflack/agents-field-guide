@@ -7,6 +7,7 @@ Write for a reader scanning for something they can use. Start with the one sente
 - Date original entries and dated sources using the date of the work or source. Use short months, as in 9 Nov 2026.
 - Give each experiment one page and put the date near the top. Start with what you tried. Name each author in the text and keep their contributions distinct. Use brief, exact excerpts with links to the original sources when the wording carries the method. Add results once there are results to report.
 - When bringing a note across from Obsidian, strip its hand-written navigation line from the published Markdown. Nimbus supplies the site's breadcrumbs. Use public source links and keep vault links, raw notes, Codex threads, and local paths outside the site's content folder.
+- Write ordinary Markdown links. The site opens off-site links in a new tab, including skill links on any page.
 - Write author and source names in the page body so Nimbus can find them in full-text search.
 
 Use the [external skills inventory procedure](external-skills-inventory.md) to refresh the public collection links.
