@@ -13,6 +13,8 @@ I learned from Ryan Singer (@rjs) to use the breadboard as the source of truth. 
 
 To map your own workflow with an agent, use Callum Flack’s [breadboard skill](https://www.skills.sh/callumflack/skills/breadboard), published 2 Nov 2026.
 
+<a href="https://desktop-source-deletion.callumflack.chatgpt.site/index.html?flow=recovery" target="_blank" rel="noopener noreferrer">Open Unity Surfaces’ deletion recovery breadboard</a>. Select **Quit after the server delete, before local cleanup** to follow the story through to its native check.
+
 **Worked example.** A person uploads a file, closes the tab while it is processing, and later returns to open the result. The promise: **the same upload has exactly one usable result after reopening.**
 
 ```text
