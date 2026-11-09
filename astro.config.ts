@@ -21,6 +21,13 @@ const nimbusConfig = defineNimbusConfig({
     items: [
       "index",
       {
+        label: "Skills",
+        segment: "/skills",
+        landing: "/skills/",
+        collapsed: true,
+        items: ["skills-i-publish", "external-skills"],
+      },
+      {
         label: "Prompts",
         segment: "/prompts",
         landing: "/prompts/",
@@ -30,13 +37,6 @@ const nimbusConfig = defineNimbusConfig({
           "find-implicit-state-machines",
           { autogenerate: { directory: "prompts" } },
         ],
-      },
-      {
-        label: "Skills",
-        segment: "/skills",
-        landing: "/skills/",
-        collapsed: true,
-        items: ["skills-i-publish", "external-skills"],
       },
       {
         label: "Methods",

@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const docs = new URL('../src/content/docs/', import.meta.url);
-const sections = ['prompts', 'skills', 'methods', 'tools', 'experiments', 'examples', 'references'];
+const sections = ['skills', 'prompts', 'methods', 'tools', 'experiments', 'examples', 'references'];
 const read = (slug) => readFileSync(new URL(`${slug}.md`, docs), 'utf8');
 
 function splitPage(page) {
@@ -18,7 +18,13 @@ const catalogue = sections.map((slug) => {
   if (!title) throw new Error(`Missing title for ${slug}`);
   // Each category keeps its own subheadings; the home catalogue keeps one
   // heading per category and includes every item from that category.
-  const entries = body.replace(/^## .+\n+/gm, '').trim();
+  let entries = body.replace(/^## .+\n+/gm, '').trim();
+  const seventhEntry = [...entries.matchAll(/^- /gm)][6];
+  if (seventhEntry) {
+    const firstSix = entries.slice(0, seventhEntry.index).trimEnd();
+    const remaining = entries.slice(seventhEntry.index);
+    entries = `${firstSix}\n\n<details>\n<summary>Show more</summary>\n\n${remaining}\n\n</details>`;
+  }
   return `## [${title}](/${slug}/)\n\n${entries}`;
 });
 const next = `---\n${frontmatter}\n---\n\n${catalogue.join('\n\n')}\n`;

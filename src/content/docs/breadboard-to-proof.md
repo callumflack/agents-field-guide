@@ -3,11 +3,13 @@ title: Take a breadboard from sketch to proof
 description: Map an upload, ask an agent to build it, and prove the result survives reopening.
 ---
 
+**9 Nov 2026**
+
 Use this when a flow can be interrupted and you need to know what the user will find when they come back.
 
 ## Map the flow
 
-To map your own workflow with an agent, use Callum Flack’s [breadboard skill](https://www.skills.sh/callumflack/skills/breadboard).
+To map your own workflow with an agent, use Callum Flack’s [breadboard skill](https://www.skills.sh/callumflack/skills/breadboard), published 2 Nov 2026.
 
 **Worked example.** A person uploads a file, closes the tab while it is processing, and later returns to open the result. The promise: **the same upload has exactly one usable result after reopening.**
 

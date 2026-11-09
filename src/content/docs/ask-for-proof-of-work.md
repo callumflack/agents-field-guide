@@ -2,6 +2,8 @@
 title: Ask for proof of work instead of a summary
 ---
 
+**7 Nov 2026**
+
 Use when delegating work and you want evidence you can inspect.
 
 ```text

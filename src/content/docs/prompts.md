@@ -5,8 +5,8 @@ description: "A glossary of prompts you can copy and reuse."
 
 ## Working with agents
 
-- [Ask for proof of work instead of a summary](/ask-for-proof-of-work/). Dax’s prompt for asking a worker to return evidence you can inspect.
-- [Find implicit state machines with Pstack](/find-implicit-state-machines/). Lauren’s prompt for modelling each subsystem and charting the flows that matter.
+- [Ask for proof of work instead of a summary](/ask-for-proof-of-work/). 7 Nov 2026. Dax’s prompt for asking a worker to return evidence you can inspect.
+- [Find implicit state machines with Pstack](/find-implicit-state-machines/). 9 Nov 2026. Lauren’s prompt for modelling each subsystem and charting the flows that matter.
 
 ## Reconsider the task
 
@@ -37,5 +37,3 @@ description: "A glossary of prompts you can copy and reuse."
 - [What would make this wrong?](/prompts/what-would-make-this-wrong/). Name the evidence that would overturn your conclusion.
 - [Similar cases, different decisions](/prompts/similar-cases-different-decisions/). Find the distinction behind two different decisions.
 - [Make the miss visible](/prompts/make-the-miss-visible/). Ask what evidence would change the decision on its own.
-
-[Prompt framing on my website](https://www.callum.website/prompt-framing). [Reframe skill](https://www.skills.sh/callumflack/skills/reframe).
