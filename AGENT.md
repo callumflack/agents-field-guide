@@ -40,6 +40,8 @@ Cloudflare deploys also have `wrangler.jsonc` at the project root.
 
 ## Writing docs
 
+Follow the [Field Guide writing guide](docs/writing-guide.md) for editorial and publishing rules.
+
 Frontmatter validates against the schema from `docsCollection()` (`@cloudflare/nimbus-docs/content`). Required: `title`.
 
 ```mdx

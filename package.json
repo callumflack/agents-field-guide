@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "catalogue:sync": "node scripts/sync-catalogue.mjs",
+    "prebuild": "node scripts/sync-catalogue.mjs --check",
     "build": "astro build",
     "preview": "astro preview",
     "typecheck": "astro check",

@@ -8,4 +8,4 @@ Use when delegating work and you want evidence you can inspect.
 ask for proof of work instead of a summary
 ```
 
-[Dax’s original post](https://x.com/thdxr/status/2118755687274532893)
+[Dax (@thdxr), original post](https://x.com/thdxr/status/2118755687274532893)

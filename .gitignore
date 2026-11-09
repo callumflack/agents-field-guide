@@ -3,6 +3,7 @@ dist/
 .astro/
 .wrangler/
 .nimbus/
+.local/
 
 .env
 .env.local

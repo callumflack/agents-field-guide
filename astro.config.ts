@@ -17,13 +17,79 @@ const nimbusConfig = defineNimbusConfig({
   locale: "en",
   // CHANGE_ME: your repository — shown as the GitHub link in the header.
   socialImageAlt: "Agents Field Guide",
-  // The home page leads the sidebar; every other page joins it automatically.
   sidebar: {
     items: [
       "index",
-      { label: "Prompts", items: ["prompts", "ask-for-proof-of-work", "find-implicit-state-machines"] },
-      { label: "Skills", items: ["skills-i-publish", "external-skills"] },
-      { label: "Experiments", items: ["t3-code-experiment"] },
+      {
+        label: "Prompts",
+        segment: "/prompts",
+        landing: "/prompts/",
+        collapsed: true,
+        items: [
+          "ask-for-proof-of-work",
+          "find-implicit-state-machines",
+          { autogenerate: { directory: "prompts" } },
+        ],
+      },
+      {
+        label: "Skills",
+        segment: "/skills",
+        landing: "/skills/",
+        collapsed: true,
+        items: ["skills-i-publish", "external-skills"],
+      },
+      {
+        label: "Methods",
+        segment: "/methods",
+        landing: "/methods/",
+        collapsed: true,
+        items: [
+          "breadboard-to-proof",
+          { label: "Use the breadboard as the source of truth", link: "https://x.com/rjs/status/2112657531910705296" },
+          { label: "Work in independently valuable steps", link: "https://x.com/jamesacowling/status/2077104612398743701" },
+          { label: "Give the agent a way to verify its work", link: "https://x.com/addyosmani/status/2111604705340326393" },
+        ],
+      },
+      {
+        label: "Tools I use",
+        segment: "/tools",
+        landing: "/tools/",
+        collapsed: true,
+        items: [
+          { label: "Scrawl", link: "https://scrawl.kitlangton.com/" },
+          { label: "Hex", link: "https://github.com/anomalyco/hex" },
+        ],
+      },
+      {
+        label: "Experiments",
+        segment: "/experiments",
+        landing: "/experiments/",
+        collapsed: true,
+        items: ["t3-code-experiment", "agentsview-learning"],
+      },
+      {
+        label: "Examples",
+        segment: "/examples",
+        landing: "/examples/",
+        collapsed: true,
+        items: [
+          { label: "Four design options side by side", link: "https://x.com/rjs/status/2109351403005030603" },
+          { label: "ToDesktop’s visual system docs", link: "https://x.com/davej/status/2096970427583074511?s=12" },
+          { label: "An eval with held-out support tickets", link: "https://claude.dev/blog/automating-eval-design-and-hillclimbing/" },
+        ],
+      },
+      {
+        label: "References",
+        segment: "/references",
+        landing: "/references/",
+        collapsed: true,
+        items: [
+          "four-dark-corners-of-requirements-engineering",
+          { label: "Towards Self-Driving Codebases", link: "https://blog.detail.dev/posts/towards-self-driving-codebases/" },
+          { label: "The Topology of an LLM Agent Loop With Tool Use", link: "https://blog.exe.dev/topology" },
+          { label: "The Case Against Formal Verification, 50 Years Later", link: "https://ivan-gavran.github.io/0-social-processes-paper" },
+        ],
+      },
     ],
   },
 });
