@@ -45,7 +45,6 @@ const nimbusConfig = defineNimbusConfig({
         collapsed: true,
         items: [
           "breadboard-to-proof",
-          { label: "Use the breadboard as the source of truth", link: "https://x.com/rjs/status/2112657531910705296" },
           { label: "Work in independently valuable steps", link: "https://x.com/jamesacowling/status/2077104612398743701" },
           { label: "Give the agent a way to verify its work", link: "https://x.com/addyosmani/status/2111604705340326393" },
         ],

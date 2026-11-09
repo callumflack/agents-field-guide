@@ -9,6 +9,8 @@ Use this when a flow can be interrupted and you need to know what the user will 
 
 ## Map the flow
 
+I learned from Ryan Singer (@rjs) to use the breadboard as the source of truth. Give the shaping doc the same structure as the breadboard so readers can match the prose to the flow. [Ryan Singer’s original post (21 Oct 2026)](https://x.com/rjs/status/2112657531910705296)
+
 To map your own workflow with an agent, use Callum Flack’s [breadboard skill](https://www.skills.sh/callumflack/skills/breadboard), published 2 Nov 2026.
 
 **Worked example.** A person uploads a file, closes the tab while it is processing, and later returns to open the result. The promise: **the same upload has exactly one usable result after reopening.**
@@ -63,5 +65,3 @@ I expected / what happened:
 Evidence I can share:
 I’d change:
 ```
-
-[Ryan Singer on using a breadboard as the source of truth](https://x.com/rjs/status/2112657531910705296)
