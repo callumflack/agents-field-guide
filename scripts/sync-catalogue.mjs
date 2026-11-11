@@ -20,10 +20,10 @@ const catalogue = sections.map((slug) => {
   const { frontmatter: meta, body } = splitPage(read(slug));
   const title = meta.match(/^title: (.+)$/m)?.[1].replace(/^"|"$/g, '');
   if (!title) throw new Error(`Missing title for ${slug}`);
-  // Each category keeps its own subheadings; the home catalogue keeps one
-  // heading per category and includes every item from that category.
   const entries = body.replace(/^## .+\n+/gm, '').trim();
-  return `## [${title}](/${slug}/)\n\n${entries}`;
+  const thirteenthEntry = [...entries.matchAll(/^- /gm)][12];
+  const preview = thirteenthEntry ? entries.slice(0, thirteenthEntry.index).trimEnd() : entries;
+  return `## [${title}](/${slug}/)\n\n${preview}`;
 });
 const next = `---\n${frontmatter}\n---\n\n${intro}\n\n${catalogueMarker}\n\n${catalogue.join('\n\n')}\n`;
 

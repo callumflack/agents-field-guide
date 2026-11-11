@@ -2,7 +2,7 @@
 
 Write for a reader scanning for something they can use. Start with the one sentence they need. Add a short list when it makes the substance easier to find. Use a separate section for depth when there is evidence or detail to put there.
 
-- Give every major group an index. Use one top-level bullet per entry on the category index, then run `npm run catalogue:sync`. The homepage shows the first six entries in each category, with a Show more button below any longer list. The build checks that the catalogue is current.
+- Give every major group an index. Use one top-level bullet per entry on the category page, then run `npm run catalogue:sync`. The homepage shows the first six entries in each category. If there are more, **Show more** reveals up to six additional entries and becomes a **View all** link to the category page. The build checks that the catalogue is current.
 - Give each index bullet a linked title and a short, concrete reason to open it. Keep the whole bullet within three lines on the rendered homepage and check the wrapping in the browser. Add a full stop after the title if it has no closing punctuation.
 - Keep homepage search suggestions above the generated catalogue marker. Give playbooks and field reports their own category entries and link between them when a report informs the method. See the [Field Guide design](field-guide-design.md) for what to record.
 - Give each reusable prompt one page. Include the exact prompt, one sentence on when to use it, and its source. Label adaptations. Link to the prompt wherever an experiment uses it.

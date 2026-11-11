@@ -5,6 +5,7 @@
       class="prose-link cursor-pointer text-muted-foreground"
       aria-expanded="false"
     >Show more</button>
+    <a class="prose-link text-muted-foreground" hidden>View all</a>
   </p>
 </template>
 
@@ -20,32 +21,32 @@
         const overflow = Array.from(list.querySelectorAll<HTMLLIElement>(":scope > li")).slice(6);
         if (!overflow.length) continue;
 
+        const heading = list.previousElementSibling;
+        const category = heading?.querySelector<HTMLAnchorElement>(":scope > a[href]:not(.heading-anchor)");
+        if (!heading || !category) continue;
+
         const control = template.content.cloneNode(true) as DocumentFragment;
         const button = control.querySelector("button")!;
+        const viewAll = control.querySelector("a")!;
         const row = button.parentElement!;
-        list.id = `${list.previousElementSibling!.id}-entries`;
+        list.id = `${heading.id}-entries`;
         button.setAttribute("aria-controls", list.id);
+        viewAll.href = category.href;
 
-        function setExpanded(expanded: boolean) {
-          for (const item of overflow) item.hidden = !expanded;
-          button.setAttribute("aria-expanded", String(expanded));
-          button.textContent = expanded ? "Show less" : "Show more";
+        function revealMore() {
+          for (const item of overflow) item.hidden = false;
+          button.hidden = true;
+          viewAll.hidden = false;
+          (overflow[0].querySelector("a") ?? viewAll).focus();
         }
 
-        function toggle() {
-          const expanded = button.getAttribute("aria-expanded") === "false";
-          setExpanded(expanded);
-          if (expanded) overflow[0].querySelector("a")?.focus();
-          else button.scrollIntoView({ block: "nearest" });
-        }
-
-        setExpanded(false);
-        button.addEventListener("click", toggle);
+        for (const item of overflow) item.hidden = true;
+        button.addEventListener("click", revealMore, { once: true });
         list.after(control);
 
         cleanups.push(() => {
-          button.removeEventListener("click", toggle);
-          setExpanded(true);
+          button.removeEventListener("click", revealMore);
+          for (const item of overflow) item.hidden = false;
           list.removeAttribute("id");
           row.remove();
         });

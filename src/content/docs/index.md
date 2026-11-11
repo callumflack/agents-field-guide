@@ -28,19 +28,6 @@ tableOfContents: false
 - [Stay at the frontier](/prompts/stay-at-the-frontier/). Resolve the decisions you can see now.
 - [Brittle and durable fixes](/prompts/brittle-and-durable/). Compare a fragile fix with one that will hold up.
 - [Audit the bottlenecks](/prompts/audit-the-bottlenecks/). Use the last day of work to identify what slowed you down.
-- [Abundant bounded labour](/prompts/abundant-bounded-labour/). Look for work you can split into simple tasks.
-
-- [The trusted clone](/prompts/the-trusted-clone/). Imagine handing off today’s work to see what you would choose next.
-- [Ten times the agency](/prompts/ten-times-the-agency/). Surface requests you are holding back.
-- [Aversion as a pointer](/prompts/aversion-as-a-pointer/). Identify what you would have to let go of to solve the problem differently.
-
-- [The smallest real thing](/prompts/smallest-real-thing/). Find the smallest thing another person can actually try.
-- [Prevent the error type](/prompts/prevent-the-error-type/). Change the system so the same class of mistake is hard to make.
-- [Make stronger testing concrete through history](/prompts/make-testing-concrete-through-history/). Use past bugs to find better tests.
-- [What would have to be true?](/prompts/what-would-have-to-be-true/) Name the conditions a proposal depends on.
-- [What would make this wrong?](/prompts/what-would-make-this-wrong/) Name the evidence that would overturn your conclusion.
-- [Similar cases, different decisions](/prompts/similar-cases-different-decisions/). Find the distinction behind two different decisions.
-- [Make the miss visible](/prompts/make-the-miss-visible/). Ask what evidence would change the decision on its own.
 
 ## [Playbooks](/methods/)
 
