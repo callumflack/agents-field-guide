@@ -152,13 +152,6 @@
 	}
 }
 
-/* Wider content area on large displays (e.g. MacBook Pro 16″) */
-@media (min-width: 1536px) {
-	:root {
-		--nb-content-max: calc(52rem + 15ch);
-	}
-}
-
 /* ---- Dark mode ---- */
 [data-mode="dark"] {
 	color-scheme: dark;
