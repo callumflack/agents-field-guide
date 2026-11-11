@@ -1,5 +1,7 @@
 ---
 import DocsLayout from "../layouts/DocsLayout.astro";
+import CatalogueToggle from "../components/CatalogueToggle.astro";
+import SearchTrigger from "../components/ui/search/SearchTrigger.astro";
 import {
   getDocsStaticPaths,
   getDocsPage,
@@ -66,6 +68,22 @@ const socialImage = entry.data.socialImage ?? ogImageUrl;
   audience={entry.data.audience}
   collection={entry.collection}
   entryId={entry.id}
+  wideContent={currentSlug === "/"}
 >
+  {currentSlug === "/" && (
+    <section class="mt-7 mb-3 grid gap-3" aria-labelledby="guide-search-heading">
+      <h2 id="guide-search-heading">What are you trying to do?</h2>
+      <SearchTrigger prominent />
+    </section>
+  )}
   <Content components={components} />
+  {currentSlug === "/" && <CatalogueToggle />}
 </DocsLayout>
+
+<style>
+  #guide-search-heading {
+    margin-top: 0;
+    /* Match the linked headings in the homepage catalogue. */
+    font-weight: 500;
+  }
+</style>

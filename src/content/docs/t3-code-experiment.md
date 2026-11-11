@@ -3,7 +3,7 @@ title: T3 Code with Opus and DeepSeek
 tableOfContents: false
 ---
 
-**9 Nov 2026**
+*In progress.*
 
 I’m trying Claude Opus 5.5 as the orchestrator and DeepSeek as the workers in [T3 Code](https://t3.codes/).
 

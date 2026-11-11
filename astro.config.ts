@@ -17,6 +17,7 @@ const nimbusConfig = defineNimbusConfig({
   locale: "en",
   // CHANGE_ME: your repository — shown as the GitHub link in the header.
   socialImageAlt: "Agents Field Guide",
+  features: { sidebar: false },
   sidebar: {
     items: [
       "index",
@@ -39,14 +40,34 @@ const nimbusConfig = defineNimbusConfig({
         ],
       },
       {
-        label: "Methods",
+        label: "Playbooks",
         segment: "/methods",
         landing: "/methods/",
         collapsed: true,
         items: [
           "breadboard-to-proof",
-          { label: "Work in independently valuable steps", link: "https://x.com/jamesacowling/status/2077104612398743701" },
-          { label: "Give the agent a way to verify its work", link: "https://x.com/addyosmani/status/2111604705340326393" },
+          "prove-the-user-outcome",
+          "recover-drifting-work",
+          "independently-valuable-steps",
+          "give-the-agent-a-way-to-verify",
+        ],
+      },
+      {
+        label: "Field reports",
+        segment: "/field-reports",
+        landing: "/field-reports/",
+        items: ["agentsview-learning", "t3-code-experiment"],
+      },
+      {
+        label: "References",
+        segment: "/references",
+        landing: "/references/",
+        collapsed: true,
+        items: [
+          "four-dark-corners-of-requirements-engineering",
+          "towards-self-driving-codebases",
+          "topology-of-an-llm-agent-loop",
+          "case-against-formal-verification",
         ],
       },
       {
@@ -59,36 +80,6 @@ const nimbusConfig = defineNimbusConfig({
           { label: "Hex", link: "https://github.com/anomalyco/hex" },
         ],
       },
-      {
-        label: "Experiments",
-        segment: "/experiments",
-        landing: "/experiments/",
-        collapsed: true,
-        items: ["t3-code-experiment", "agentsview-learning"],
-      },
-      {
-        label: "Examples",
-        segment: "/examples",
-        landing: "/examples/",
-        collapsed: true,
-        items: [
-          { label: "Four design options side by side", link: "https://x.com/rjs/status/2109351403005030603" },
-          { label: "ToDesktop’s visual system docs", link: "https://x.com/davej/status/2096970427583074511?s=12" },
-          { label: "An eval with held-out support tickets", link: "https://claude.dev/blog/automating-eval-design-and-hillclimbing/" },
-        ],
-      },
-      {
-        label: "References",
-        segment: "/references",
-        landing: "/references/",
-        collapsed: true,
-        items: [
-          "four-dark-corners-of-requirements-engineering",
-          { label: "Towards Self-Driving Codebases", link: "https://blog.detail.dev/posts/towards-self-driving-codebases/" },
-          { label: "The Topology of an LLM Agent Loop With Tool Use", link: "https://blog.exe.dev/topology" },
-          { label: "The Case Against Formal Verification, 50 Years Later", link: "https://ivan-gavran.github.io/0-social-processes-paper" },
-        ],
-      },
     ],
   },
 });
@@ -96,6 +87,10 @@ const nimbusConfig = defineNimbusConfig({
 export default defineConfig({
   // nimbus:adapter
   output: "static",
+  redirects: {
+    "/experiments": "/field-reports/",
+    "/examples": "/methods/",
+  },
   // Tailwind v4 via its Vite plugin (the integration Astro recommends for
   // Tailwind v4 — replaces the PostCSS plugin, which doesn't build under
   // Astro 7's Vite 8 bundler).

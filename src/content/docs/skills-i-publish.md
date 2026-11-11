@@ -3,6 +3,7 @@ title: Skills I publish
 tableOfContents: false
 ---
 
-[Browse callumflack’s collection on skills.sh](https://www.skills.sh/callumflack/skills).
+Browse callumflack’s skills on:
 
-[Read the source and installation instructions on GitHub](https://github.com/callumflack/skills).
+- [skills.sh](https://www.skills.sh/callumflack/skills)
+- [GitHub](https://github.com/callumflack/skills)

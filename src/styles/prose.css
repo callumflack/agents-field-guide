@@ -269,6 +269,9 @@
 
 .docs-content :where(a:not([class])) {
   color: var(--nb-foreground);
+}
+
+.docs-content :where(a:not([class]), .prose-link) {
   text-decoration-line: underline;
   text-decoration-color: var(--nb-border-strong);
   text-underline-offset: 4px;
@@ -277,7 +280,7 @@
   transition: text-decoration-color 0.15s;
 }
 
-.docs-content :where(a:not([class]):hover) {
+.docs-content :where(a:not([class]):hover, .prose-link:hover) {
   text-decoration-color: var(--nb-brand);
 }
 

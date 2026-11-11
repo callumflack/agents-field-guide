@@ -3,8 +3,6 @@ title: Take a breadboard from sketch to proof
 description: Map an upload, ask an agent to build it, and prove the result survives reopening.
 ---
 
-**9 Nov 2026**
-
 Use this when a flow can be interrupted and you need to know what the user will find when they come back.
 
 ## Map the flow
@@ -12,6 +10,8 @@ Use this when a flow can be interrupted and you need to know what the user will 
 I learned from Ryan Singer (@rjs) to use the breadboard as the source of truth. Give the shaping doc the same structure as the breadboard so readers can match the prose to the flow. [Ryan Singer’s original post (21 Oct 2026)](https://x.com/rjs/status/2112657531910705296)
 
 To map your own workflow with an agent, use Callum Flack’s [breadboard skill](https://www.skills.sh/callumflack/skills/breadboard), published 2 Nov 2026.
+
+For a flow that crosses several packages, see how Dave Jeffery uses one JSON description to show ToDesktop’s sequences, phases, data objects, and failure paths. [ToDesktop’s visual system docs](/todesktop-visual-system-docs/).
 
 [Open Unity Surfaces’ deletion recovery breadboard](https://desktop-source-deletion.callumflack.chatgpt.site/index.html?flow=recovery). Select **Quit after the server delete, before local cleanup** to follow the story through to its native check.
 

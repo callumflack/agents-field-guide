@@ -3,8 +3,6 @@ title: Four Dark Corners of Requirements Engineering
 description: How a software specification, together with facts about the world, delivers a requirement.
 ---
 
-**Paper published Jan 1997**
-
 Pamela Zave and Michael Jackson’s *Four Dark Corners of Requirements Engineering* argues that **a requirement describes what we want to happen in the world. A specification describes what the software must do at its boundary to make that outcome follow, given how the world works.**
 
 1. **Ground formal terms in reality.** Give each primitive term a precise, plain-language *designation*. “Only students enroll in courses” is almost tautological if *student* means anyone enrolled in a course. It becomes a substantive claim if *student* means someone who has formally matriculated.

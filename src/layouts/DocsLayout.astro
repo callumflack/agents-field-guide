@@ -23,9 +23,9 @@ import { Badge } from "@/components/ui/badge";
 import type { DocsPageProps } from "@cloudflare/nimbus-docs/types";
 import { getVersionStatus, getVersionAlternates, withBase } from "@cloudflare/nimbus-docs/runtime";
 
-type Props = DocsPageProps & { audience?: "human" };
+type Props = DocsPageProps & { audience?: "human"; wideContent?: boolean };
 
-const { title, description, sidebar, headings, breadcrumbs, prevNext, mode = "doc", banner, head = [], searchable, noindex, markdownUrl, socialImage, lastUpdated, editUrl, draft, audience, collection, entryId } = Astro.props;
+const { title, description, sidebar, headings, breadcrumbs, prevNext, mode = "doc", banner, head = [], searchable, noindex, markdownUrl, socialImage, lastUpdated, editUrl, draft, audience, collection, entryId, wideContent } = Astro.props;
 
 // `searchable` derives from `noindex` when omitted: a non-crawlable page is
 // by default not in the site search either. Explicit `searchable: true`
@@ -199,7 +199,10 @@ const showToc = headings !== false && (hasToc || headings.length > 0);
           {!showSidebar && showToc && <div aria-hidden="true" class="hidden xl:block w-(--nb-toc-width) shrink-0" />}
 
           <main id="main-content" tabindex="-1" transition:name="nb-content" class="flex-1 min-w-0">
-            <div class="mx-auto max-w-(--nb-content-max) px-4 md:px-6 pt-6 pb-12">
+            <div class:list={[
+              "mx-auto max-w-(--nb-content-max) px-4 md:px-6 pt-6 pb-12",
+              wideContent && "lg:max-w-[calc(var(--nb-content-max)_+_15ch)]",
+            ]}>
               {versionStatus?.isDeprecated && (
                 <Banner
                   variant="caution"
