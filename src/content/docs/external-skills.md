@@ -21,6 +21,7 @@ These three collections cover different stretches of the work: deciding what to 
 - **Florian Kiem.** Use [Prefer Container Queries](https://raw.githubusercontent.com/flornkm/skills/main/skills/prefer-container-queries/SKILL.md) for components that adapt to their own space, and [WebGL Components](https://raw.githubusercontent.com/flornkm/skills/main/skills/webgl-components/SKILL.md) for small shader visuals embedded in a real interface.
 - [shadcn/ui](https://github.com/shadcn-ui/ui). Find and compose components from registries, or migrate a shadcn project from Radix to Base UI.
 - [Vercel’s agent skills](https://github.com/vercel-labs/agent-skills). Implement view transitions or check a site against Web Interface Guidelines.
+- [Modern Web Guidance](https://developer.chrome.com/docs/modern-web-guidance). Find native HTML, CSS, and browser APIs that fit your browser support targets. Install with `npx modern-web-guidance@latest install`.
 
 ## Focused agent workflows
 
