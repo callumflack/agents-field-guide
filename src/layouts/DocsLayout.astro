@@ -1,9 +1,9 @@
 ---
 /**
- * DocsLayout — three-column docs layout.
+ * DocsLayout — docs layout with an optional sidebar.
  *
  * Named slots for overrides (all optional, defaults render otherwise):
- *   header, sidebar, toc, page-title, content-footer, pagination
+ *   header, sidebar, page-title, content-footer, pagination
  */
 import Icon from "@cloudflare/nimbus-docs/components/Icon.astro";
 import BaseLayout from "./BaseLayout.astro";
@@ -12,7 +12,7 @@ import Logo from "@/components/Logo.astro";
 import { config } from "virtual:nimbus/config";
 import { Banner } from "@/components/ui/banner";
 import { Sidebar, SidebarFilter } from "@/components/ui/sidebar";
-import { TOC, MobileTOC } from "@/components/ui/toc";
+import { MobileTOC } from "@/components/ui/toc";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Pagination } from "@/components/ui/pagination";
 import { ImageZoom } from "@/components/ui/image-zoom";
@@ -23,9 +23,9 @@ import { Badge } from "@/components/ui/badge";
 import type { DocsPageProps } from "@cloudflare/nimbus-docs/types";
 import { getVersionStatus, getVersionAlternates, withBase } from "@cloudflare/nimbus-docs/runtime";
 
-type Props = DocsPageProps & { audience?: "human"; wideContent?: boolean };
+type Props = DocsPageProps & { audience?: "human" };
 
-const { title, description, sidebar, headings, breadcrumbs, prevNext, mode = "doc", banner, head = [], searchable, noindex, markdownUrl, socialImage, lastUpdated, editUrl, draft, audience, collection, entryId, wideContent } = Astro.props;
+const { title, description, sidebar, headings, breadcrumbs, prevNext, mode = "doc", banner, head = [], searchable, noindex, markdownUrl, socialImage, lastUpdated, editUrl, draft, audience, collection, entryId } = Astro.props;
 
 // `searchable` derives from `noindex` when omitted: a non-crawlable page is
 // by default not in the site search either. Explicit `searchable: true`
@@ -80,16 +80,12 @@ const countLinks = (items: typeof sidebar): number =>
     : 0;
 const showFilter = countLinks(sidebar) >= 12;
 
-// Below xl the On this page bar's own borders separate the header from the
-// content, so the header rule only draws where that bar is hidden.
 const hasMobileToc = headings !== false && headings.length > 0;
 const hasHeader = Astro.slots.has("header");
 const hasSidebar = Astro.slots.has("sidebar");
-const hasToc = Astro.slots.has("toc");
 const hasPageTitle = Astro.slots.has("page-title");
 const hasContentFooter = Astro.slots.has("content-footer");
 const hasPagination = Astro.slots.has("pagination");
-const showToc = headings !== false && (hasToc || headings.length > 0);
 ---
 
 <BaseLayout title={title} description={description} noindex={noindex || draft} markdownUrl={markdownUrl} socialImage={socialImage} lastUpdated={lastUpdated} head={head} collection={collection} entryId={entryId}>
@@ -195,14 +191,8 @@ const showToc = headings !== false && (hasToc || headings.length > 0);
           </script>
           )}
 
-          {/* No sidebar: a spacer the TOC's width keeps the body centred on the page. */}
-          {!showSidebar && showToc && <div aria-hidden="true" class="hidden xl:block w-(--nb-toc-width) shrink-0" />}
-
           <main id="main-content" tabindex="-1" transition:name="nb-content" class="flex-1 min-w-0">
-            <div class:list={[
-              "mx-auto max-w-(--nb-content-max) px-4 md:px-6 pt-6 pb-12",
-              wideContent && "lg:max-w-[calc(var(--nb-content-max)_+_15ch)]",
-            ]}>
+            <div class="mx-auto max-w-(--nb-content-max) px-4 md:px-6 pt-6 pb-12">
               {versionStatus?.isDeprecated && (
                 <Banner
                   variant="caution"
@@ -235,7 +225,7 @@ const showToc = headings !== false && (hasToc || headings.length > 0);
                     </PageActions>
                     </div>
                     {hasMobileToc && (
-                      <div class="border-border bg-background/95 supports-[backdrop-filter]:bg-background/80 sticky top-(--nb-header-height) z-20 -mx-4 mt-3 mb-6 border-y px-4 py-2 backdrop-blur md:-mx-6 md:px-6 xl:hidden">
+                      <div class="border-border bg-background/95 supports-[backdrop-filter]:bg-background/80 sticky top-(--nb-header-height) z-20 -mx-4 mt-3 mb-6 border-y px-4 py-2 backdrop-blur md:hidden">
                         <MobileTOC headings={headings} />
                       </div>
                     )}
@@ -247,7 +237,7 @@ const showToc = headings !== false && (hasToc || headings.length > 0);
                           <div class="h-px flex-1 bg-border"></div>
                         </div>
                       ) : (
-                        <div class={`mt-3 mb-6 h-px w-full bg-border ${hasMobileToc ? "hidden xl:block" : ""}`} role="none" />
+                        <div class={`mt-3 mb-6 h-px w-full bg-border ${hasMobileToc ? "hidden md:block" : ""}`} role="none" />
                       )
                     )}
                     {!description && !markdownUrl && audience !== "human" && <div class="mb-4" />}
@@ -271,13 +261,6 @@ const showToc = headings !== false && (hasToc || headings.length > 0);
             </div>
           </main>
 
-          {showToc && (
-            <aside aria-label="On this page" data-nb-toc-scroll-host class="hidden xl:block w-(--nb-toc-width) shrink-0 sticky top-14 h-[calc(100vh-3.5rem)] overflow-y-auto">
-              <div class="pt-6 pb-8 ps-8 pe-6">
-                {hasToc ? <slot name="toc" /> : <TOC headings={headings} />}
-              </div>
-            </aside>
-          )}
         </div>
       </div>
     )}

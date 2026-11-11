@@ -146,10 +146,16 @@
 	--nb-shadow-lg: 0 4px 12px oklch(0 0 0 / 0.08), 0 2px 4px oklch(0 0 0 / 0.04);
 }
 
+@media (min-width: 64rem) {
+	:root {
+		--nb-content-max: calc(43.5rem + 15ch);
+	}
+}
+
 /* Wider content area on large displays (e.g. MacBook Pro 16″) */
 @media (min-width: 1536px) {
 	:root {
-		--nb-content-max: 52rem;
+		--nb-content-max: calc(52rem + 15ch);
 	}
 }
 
