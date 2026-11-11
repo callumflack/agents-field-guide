@@ -21,7 +21,6 @@ These three collections cover different stretches of the work: deciding what to 
 - **Florian Kiem.** Use [Prefer Container Queries](https://raw.githubusercontent.com/flornkm/skills/main/skills/prefer-container-queries/SKILL.md) for components that adapt to their own space, and [WebGL Components](https://raw.githubusercontent.com/flornkm/skills/main/skills/webgl-components/SKILL.md) for small shader visuals embedded in a real interface.
 - [shadcn/ui](https://github.com/shadcn-ui/ui). Find and compose components from registries, or migrate a shadcn project from Radix to Base UI.
 - [Vercel’s agent skills](https://github.com/vercel-labs/agent-skills). Implement view transitions or check a site against Web Interface Guidelines.
-- [Modern Web Guidance](https://developer.chrome.com/docs/modern-web-guidance). Find native HTML, CSS, and browser APIs that fit your browser support targets. Install with `npx modern-web-guidance@latest install`.
 
 ## Focused agent workflows
 
@@ -39,8 +38,9 @@ These three collections cover different stretches of the work: deciding what to 
 - [React Doctor](https://github.com/millionco/react-doctor). Diagnose React problems, with separate skills for broader React cleanup, runtime performance, and Three.js.
 - [Kit Langton’s Effect skill](https://github.com/kitlangton/skills). Design or review Effect v4 services, layers, schemas, streams, and tests.
 - [Vercel’s React skills](https://github.com/vercel-labs/agent-skills). Review React and Next.js rendering performance, refactor component composition, or check React Native and Expo performance.
+- [Modern Web Guidance](https://developer.chrome.com/docs/modern-web-guidance). Find native HTML, CSS, and browser APIs that fit your browser support targets. Install with `npx modern-web-guidance@latest install`.
 
-## Platform and security skills
+## Hosting, deployment, and security
 
 - [Cloudflare’s skills](https://github.com/cloudflare/skills). Choose a product, build and test a Worker, or work with Durable Objects, Agents, and Sandboxes. Use `cloudflare-one` for Zero Trust configuration and `turnstile-spin` for bot verification.
 - [Vercel’s deployment skills](https://github.com/vercel-labs/agent-skills). Deploy an app or use project metrics to investigate performance and cost.
