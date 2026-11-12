@@ -7,6 +7,7 @@ description: "A glossary of prompts you can copy and reuse."
 
 - [Ask for proof of work instead of a summary](/ask-for-proof-of-work/). Ask a worker for evidence you can inspect.
 - [Find implicit state machines with Pstack](/find-implicit-state-machines/). Model each subsystem and chart its key flows.
+- [Review untested branches](/prompts/review-untested-branches/). Decide which checks need tests and which states the types can rule out.
 
 ## Reconsider the task
 

@@ -17,6 +17,7 @@ tableOfContents: false
 
 - [Ask for proof of work instead of a summary](/ask-for-proof-of-work/). Ask a worker for evidence you can inspect.
 - [Find implicit state machines with Pstack](/find-implicit-state-machines/). Model each subsystem and chart its key flows.
+- [Review untested branches](/prompts/review-untested-branches/). Decide which checks need tests and which states the types can rule out.
 
 - [Could a human working for free do it?](/prompts/outsource-to-a-human/) Test what it would take to hand off the work.
 - [Restate the goal](/prompts/restate-the-goal/). Check that the agent understood your goal before it starts.
@@ -27,7 +28,6 @@ tableOfContents: false
 - [The same with half the code](/prompts/half-the-code/). Ask for a smaller implementation of the same thing.
 - [Stay at the frontier](/prompts/stay-at-the-frontier/). Resolve the decisions you can see now.
 - [Brittle and durable fixes](/prompts/brittle-and-durable/). Compare a fragile fix with one that will hold up.
-- [Audit the bottlenecks](/prompts/audit-the-bottlenecks/). Use the last day of work to identify what slowed you down.
 
 ## [Playbooks](/methods/)
 

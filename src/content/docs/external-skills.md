@@ -12,6 +12,18 @@ These three collections cover different stretches of the work: deciding what to 
 - [Matt Pocock — shared language and small slices](https://github.com/mattpocock/skills). Matt Pocock’s skills start with agreement about the work. `grill-with-docs` pressures the plan and records domain terms and decisions as they settle. `to-spec` and `to-tickets` turn that agreement into a spec and small pieces of work. `tdd` builds one slice at a time, `diagnosing-bugs` starts by getting a reliable failure, and `code-review` checks the diff against both the spec and the repo’s standards. Reach for `codebase-design` when the trouble is a module boundary.
 - [Theo Browne’s tstack — review and delivery](https://github.com/t3dotgg/tstack). tstack picks up when there is already a change or an inherited PR. `sol-loop` alternates review and fixes; `file-pr` frames the change for a reviewer; `babysit-pr` follows CI and review findings. `modernize` reassesses an old PR, while `takeover` resumes someone else’s work. The bundled flows differ at the merge step. `full-stop` leaves the merge to you, and `full-send` includes it.
 
+## Focused agent workflows
+
+- [Test audit](/external-skills/test-audit/). Check what each test protects, where to prove it, and whether another test already covers it.
+- [Eric Provencher’s Orchestrate](https://github.com/provencher/codex-skills/tree/main/orchestrate). Split substantial Codex work into bounded scout and worker tasks while one coordinator owns decisions and integrates the results.
+- [Karpathy Guidelines](https://github.com/multica-ai/andrej-karpathy-skills). A short coding discipline derived from Andrej Karpathy’s observations: surface assumptions, keep the change small, and state what will prove it works.
+- [HumanLayer](https://github.com/humanlayer/skills). Design an agent loop around the human review points, then package the repeatable part as a skill and monitor. I use [`show-me`](https://github.com/humanlayer/skills/tree/main/plugins/show-me) all the time for a quick diagram or code sketch when prose is hard to scan.
+- [Cursor Team Kit](https://github.com/cursor/plugins/tree/main/cursor-team-kit). Run a smoke test, turn a claim into a check with `verify-this`, inspect a PR, or work through CI failures. The [Cursor plugin catalogue](https://github.com/cursor/plugins) also has separate plugins for iterative work, authoring plugins, and teaching.
+- [Warp’s common skills](https://github.com/warpdotdev/common-skills). Connect product and technical specs to implementation and review. Its collection also covers merge risk, PR walkthroughs, and shareable readouts; some skills assume Warp’s own workflow.
+- [OpenClaw’s agent skills](https://github.com/openclaw/agent-skills). Review a diff, run checks in a remote test environment, or turn an agent session into a shareable record.
+- [ast-grep skills](https://github.com/ast-grep/agent-skill). Find code by syntax rather than spelling. Use `ast-grep-outline` when you first need a structural map of a file.
+- [ayghri’s I Have ADHD](https://github.com/ayghri/i-have-adhd). Keep the next action visible and carry the state of the work across turns.
+
 ## UI and design engineering
 
 - [Emil Kowalski](https://github.com/emilkowalski/skills). Design motion and gestures. Start with `animate` or `review-animations`; use `choreograph` when elements move together, `gestures` when motion follows the finger, and `remove-animations` when motion gets in the way.
@@ -21,17 +33,6 @@ These three collections cover different stretches of the work: deciding what to 
 - **Florian Kiem.** Use [Prefer Container Queries](https://raw.githubusercontent.com/flornkm/skills/main/skills/prefer-container-queries/SKILL.md) for components that adapt to their own space, and [WebGL Components](https://raw.githubusercontent.com/flornkm/skills/main/skills/webgl-components/SKILL.md) for small shader visuals embedded in a real interface.
 - [shadcn/ui](https://github.com/shadcn-ui/ui). Find and compose components from registries, or migrate a shadcn project from Radix to Base UI.
 - [Vercel’s agent skills](https://github.com/vercel-labs/agent-skills). Implement view transitions or check a site against Web Interface Guidelines.
-
-## Focused agent workflows
-
-- [Eric Provencher’s Orchestrate](https://github.com/provencher/codex-skills/tree/main/orchestrate). Split substantial Codex work into bounded scout and worker tasks while one coordinator owns decisions and integrates the results.
-- [Multica’s Karpathy Guidelines](https://github.com/multica-ai/andrej-karpathy-skills). A short coding discipline derived from Andrej Karpathy’s observations: surface assumptions, keep the change small, and state what will prove it works.
-- [HumanLayer](https://github.com/humanlayer/skills). Design an agent loop around the human review points, then package the repeatable part as a skill and monitor. I use [`show-me`](https://github.com/humanlayer/skills/tree/main/plugins/show-me) all the time for a quick diagram or code sketch when prose is hard to scan.
-- [Cursor Team Kit](https://github.com/cursor/plugins/tree/main/cursor-team-kit). Run a smoke test, turn a claim into a check with `verify-this`, inspect a PR, or work through CI failures. The [Cursor plugin catalogue](https://github.com/cursor/plugins) also has separate plugins for iterative work, authoring plugins, and teaching.
-- [Warp’s common skills](https://github.com/warpdotdev/common-skills). Connect product and technical specs to implementation and review. Its collection also covers merge risk, PR walkthroughs, and shareable readouts; some skills assume Warp’s own workflow.
-- [OpenClaw’s agent skills](https://github.com/openclaw/agent-skills). Review a diff, run checks in a remote test environment, or turn an agent session into a shareable record. Its separate [test-audit](https://github.com/openclaw/openclaw/tree/main/.agents/skills/test-audit) checks that tests exercise behavior through a real boundary.
-- [ast-grep skills](https://github.com/ast-grep/agent-skill). Find code by syntax rather than spelling. Use `ast-grep-outline` when you first need a structural map of a file.
-- [ayghri’s I Have ADHD](https://github.com/ayghri/i-have-adhd). Keep the next action visible and carry the state of the work across turns.
 
 ## Runtime and framework skills
 
