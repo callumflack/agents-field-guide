@@ -1,15 +1,20 @@
 ---
 title: Prove the thing the user can actually do
 description: Turn the user’s promise into an observable check that can catch a plausible failure.
-lastUpdated: 2026-11-11
+lastUpdated: 2026-11-12
 ---
 
-Use this when an agent says a change works and you need to know what a person can actually do with it.
+Decide what will count as proof before you start a change. Then check what a person can actually do with it.
+
+> Before nontrivial action, prove the owner and oracle.
+
+Callum Flack used this as a standing rule in his early `AGENTS.md`.
 
 1. **Write one promise.** Name what the person does and what they can observe afterward. “I can reopen my upload and open its result” gives you a starting state, an action, and an outcome.
-2. **Pick a failure the check must catch.** A success message can appear before the result has been saved. A saved record can exist while its output is unusable. Choose the check that would expose the failure you care about.
-3. **Inspect the outcome through the user’s path.** Reopen the page, find the original upload, and open its output. Assert the expected contents and the number of results. If the promise is about persistence, start the check from a fresh tab so existing page state cannot stand in for the saved result.
-4. **Ask for evidence you can review.** Keep the command, the relevant assertion, what happened, and which environment it ran in. Record which other paths still need their own check.
+2. **Trace the owner.** Follow the user’s path to the code or record that controls the outcome. For the upload, trace where the upload and its result are saved and where the page reads them on return. Name what you can change and what’s outside the task.
+3. **Choose the oracle.** Before editing, name the first check you’ll run, what you need to see, and a plausible failure it would catch. A success message can appear before the result has been saved. A saved record can exist while its output is unusable.
+4. **Run the check through the user’s path.** Reopen the page in a fresh tab with the same account. Find the original upload, verify it has exactly one result, and open that result to check its contents against the expected output.
+5. **Ask for evidence you can review.** Keep the command, the relevant assertion, what happened, and which environment it ran in. Record which other paths still need their own check.
 
 Use the [interrupted upload walkthrough](/breadboard-to-proof/) for a complete example, or paste [the proof-of-work prompt](/ask-for-proof-of-work/).
 
