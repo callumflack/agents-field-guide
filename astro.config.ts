@@ -49,6 +49,7 @@ const nimbusConfig = defineNimbusConfig({
           "prove-the-user-outcome",
           "recover-drifting-work",
           "independently-valuable-steps",
+          "turn-repeatable-agent-work-into-a-script",
           "give-the-agent-a-way-to-verify",
         ],
       },
