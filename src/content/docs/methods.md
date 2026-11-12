@@ -10,3 +10,4 @@ tableOfContents: false
 - [Work in independently valuable steps](/independently-valuable-steps/). Use each delivery to pick the next step.
 - [Turn repeatable agent work into a script](/turn-repeatable-agent-work-into-a-script/). Decide when the steps are ready to automate.
 - [Give the agent a way to verify its work](/give-the-agent-a-way-to-verify/). Fast checks for flows and invariants.
+- [Give a long task a worklog](/give-a-long-task-a-worklog/). Keep decisions and open questions from the chat.

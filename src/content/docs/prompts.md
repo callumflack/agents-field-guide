@@ -14,6 +14,7 @@ description: "A glossary of prompts you can copy and reuse."
 - [Could a human working for free do it?](/prompts/outsource-to-a-human/) Test what it would take to hand off the work.
 - [Restate the goal](/prompts/restate-the-goal/). Check that the agent understood your goal before it starts.
 - [Find a better method](/prompts/find-a-better-method/). Reconsider the method you assumed the work required.
+- [Design a system to do the work](/prompts/design-a-system-to-do-the-work/). Reframe a task as a system to build.
 - [What is worth building now?](/prompts/what-is-worth-building-now/) Look for work that became practical as the cost changed.
 - [Deeper without bigger](/prompts/deeper-without-bigger/). Ask what better practice would add to the same task.
 - [The best next question](/prompts/best-next-question/). Get the question that would move the work forward.

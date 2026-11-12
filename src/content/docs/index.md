@@ -22,12 +22,12 @@ tableOfContents: false
 - [Could a human working for free do it?](/prompts/outsource-to-a-human/) Test what it would take to hand off the work.
 - [Restate the goal](/prompts/restate-the-goal/). Check that the agent understood your goal before it starts.
 - [Find a better method](/prompts/find-a-better-method/). Reconsider the method you assumed the work required.
+- [Design a system to do the work](/prompts/design-a-system-to-do-the-work/). Reframe a task as a system to build.
 - [What is worth building now?](/prompts/what-is-worth-building-now/) Look for work that became practical as the cost changed.
 - [Deeper without bigger](/prompts/deeper-without-bigger/). Ask what better practice would add to the same task.
 - [The best next question](/prompts/best-next-question/). Get the question that would move the work forward.
 - [The same with half the code](/prompts/half-the-code/). Ask for a smaller implementation of the same thing.
 - [Stay at the frontier](/prompts/stay-at-the-frontier/). Resolve the decisions you can see now.
-- [Brittle and durable fixes](/prompts/brittle-and-durable/). Compare a fragile fix with one that will hold up.
 
 ## [Playbooks](/methods/)
 
@@ -37,9 +37,11 @@ tableOfContents: false
 - [Work in independently valuable steps](/independently-valuable-steps/). Use each delivery to pick the next step.
 - [Turn repeatable agent work into a script](/turn-repeatable-agent-work-into-a-script/). Decide when the steps are ready to automate.
 - [Give the agent a way to verify its work](/give-the-agent-a-way-to-verify/). Fast checks for flows and invariants.
+- [Give a long task a worklog](/give-a-long-task-a-worklog/). Keep decisions and open questions from the chat.
 
 ## [Field reports](/field-reports/)
 
+- [Why I turned off automatic agent memory](/why-i-turned-off-automatic-agent-memory/). *Stopped.* Four tasks with and without access to past lessons.
 - [AgentsView learning](/agentsview-learning/). *Prob nah.* Search worked. Raw logs caught failures.
 - [T3 Code with Opus and DeepSeek](/t3-code-experiment/). *In progress.* Opus directs DeepSeek workers.
 

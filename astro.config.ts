@@ -51,13 +51,18 @@ const nimbusConfig = defineNimbusConfig({
           "independently-valuable-steps",
           "turn-repeatable-agent-work-into-a-script",
           "give-the-agent-a-way-to-verify",
+          "give-a-long-task-a-worklog",
         ],
       },
       {
         label: "Field reports",
         segment: "/field-reports",
         landing: "/field-reports/",
-        items: ["agentsview-learning", "t3-code-experiment"],
+        items: [
+          "why-i-turned-off-automatic-agent-memory",
+          "agentsview-learning",
+          "t3-code-experiment",
+        ],
       },
       {
         label: "References",
