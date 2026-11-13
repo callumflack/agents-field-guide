@@ -11,3 +11,4 @@ tableOfContents: false
 - [Turn repeatable agent work into a script](/turn-repeatable-agent-work-into-a-script/). Decide when the steps are ready to automate.
 - [Give the agent a way to verify its work](/give-the-agent-a-way-to-verify/). Fast checks for flows and invariants.
 - [Give a long task a worklog](/give-a-long-task-a-worklog/). Keep decisions and open questions from the chat.
+- [Automate agreed rules and surface open decisions](/automate-agreed-rules/). Bring open contract questions to review.
