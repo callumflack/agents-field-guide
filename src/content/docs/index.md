@@ -4,7 +4,7 @@ description: Prompts, methods, and worked examples for building with agents.
 tableOfContents: false
 ---
 
-[Map a flow](/breadboard-to-proof/) · [Prove the result](/prove-the-user-outcome/) · [Recover drifting work](/recover-drifting-work/)
+[Understand an existing product](/understand-an-existing-product/) · [Map a flow](/breadboard-to-proof/) · [Prove the result](/prove-the-user-outcome/) · [Recover drifting work](/recover-drifting-work/)
 
 <!-- Generated catalogue -->
 
@@ -31,6 +31,7 @@ tableOfContents: false
 
 ## [Playbooks](/methods/)
 
+- [Describe how an existing product behaves](/understand-an-existing-product/). Trace what people experience when a flow is interrupted.
 - [Take a breadboard from sketch to proof](/breadboard-to-proof/). Prove an upload survives reopening.
 - [Prove the thing the user can actually do](/prove-the-user-outcome/). Find where to act and what would prove it worked.
 - [Get an agent unstuck when it keeps missing the point](/recover-drifting-work/). Find the first miss and choose a repair.

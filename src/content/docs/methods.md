@@ -4,6 +4,7 @@ description: Ways to shape work and give agents a way to check it.
 tableOfContents: false
 ---
 
+- [Describe how an existing product behaves](/understand-an-existing-product/). Trace what people experience when a flow is interrupted.
 - [Take a breadboard from sketch to proof](/breadboard-to-proof/). Prove an upload survives reopening.
 - [Prove the thing the user can actually do](/prove-the-user-outcome/). Find where to act and what would prove it worked.
 - [Get an agent unstuck when it keeps missing the point](/recover-drifting-work/). Find the first miss and choose a repair.

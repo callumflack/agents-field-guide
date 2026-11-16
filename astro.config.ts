@@ -45,6 +45,7 @@ const nimbusConfig = defineNimbusConfig({
         landing: "/methods/",
         collapsed: true,
         items: [
+          "understand-an-existing-product",
           "breadboard-to-proof",
           "prove-the-user-outcome",
           "recover-drifting-work",
