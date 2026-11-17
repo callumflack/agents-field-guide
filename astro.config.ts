@@ -63,9 +63,9 @@ const nimbusConfig = defineNimbusConfig({
         segment: "/field-reports",
         landing: "/field-reports/",
         items: [
+          "t3-code-experiment",
           "why-i-turned-off-automatic-agent-memory",
           "agentsview-learning",
-          "t3-code-experiment",
         ],
       },
       {
