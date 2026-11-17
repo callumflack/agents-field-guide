@@ -9,7 +9,7 @@ const nimbusConfig = defineNimbusConfig({
   // CHANGE_ME: your site's canonical origin (no trailing slash). Drives
   // canonical URLs, absolute OG image URLs, robots.txt, sitemap, and the
   // links in /llms.txt — leaving the placeholder breaks all of them.
-  site: "https://agents-field-guide.callumflack-97f.workers.dev",
+  site: "https://afg.callum.website",
   // CHANGE_ME: your project's name — used for <title>, the home H1, and OG.
   title: "Agents Field Guide",
   // CHANGE_ME: a one-line description of your docs — used for meta + OG.

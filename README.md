@@ -1,6 +1,6 @@
 # Agents Field Guide
 
-[Live site](https://agents-field-guide.callumflack-97f.workers.dev/)
+[Live site](https://afg.callum.website/)
 
 A static Nimbus site. Use Node 22.23.4 or newer and run `npm ci` then `npm run dev` to preview.
 
