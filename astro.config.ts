@@ -54,6 +54,7 @@ const nimbusConfig = defineNimbusConfig({
           "give-the-agent-a-way-to-verify",
           "give-a-long-task-a-worklog",
           "coordinate-work-in-codex",
+          "give-a-job-to-a-specialist",
           "automate-agreed-rules",
         ],
       },
