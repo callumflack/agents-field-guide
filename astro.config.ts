@@ -53,6 +53,7 @@ const nimbusConfig = defineNimbusConfig({
           "turn-repeatable-agent-work-into-a-script",
           "give-the-agent-a-way-to-verify",
           "give-a-long-task-a-worklog",
+          "coordinate-work-in-codex",
           "automate-agreed-rules",
         ],
       },

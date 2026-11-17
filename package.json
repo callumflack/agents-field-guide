@@ -8,6 +8,7 @@
     "catalogue:sync": "node scripts/sync-catalogue.mjs",
     "prebuild": "node scripts/sync-catalogue.mjs --check",
     "build": "astro build",
+    "postbuild": "node scripts/sync-catalogue.mjs --check-breadcrumbs",
     "preview": "astro preview",
     "typecheck": "astro check",
     "lint:docs": "nimbus-docs lint",

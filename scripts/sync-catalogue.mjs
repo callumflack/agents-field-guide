@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 
 const docs = new URL('../src/content/docs/', import.meta.url);
 const sections = ['skills', 'prompts', 'methods', 'field-reports', 'references', 'tools'];
@@ -27,7 +27,26 @@ const catalogue = sections.map((slug) => {
 });
 const next = `---\n${frontmatter}\n---\n\n${intro}\n\n${catalogueMarker}\n\n${catalogue.join('\n\n')}\n`;
 
-if (current !== next) {
+function checkBreadcrumbs() {
+  for (const slug of sections) {
+    const { body } = splitPage(read(slug));
+    const categoryHref = `/${slug}/`;
+    for (const [, href] of body.matchAll(/^- \[[^\]\n]+\]\((\/(?!\/)[^\s)#]+)\)/gm)) {
+      const entryHref = href.replace(/\/?$/, '/');
+      const file = new URL(`../dist${entryHref}index.html`, import.meta.url);
+      const html = existsSync(file) ? readFileSync(file, 'utf8') : '';
+      const breadcrumb = html.match(/<nav\b[^>]* aria-label="Breadcrumb"[^>]*>[\s\S]*?<\/nav>/)?.[0];
+      if (!breadcrumb?.includes(` href="${categoryHref}"`)) {
+        console.error(`${entryHref}: missing breadcrumb to ${categoryHref}. Check the matching sidebar group in astro.config.ts.`);
+        process.exitCode = 1;
+      }
+    }
+  }
+}
+
+if (process.argv.includes('--check-breadcrumbs')) {
+  checkBreadcrumbs();
+} else if (current !== next) {
   if (process.argv.includes('--check')) {
     console.error('The homepage catalogue is stale. Run npm run catalogue:sync.');
     process.exitCode = 1;
