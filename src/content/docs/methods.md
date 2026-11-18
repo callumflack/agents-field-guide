@@ -4,6 +4,7 @@ description: Ways to shape work and give agents a way to check it.
 tableOfContents: false
 ---
 
+- [Twelve rules for agentic coding](/twelve-rules-for-agentic-coding/). Build trust into the codebase before scaling the loop.
 - [Describe how an existing product behaves](/understand-an-existing-product/). Trace what people experience when a flow is interrupted.
 - [Take a breadboard from sketch to proof](/breadboard-to-proof/). Prove an upload survives reopening.
 - [Prove the thing the user can actually do](/prove-the-user-outcome/). Find where to act and what would prove it worked.
