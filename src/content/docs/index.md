@@ -31,6 +31,7 @@ tableOfContents: false
 
 ## [Playbooks](/methods/)
 
+- [Leave room for plausible corrections](/leave-room-for-plausible-corrections/). Keep a cheap route to a plausible design correction.
 - [Twelve rules for agentic coding](/twelve-rules-for-agentic-coding/). Build trust into the codebase before scaling the loop.
 - [Describe how an existing product behaves](/understand-an-existing-product/). Trace what people experience when a flow is interrupted.
 - [Take a breadboard from sketch to proof](/breadboard-to-proof/). Prove an upload survives reopening.
@@ -42,7 +43,6 @@ tableOfContents: false
 - [Give a long task a worklog](/give-a-long-task-a-worklog/). Keep decisions and open questions from the chat.
 - [Coordinate work in Codex](/coordinate-work-in-codex/). Split work across agents and chats, and keep a shared worklog.
 - [Intent specialists](/give-a-job-to-a-specialist/). Six reusable agent roles and when to use them.
-- [Automate agreed rules and surface open decisions](/automate-agreed-rules/). Bring open contract questions to review.
 
 ## [Field reports](/field-reports/)
 
