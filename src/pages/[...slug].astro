@@ -1,6 +1,5 @@
 ---
 import DocsLayout from "../layouts/DocsLayout.astro";
-import CatalogueToggle from "../components/CatalogueToggle.astro";
 import SearchTrigger from "../components/ui/search/SearchTrigger.astro";
 import {
   getDocsStaticPaths,
@@ -76,7 +75,6 @@ const socialImage = entry.data.socialImage ?? ogImageUrl;
     </section>
   )}
   <Content components={components} />
-  {currentSlug === "/" && <CatalogueToggle />}
 </DocsLayout>
 
 <style>
@@ -84,5 +82,9 @@ const socialImage = entry.data.socialImage ?? ogImageUrl;
     margin-top: 0;
     /* Match the linked headings in the homepage catalogue. */
     font-weight: 500;
+  }
+  :global(.docs-content > .catalogue-toggle) {
+    margin-top: 0.5rem;
+    padding-inline-start: 1.5rem;
   }
 </style>

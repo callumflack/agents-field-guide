@@ -1,4 +1,5 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { cataloguePreview, entryExcerpt } from '../src/lib/catalogue.mjs';
 
 const docs = new URL('../src/content/docs/', import.meta.url);
 const sections = ['skills', 'prompts', 'methods', 'field-reports', 'references', 'tools'];
@@ -20,10 +21,9 @@ const catalogue = sections.map((slug) => {
   const { frontmatter: meta, body } = splitPage(read(slug));
   const title = meta.match(/^title: (.+)$/m)?.[1].replace(/^"|"$/g, '');
   if (!title) throw new Error(`Missing title for ${slug}`);
-  const entries = body.replace(/^## .+\n+/gm, '').trim();
-  const thirteenthEntry = [...entries.matchAll(/^- /gm)][12];
-  const preview = thirteenthEntry ? entries.slice(0, thirteenthEntry.index).trimEnd() : entries;
-  return `## [${title}](/${slug}/)\n\n${preview}`;
+  const { entries, hasMore } = cataloguePreview(body);
+  const preview = (slug === 'skills' ? entries.map(entryExcerpt) : entries).join('\n');
+  return `## [${title}](/${slug}/)\n\n${preview}${hasMore ? `\n\n<p class="catalogue-toggle"><a href="/${slug}/" class="prose-link text-muted-foreground">View all <span aria-hidden="true">&rarr;</span></a></p>` : ''}`;
 });
 const next = `---\n${frontmatter}\n---\n\n${intro}\n\n${catalogueMarker}\n\n${catalogue.join('\n\n')}\n`;
 
@@ -31,10 +31,18 @@ function checkBreadcrumbs() {
   for (const slug of sections) {
     const { body } = splitPage(read(slug));
     const categoryHref = `/${slug}/`;
-    for (const [, href] of body.matchAll(/^- \[[^\]\n]+\]\((\/(?!\/)[^\s)#]+)\)/gm)) {
-      const entryHref = href.replace(/\/?$/, '/');
+    for (const [, href] of body.matchAll(/^- \[[^\]\n]+\]\((\/(?!\/)[^\s)]+)\)/gm)) {
+      const [pathname, fragment] = href.split('#');
+      const entryHref = pathname.replace(/\/?$/, '/');
       const file = new URL(`../dist${entryHref}index.html`, import.meta.url);
       const html = existsSync(file) ? readFileSync(file, 'utf8') : '';
+      if (entryHref === categoryHref && fragment) {
+        if (!html.includes(` id="${fragment}"`)) {
+          console.error(`${href}: missing category heading.`);
+          process.exitCode = 1;
+        }
+        continue;
+      }
       const breadcrumb = html.match(/<nav\b[^>]* aria-label="Breadcrumb"[^>]*>[\s\S]*?<\/nav>/)?.[0];
       if (!breadcrumb?.includes(` href="${categoryHref}"`)) {
         console.error(`${entryHref}: missing breadcrumb to ${categoryHref}. Check the matching sidebar group in astro.config.ts.`);

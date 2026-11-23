@@ -26,7 +26,7 @@ const nimbusConfig = defineNimbusConfig({
         segment: "/skills",
         landing: "/skills/",
         collapsed: true,
-        items: ["skills-i-publish", "external-skills"],
+        items: ["skills-i-publish", { autogenerate: { directory: "skills" } }],
       },
       {
         label: "Prompts",
@@ -90,6 +90,7 @@ const nimbusConfig = defineNimbusConfig({
         items: [
           { label: "Scrawl", link: "https://scrawl.kitlangton.com/" },
           { label: "Hex", link: "https://github.com/anomalyco/hex" },
+          { label: "2password", link: "https://github.com/kitlangton/2password" },
         ],
       },
     ],
@@ -100,6 +101,8 @@ export default defineConfig({
   // nimbus:adapter
   output: "static",
   redirects: {
+    "/external-skills": "/skills/",
+    "/external-skills/test-audit": "/skills/test-audit/",
     "/experiments": "/field-reports/",
     "/examples": "/methods/",
   },

@@ -14,6 +14,6 @@ tableOfContents: false
 - [Turn repeatable agent work into a script](/turn-repeatable-agent-work-into-a-script/). Decide when the steps are ready to automate.
 - [Give the agent a way to verify its work](/give-the-agent-a-way-to-verify/). Fast checks for flows and invariants.
 - [Give a long task a worklog](/give-a-long-task-a-worklog/). Keep decisions and open questions from the chat.
-- [Coordinate work in Codex](/coordinate-work-in-codex/). Split work across agents and chats, and keep a shared worklog.
+- [Coordinate work in Codex (Sol/Astra 6.2)](/coordinate-work-in-codex/). Split work across agents and chats, and keep a shared worklog.
 - [Intent specialists](/give-a-job-to-a-specialist/). Six reusable agent roles and when to use them.
 - [Automate agreed rules and surface open decisions](/automate-agreed-rules/). Bring open contract questions to review.

@@ -1,7 +1,7 @@
 ---
-title: Coordinate work in Codex
+title: Coordinate work in Codex (Sol/Astra 6.2)
 description: Split work across agents and chats, and keep a shared worklog.
-lastUpdated: 2026-11-17
+lastUpdated: 2026-11-23
 head:
   - tag: style
     content: |

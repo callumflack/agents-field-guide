@@ -4,6 +4,8 @@ Read the [Field Guide writing guide](docs/writing-guide.md) for content changes 
 
 Apply the writing guide’s catalogue rules to every index entry, including prompts. Check the generated homepage after changing catalogue copy.
 
+When changing behavior, preserve existing presentation. Carry styles forward when replacing components, and compare the rendered result against the previous version before finishing.
+
 Preview status belongs only in Field reports. Never add a Preview label or line to any other page or catalogue entry, including the private guide. Showing a page on localhost does not call for a status label.
 
 Register every new page, including a page shown only on localhost, in the correct category in `astro.config.ts`. Before showing Callum the page, open it on localhost and check that its breadcrumb links to that category.

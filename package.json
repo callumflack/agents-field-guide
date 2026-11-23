@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "test:catalogue": "node --test scripts/catalogue.test.mjs",
     "catalogue:sync": "node scripts/sync-catalogue.mjs",
-    "prebuild": "node scripts/sync-catalogue.mjs --check",
+    "prebuild": "npm run test:catalogue && node scripts/sync-catalogue.mjs --check",
     "build": "astro build",
     "postbuild": "node scripts/sync-catalogue.mjs --check-breadcrumbs",
     "preview": "astro preview",

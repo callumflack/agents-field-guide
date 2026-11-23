@@ -3,7 +3,7 @@ title: Test audit
 tableOfContents: false
 ---
 
-I use [`test-audit`](https://github.com/openclaw/openclaw/tree/main/.agents/skills/test-audit) when writing a regression test or reviewing a suite for tests that duplicate stronger coverage or depend on implementation details.
+I use Peter Steinberger’s [`test-audit`](https://github.com/openclaw/openclaw/tree/main/.agents/skills/test-audit) when writing a regression test or reviewing a suite for tests that duplicate stronger coverage or depend on implementation details.
 
 Before adding a test, ask four questions.
 
