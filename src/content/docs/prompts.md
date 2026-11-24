@@ -35,7 +35,9 @@ description: "A glossary of prompts you can copy and reuse."
 
 - [The smallest real thing](/prompts/smallest-real-thing/). Find the smallest thing another person can actually try.
 - [Prevent the error type](/prompts/prevent-the-error-type/). Change the system so the same class of mistake is hard to make.
+- [Rethink the architecture through bugfixes](/prompts/rethink-architecture-through-bugfixes/). Use recent bugfixes to reconsider architecture and features.
 - [Make stronger testing concrete through history](/prompts/make-testing-concrete-through-history/). Use past bugs to find better tests.
+- [Find performance improvements from real patches](/prompts/learn-from-performance-patches/). Use real JavaScript and CSS fixes to find performance improvements for your repo.
 - [What would have to be true?](/prompts/what-would-have-to-be-true/) Name the conditions a proposal depends on.
 - [What would make this wrong?](/prompts/what-would-make-this-wrong/) Name the evidence that would overturn your conclusion.
 - [Similar cases, different decisions](/prompts/similar-cases-different-decisions/). Find the distinction behind two different decisions.
