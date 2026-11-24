@@ -93,6 +93,11 @@ const resolveSectionHref = (href: string): string =>
 
     <div class="flex items-center gap-2 shrink-0">
       <slot name="actions" />
+      <a
+        href={withBase("/changelog/", import.meta.env.BASE_URL)}
+        aria-current={currentSlug === "/changelog" ? "page" : undefined}
+        class="text-[0.8125rem] font-medium text-muted-foreground hover:text-foreground no-underline px-2 py-1 rounded-md"
+      >Changelog</a>
       {config.search !== false && <SearchTrigger />}
       {config.github && (
         <LinkButton

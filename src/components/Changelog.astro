@@ -1,0 +1,91 @@
+---
+import { guideAdditions } from "../lib/guide-additions";
+
+const additions = await guideAdditions();
+const dates = [...new Set(additions.map((page) => page.date))];
+const formatDate = (date: string) => new Intl.DateTimeFormat("en-AU", {
+  day: "numeric", month: "short", year: "numeric", timeZone: "UTC",
+}).format(new Date(`${date}T00:00:00Z`));
+---
+
+<ol class="changelog" data-slot="changelog" aria-label="Pages added to the guide">
+  {dates.map((date) => (
+    <li class="change-day">
+      <time datetime={date}>{formatDate(date)}</time>
+      <ul class="change-pages">
+        {additions.filter((page) => page.date === date).map((page) => (
+          <li class="change-page">
+            <a href={page.href}>{page.title}</a>
+            <span class="change-category">{page.category}</span>
+          </li>
+        ))}
+      </ul>
+    </li>
+  ))}
+</ol>
+
+<style>
+  .changelog {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0;
+  }
+  .change-day {
+    display: grid;
+    grid-template-columns: 7rem minmax(0, 1fr);
+    column-gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  time {
+    padding-top: 0.125rem;
+    font-size: 0.8125rem;
+    line-height: 1.5rem;
+    color: var(--nb-muted-foreground);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .change-pages {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 2.25rem 1.75rem;
+    border-inline-start: 1px solid var(--nb-border);
+  }
+  .change-page {
+    margin: 0 0 1.25rem;
+    padding: 0;
+  }
+  .change-page:last-child { margin-bottom: 0; }
+  .change-pages::before {
+    content: "";
+    position: absolute;
+    top: 0.625rem;
+    inset-inline-start: -0.25rem;
+    width: 0.4375rem;
+    height: 0.4375rem;
+    border-radius: 50%;
+    background: var(--nb-muted-foreground);
+    box-shadow: 0 0 0 4px var(--nb-background);
+  }
+  .change-page a {
+    color: var(--nb-foreground);
+    font-weight: 500;
+    line-height: 1.75rem;
+    text-decoration: none;
+  }
+  .change-page a:hover { text-decoration: underline; }
+  .change-category {
+    display: block;
+    margin-top: 0.125rem;
+    color: var(--nb-muted-foreground);
+    font-size: 0.8125rem;
+    line-height: 1.5rem;
+  }
+  .change-day:last-child .change-pages { padding-bottom: 0; }
+  @media (max-width: 36rem) {
+    .change-day { grid-template-columns: minmax(0, 1fr); }
+    time { margin: 0 0 0.75rem 1.5rem; }
+    .change-pages { padding-inline-start: 1.5rem; }
+  }
+</style>

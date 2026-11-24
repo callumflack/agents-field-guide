@@ -21,6 +21,7 @@ const nimbusConfig = defineNimbusConfig({
   sidebar: {
     items: [
       "index",
+      "changelog",
       {
         label: "Skills",
         segment: "/skills",

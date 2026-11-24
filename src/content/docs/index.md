@@ -6,6 +6,8 @@ tableOfContents: false
 
 [Understand an existing product](/understand-an-existing-product/) · [Map a flow](/breadboard-to-proof/) · [Prove the result](/prove-the-user-outcome/) · [Recover drifting work](/recover-drifting-work/)
 
+[Changelog](/changelog/). See what’s been added to the guide.
+
 <!-- Generated catalogue -->
 
 ## [Skills](/skills/)
