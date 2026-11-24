@@ -8,4 +8,4 @@ A static Nimbus site. Use Node 22.23.4 or newer and run `npm ci` then `npm run d
 
 Pushes to `main` build with `npm run build` in Cloudflare Workers Builds and deploy `dist/` to the live site. For a local build, run `npm run build`.
 
-The [changelog](https://afg.callum.website/changelog/) lists current catalogue pages by their first recorded Git addition, following renames. It is built from this checkout's history, so builds require a full Git clone (no shallow history). New pages appear once committed; edits and maintenance commits do not create entries.
+The [changelog](https://afg.callum.website/changelog/) lists current catalogue pages by their first recorded Git addition, following renames. It is built from this checkout's history. Before building, a shallow clone fetches the complete history from origin so older additions keep their real dates. New pages appear once committed; edits and maintenance commits do not create entries.

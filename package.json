@@ -8,7 +8,7 @@
     "test:changelog": "node --test scripts/changelog.test.mjs",
     "test:catalogue": "node --test scripts/catalogue.test.mjs",
     "catalogue:sync": "node scripts/sync-catalogue.mjs",
-    "prebuild": "npm run test:changelog && npm run test:catalogue && node scripts/sync-catalogue.mjs --check",
+    "prebuild": "node scripts/ensure-git-history.mjs && npm run test:changelog && npm run test:catalogue && node scripts/sync-catalogue.mjs --check",
     "build": "astro build",
     "postbuild": "node scripts/sync-catalogue.mjs --check-breadcrumbs",
     "preview": "astro preview",
