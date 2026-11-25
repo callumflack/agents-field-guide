@@ -75,3 +75,9 @@
 - Callum signed off the renamed page and exact transcription of the sign. Publish “SpaceX five-step build process” at `/methods/spacex-five-step-build-process/`; preserve the article notes verbatim. Both old URL forms redirect directly to this canonical route.
 - Isolate this publication from the wider category-route migration, writing-guide changes and independent draft. The shared guide overview already has the approved title and source description. Validate the staged publication, then deliver through the existing main-branch Cloudflare Workers Builds pipeline and verify the rendered title, five steps and old-URL redirects live.
 - Validation: the isolated staged publication passes the production build, catalogue/changelog tests and rendered breadcrumb check. The five numbered lines match the supplied sign exactly; the separate article notes retain their source wording.
+
+## 2026-11-26 — Publish agent-work clarification
+
+- Callum approved the rendered demand-side reference with the agent-work explanation, memory example and distinction between shaping and settled execution. His final correction limits definition-bullet emphasis to “demand side” and “supply side”; both editions match exactly. Publish this exact revision at `/references/demand-side-thinking/`.
+- Delivery is limited to the reference and this receipt. The separate category-route migration, writing-guide changes and independent draft remain local. Verify the isolated production build, then publish through the existing main-branch Cloudflare Workers Builds pipeline and check the live source and formatting.
+- The isolated publication passes the production build, catalogue/changelog tests and breadcrumb check. The page body matches the reviewed local reference exactly.
