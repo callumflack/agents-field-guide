@@ -63,3 +63,9 @@
 - Callum authorized publication of production leveling and its connection to the Toyota reference. The Toyota page’s final “For more information” paragraph now presents production leveling as the next step; production leveling links back to Toyota. Registered it immediately after Toyota in the catalogue and navigation.
 - Publication scope: these two pages, their catalogue/navigation changes and this receipt. The separate demand-side thinking and Shape Up reference drafts remain local. Both editions of the overview agree; the original KB Toyota discussion remains unchanged. Publish through the existing main-branch Cloudflare Workers Builds pipeline and verify both live directions.
 - Validation: the staged publication alone passes the production build, catalogue tests and breadcrumb checks; localhost confirms the next-step link is in Toyota’s final information paragraph and production leveling links back.
+
+## 2026-11-25 — Publish demand-side thinking
+
+- Callum approved publication of the rendered reference after Astra’s two wording improvements and the Scrawl definition bullets. Publish the exact page at `/references/demand-side-thinking/` with its catalogue, homepage and navigation entry.
+- Isolated this delivery from the unapproved category-route migration: all existing published page routes and source wording remain at their current production versions. The independent Shape Up draft and routing/writing-guide work remain local.
+- The publication copy passes the production build, catalogue/changelog tests and breadcrumb check. The private reference body now exactly matches the approved public body; its existing index entry and overview description match, and the wiki-link check passes. Publication and live verification are in progress through the existing main-branch Cloudflare Workers Builds pipeline.

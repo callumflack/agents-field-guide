@@ -80,6 +80,7 @@ const nimbusConfig = defineNimbusConfig({
         items: [
           "what-toyota-reveals-about-organising-agents",
           "production-leveling",
+          "references/demand-side-thinking",
           "four-dark-corners-of-requirements-engineering",
           "towards-self-driving-codebases",
           "topology-of-an-llm-agent-loop",
