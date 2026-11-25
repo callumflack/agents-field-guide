@@ -215,6 +215,18 @@
   border-radius: 0;
 }
 
+/* Prompts are prose: wrap them and let the block grow to show every line. */
+.docs-content pre.astro-code:is([data-language="text"], [data-language="plaintext"], [data-language="plain"], [data-language="txt"]) {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-height: none;
+}
+
+.docs-content pre.astro-code:is([data-language="text"], [data-language="plaintext"], [data-language="plain"], [data-language="txt"]) code {
+  width: auto;
+  min-width: 0;
+}
+
 /* Tables: 14/20 cells on a 41px row, an unfilled header in secondary text,
    and lines only between rows. Fills its column; scroll is owned by the
    `.nb-table-scroll` wrapper (injected by the tableScroll() hast plugin),

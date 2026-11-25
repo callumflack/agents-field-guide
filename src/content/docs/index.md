@@ -26,9 +26,9 @@ tableOfContents: false
 - [Ask for proof of work instead of a summary](/ask-for-proof-of-work/). Ask a worker for evidence you can inspect.
 - [Find implicit state machines with Pstack](/find-implicit-state-machines/). Model each subsystem and chart its key flows.
 - [Review untested branches](/prompts/review-untested-branches/). Decide which checks need tests and which states the types can rule out.
+- [Separate decisions from effects](/prompts/separate-decisions-from-effects/). Review logic that is difficult to test without external dependencies.
 - [Could a human working for free do it?](/prompts/outsource-to-a-human/) Test what it would take to hand off the work.
 - [Restate the goal](/prompts/restate-the-goal/). Check that the agent understood your goal before it starts.
-- [Find a better method](/prompts/find-a-better-method/). Reconsider the method you assumed the work required.
 
 <p class="catalogue-toggle"><a href="/prompts/" class="prose-link text-muted-foreground">View all <span aria-hidden="true">&rarr;</span></a></p>
 
