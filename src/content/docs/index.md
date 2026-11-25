@@ -34,12 +34,12 @@ tableOfContents: false
 
 ## [Playbooks](/methods/)
 
+- [The five-step build process](/five-step-build-process/). Five steps and notes from the source article.
 - [Leave room for plausible corrections](/leave-room-for-plausible-corrections/). Keep a cheap route to a plausible design correction.
 - [Twelve rules for agentic coding](/twelve-rules-for-agentic-coding/). Build trust into the codebase before scaling the loop.
 - [Describe how an existing product behaves](/understand-an-existing-product/). Trace what people experience when a flow is interrupted.
 - [Take a breadboard from sketch to proof](/breadboard-to-proof/). Prove an upload survives reopening.
 - [Prove the thing the user can actually do](/prove-the-user-outcome/). Find where to act and what would prove it worked.
-- [Get an agent unstuck when it keeps missing the point](/recover-drifting-work/). Find the first miss and choose a repair.
 
 <p class="catalogue-toggle"><a href="/methods/" class="prose-link text-muted-foreground">View all <span aria-hidden="true">&rarr;</span></a></p>
 

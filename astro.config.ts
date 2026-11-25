@@ -46,6 +46,7 @@ const nimbusConfig = defineNimbusConfig({
         landing: "/methods/",
         collapsed: true,
         items: [
+          "five-step-build-process",
           "leave-room-for-plausible-corrections",
           "twelve-rules-for-agentic-coding",
           "understand-an-existing-product",
