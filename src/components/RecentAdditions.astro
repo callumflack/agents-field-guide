@@ -1,0 +1,9 @@
+---
+import { guideAdditions } from "../lib/guide-additions";
+
+const additions = (await guideAdditions()).slice(0, 3);
+---
+
+<ul data-slot="recent-additions">
+  {additions.map((page) => <li><a href={page.href}>{page.title}</a></li>)}
+</ul>

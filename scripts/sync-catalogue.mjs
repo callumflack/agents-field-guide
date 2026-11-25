@@ -11,9 +11,10 @@ function splitPage(page) {
   return { frontmatter: match[1], body: match[2].trim() };
 }
 
-const current = read('index');
+const homepage = new URL('index.mdx', docs);
+const current = readFileSync(homepage, 'utf8');
 const { frontmatter, body } = splitPage(current);
-const catalogueMarker = '<!-- Generated catalogue -->';
+const catalogueMarker = '{/* Generated catalogue */}';
 const markerIndex = body.indexOf(catalogueMarker);
 if (markerIndex < 0) throw new Error('Missing generated catalogue marker on the homepage');
 const intro = body.slice(0, markerIndex).trimEnd();
@@ -59,6 +60,6 @@ if (process.argv.includes('--check-breadcrumbs')) {
     console.error('The homepage catalogue is stale. Run npm run catalogue:sync.');
     process.exitCode = 1;
   } else {
-    writeFileSync(new URL('index.md', docs), next);
+    writeFileSync(homepage, next);
   }
 }

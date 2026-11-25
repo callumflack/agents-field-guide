@@ -1,5 +1,13 @@
 # Worklog
 
+## 2026-11-25 — Homepage changelog preview
+
+- Final direction approved by Callum: a compact “Recently added” section beneath search, with three linked titles and “View changelog →”. No homepage timeline, dates or category labels; the full Changelog retains its dated timeline.
+- HTML, alternate Markdown and private overview show the same three titles. The homepage uses the existing Git addition data; the full timeline component is unchanged.
+- Validation: production build, catalogue and breadcrumb checks, typecheck (zero diagnostics), and MDX lint pass. Localhost shows exactly three links with no timeline rows or horizontal overflow. Markdown has three entries without dates or categories; full timeline retains all entries. KB overview sync passes; prior vault layout and harness checks passed for the support-script change.
+- Delivery: Callum authorized publication on 25 Nov 2026. Publish the compact homepage and prior writing-instruction commit through the main-branch Cloudflare pipeline. The separate Toyota essay remains local and excluded. Verify the successful build and live homepage after pushing.
+
+
 ## 2026-11-25 — Five-step build process
 
 - Added the five-step process to Playbooks, sourced from Callum's grid-fins article and its linked Everyday Astronaut interview. Callum rejected the agent's initial paraphrases and added interpretation: the page now reproduces his step list and notes verbatim, with only heading levels adjusted. Removed the agent adaptation and rewritten anecdotes.
