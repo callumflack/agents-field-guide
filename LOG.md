@@ -69,3 +69,9 @@
 - Callum approved publication of the rendered reference after Astra’s two wording improvements and the Scrawl definition bullets. Publish the exact page at `/references/demand-side-thinking/` with its catalogue, homepage and navigation entry.
 - Isolated this delivery from the unapproved category-route migration: all existing published page routes and source wording remain at their current production versions. The independent Shape Up draft and routing/writing-guide work remain local.
 - The publication copy passes the production build, catalogue/changelog tests and breadcrumb check. The private reference body now exactly matches the approved public body; its existing index entry and overview description match, and the wiki-link check passes. Publication and live verification are in progress through the existing main-branch Cloudflare Workers Builds pipeline.
+
+## 2026-11-25 — Publish reviewed SpaceX page
+
+- Callum signed off the renamed page and exact transcription of the sign. Publish “SpaceX five-step build process” at `/methods/spacex-five-step-build-process/`; preserve the article notes verbatim. Both old URL forms redirect directly to this canonical route.
+- Isolate this publication from the wider category-route migration, writing-guide changes and independent draft. The shared guide overview already has the approved title and source description. Validate the staged publication, then deliver through the existing main-branch Cloudflare Workers Builds pipeline and verify the rendered title, five steps and old-URL redirects live.
+- Validation: the isolated staged publication passes the production build, catalogue/changelog tests and rendered breadcrumb check. The five numbered lines match the supplied sign exactly; the separate article notes retain their source wording.

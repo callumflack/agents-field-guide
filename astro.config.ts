@@ -46,7 +46,7 @@ const nimbusConfig = defineNimbusConfig({
         landing: "/methods/",
         collapsed: true,
         items: [
-          "five-step-build-process",
+          "methods/spacex-five-step-build-process",
           "leave-room-for-plausible-corrections",
           "twelve-rules-for-agentic-coding",
           "understand-an-existing-product",
@@ -106,6 +106,8 @@ export default defineConfig({
   // nimbus:adapter
   output: "static",
   redirects: {
+    "/five-step-build-process": "/methods/spacex-five-step-build-process/",
+    "/methods/five-step-build-process": "/methods/spacex-five-step-build-process/",
     "/external-skills": "/skills/",
     "/external-skills/test-audit": "/skills/test-audit/",
     "/experiments": "/field-reports/",

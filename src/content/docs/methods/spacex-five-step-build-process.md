@@ -1,6 +1,6 @@
 ---
-title: The five-step build process
-description: Five steps and notes from the source article.
+title: SpaceX five-step build process
+description: The sign’s five steps and notes from the article.
 lastUpdated: 2026-11-25
 ---
 
@@ -10,11 +10,11 @@ Elon Musk’s five-step build process. The notes below are reproduced verbatim f
 
 ## The five steps
 
-- Make your requirements less dumb
-- Delete the part or process
-- Simplify or optimise
-- Accelerate cycle time
-- Automate
+1. Make Requirements Less Dumb
+2. Delete the Part or Process Step
+3. Optimize
+4. Accelerate
+5. Automate
 
 ## Notes
 
