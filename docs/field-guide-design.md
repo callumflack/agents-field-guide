@@ -1,5 +1,7 @@
 # A Field Guide we can get better at together
 
+> Historical proposal, not current agent instructions. Its suggestions to write explanations, examples, interpretations or additional sections do not authorize that work. Follow the [writing guide](writing-guide.md): store source verbatim; interpretation and added content require Callum's explicit request. The layout ideas below may inform requested design work only.
+
 Plan · 9 November 2026 · Updated 11 November 2026
 
 The guide should help you make the next move on real work. Open it because you have a flow to design, an agent that keeps missing the point, or a result you need to trust. Find a method, see it applied, and try it. If it breaks in your situation, that is material for the next edition.

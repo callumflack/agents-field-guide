@@ -1,5 +1,7 @@
 # Agents Field Guide
 
+The Field Guide stores source material verbatim. Do not interpret, rewrite or add content unless Callum explicitly asks. The writing guide defines the limited formatting and navigation metadata allowed when filing a source.
+
 Read the [Field Guide writing guide](docs/writing-guide.md) for content changes and [AGENT.md](AGENT.md) for Nimbus implementation and checks. The private KB is a source for research. Only material cleared for readers belongs in `src/content/docs/`.
 
 Apply the writing guide’s catalogue rules to every index entry, including prompts. Check the generated homepage after changing catalogue copy.

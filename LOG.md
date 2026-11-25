@@ -1,5 +1,17 @@
 # Worklog
 
+## 2026-11-25 — Five-step build process
+
+- Added the five-step process to Playbooks, sourced from Callum's grid-fins article and its linked Everyday Astronaut interview. Callum rejected the agent's initial paraphrases and added interpretation: the page now reproduces his step list and notes verbatim, with only heading levels adjusted. Removed the agent adaptation and rewritten anecdotes.
+- Added the entry first in both editions and regenerated their six-entry overviews. The private edition links to the existing article capture.
+- Validation: production build, catalogue tests and category breadcrumb checks pass. Localhost page and category navigation checked; homepage entry wraps to two lines. Both overview titles, order and new description match. Docs lint passes for MDX but does not inspect Markdown pages.
+- Delivery: Callum authorized publication on 25 Nov 2026. Source entry and image committed as `685a143` and pushed to main. Cloudflare Workers Builds completed successfully (build `fd73ddab-4557-4a5a-8da2-f30daa2ae44b`); live Markdown notes match the approved source text, timing is present, and live image bytes match. Rendered production page checked at https://afg.callum.website/five-step-build-process/.
+- Follow-up: added Callum's supplied SpaceX process photo immediately above “The five steps”; stored the asset in the site's public images folder with descriptive alt text.
+- Scrawl correction: YouTube is the first source, labelled “Starbase Tour with Elon Musk [PART 1 // Summer 2021]”, with its 53:16 duration and 13:22 start time. Callum's article is the second source. Verbatim notes checked against the existing article capture.
+- Instruction repair: the writing guide now makes verbatim reproduction the default for sourced additions, requires explicit requests for rewriting, interpretation, expansion or adaptations, and requires comparison against the source. Its original-writing advice is scoped to requested writing and catalogue copy. The existing AGENTS.md link remains the entry point.
+- Review repair: made source storage unqualified at the root and writing guide; limited catalogue/frontmatter copy to source excerpts or literal inventory descriptions; removed implied authority to invent prompt uses, reports or examples. Removed the operative link to the older design proposal and marked that document historical. Fresh independent review: PASS, no remaining operative permission for interpretation or substantive additions from “add this source.” Reviewed the Codex and Claude instruction routes and five source/original-report scenarios. This verifies instruction consistency, not future agent compliance. Diff whitespace check passes; changes remain local.
+- Final clarification: the verbatim default must not prevent an explicitly requested edit, rewrite, interpretation or addition. Callum asked for the writing-instruction changes to be committed separately after publication; that commit remains local.
+
 ## 2026-11-24 — Git-based changelog
 
 - Outcome: a dated timeline of current catalogue pages, linking to each page. Git supplies each page's first recorded addition date, following renames; edits and maintenance commits do not create entries.
