@@ -51,4 +51,4 @@ The quintessential question:
 
 ---
 
-For more information, read Tanaka’s [full chapter and Q&A](https://www.lean.org/wp-content/uploads/2020/09/birth-of-lean-ch2.pdf). The agent applications here are adapted from his account.
+For more information, read Tanaka’s [full chapter and Q&A](https://www.lean.org/wp-content/uploads/2020/09/birth-of-lean-ch2.pdf). The agent applications here are adapted from his account. **Next: [Production leveling](/production-leveling/)** — how scheduling and buffers affect the rest of the system.

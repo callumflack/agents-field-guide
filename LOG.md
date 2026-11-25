@@ -57,3 +57,9 @@
 - Followed the second Scrawl’s full-size frames: source quotation, Toyota introduction, then the exact quintessential takeaway and its explanation. Retained the three causal sections; added the insights about capable connections and an organisation emerging from improving real work.
 - Added “The quintessential takeaway:” above the takeaway and “The quintessential question:” above the closing question. Further reading follows the divider as the final paragraph. Added no caution section. The KB discussion remains byte-for-byte unchanged. Build and breadcrumb checks pass.
 - Callum authorized publication on 25 Nov 2026 through the existing main-branch Cloudflare Workers Builds pipeline. The public article, category registration and catalogue entries are the publication scope; the KB discussion remains private and unchanged. Verify the build and live article after pushing.
+
+## 2026-11-25 — Publish production leveling
+
+- Callum authorized publication of production leveling and its connection to the Toyota reference. The Toyota page’s final “For more information” paragraph now presents production leveling as the next step; production leveling links back to Toyota. Registered it immediately after Toyota in the catalogue and navigation.
+- Publication scope: these two pages, their catalogue/navigation changes and this receipt. The separate demand-side thinking and Shape Up reference drafts remain local. Both editions of the overview agree; the original KB Toyota discussion remains unchanged. Publish through the existing main-branch Cloudflare Workers Builds pipeline and verify both live directions.
+- Validation: the staged publication alone passes the production build, catalogue tests and breadcrumb checks; localhost confirms the next-step link is in Toyota’s final information paragraph and production leveling links back.
