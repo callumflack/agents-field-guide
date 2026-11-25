@@ -7,7 +7,6 @@
 - Validation: production build, catalogue and breadcrumb checks, typecheck (zero diagnostics), and MDX lint pass. Localhost shows exactly three links with no timeline rows or horizontal overflow. Markdown has three entries without dates or categories; full timeline retains all entries. KB overview sync passes; prior vault layout and harness checks passed for the support-script change.
 - Delivery: Callum authorized publication on 25 Nov 2026. Publish the compact homepage and prior writing-instruction commit through the main-branch Cloudflare pipeline. The separate Toyota essay remains local and excluded. Verify the successful build and live homepage after pushing.
 
-
 ## 2026-11-25 — Five-step build process
 
 - Added the five-step process to Playbooks, sourced from Callum's grid-fins article and its linked Everyday Astronaut interview. Callum rejected the agent's initial paraphrases and added interpretation: the page now reproduces his step list and notes verbatim, with only heading levels adjusted. Removed the agent adaptation and rewritten anecdotes.
@@ -39,3 +38,22 @@
 
 - Plaintext prompt fences wrap within the content width and grow with their contents. Removed the intrinsic max-content width for these blocks; retained the existing border, spacing, font and copy control.
 - Production build and breadcrumb checks pass. On localhost the decisions prompt grew from 48px to 120px at 1280px, with scroll width equal to visible width and no clipped text. At 390px, both this prompt and the long-URL performance prompt have no horizontal or vertical clipping. Callum authorized publication on 25 Nov 2026.
+
+## 2026-11-25 — Tanaka and organising agents
+
+- Callum requested the preceding interpretation preserved in the KB and an original article for agents on the Field Guide, both local for discussion. Created the reference essay “What Toyota reveals about organising agents”; kept Tanaka’s source claims, the recorded memory experiment and our proposed applications distinct.
+- Registered the essay under References and updated both catalogue overviews. Preserved the existing homepage/changelog work and its uncommitted files.
+- The KB Inquiry reproduces the requested reply, changing only internal link destinations and its PDF citation. The chapter PDF is stored in the note’s matching evidence folder, verified byte-for-byte. The public article links to the publisher’s PDF; no redistribution permission was established.
+- Production build, catalogue and breadcrumb checks pass. Exact-copy, private-link, evidence-path and public-path checks pass. Drafts remain uncommitted and unpublished.
+
+## 2026-11-25 — Tanaka Scrawl correction
+
+- Read the Scrawl contact sheet and full-size frames 1, 2, 8 and 12. Callum rejected the authorship preface and abstract opening claim, found the memory-experiment section premature and overqualified, and asked for the core Toyota argument before further application.
+- Removed the marked preface and abstract claim. Opened with the exact p. 48 quotation about exposing problems, with attribution and a page-targeted source link; retained a plain sentence about how organisation shapes what people can see and change.
+- Callum approved the compact rewrite: explain the production system’s two principles and develop three connected ideas—need governs what starts, problems become consequential, and exposure connects to practical help. The page is now 424 words including source metadata; the memory experiment is removed. Catalogue descriptions in both overviews match the new content. The KB discussion is verified byte-for-byte unchanged. Production build and breadcrumb checks pass. Local only.
+
+## 2026-11-25 — Incorporate Astra’s Toyota review
+
+- Followed the second Scrawl’s full-size frames: source quotation, Toyota introduction, then the exact quintessential takeaway and its explanation. Retained the three causal sections; added the insights about capable connections and an organisation emerging from improving real work.
+- Added “The quintessential takeaway:” above the takeaway and “The quintessential question:” above the closing question. Further reading follows the divider as the final paragraph. Added no caution section. The KB discussion remains byte-for-byte unchanged. Build and breadcrumb checks pass.
+- Callum authorized publication on 25 Nov 2026 through the existing main-branch Cloudflare Workers Builds pipeline. The public article, category registration and catalogue entries are the publication scope; the KB discussion remains private and unchanged. Verify the build and live article after pushing.

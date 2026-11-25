@@ -78,6 +78,7 @@ const nimbusConfig = defineNimbusConfig({
         landing: "/references/",
         collapsed: true,
         items: [
+          "what-toyota-reveals-about-organising-agents",
           "four-dark-corners-of-requirements-engineering",
           "towards-self-driving-codebases",
           "topology-of-an-llm-agent-loop",
