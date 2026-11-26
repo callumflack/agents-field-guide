@@ -75,6 +75,7 @@ export const guideNavigation = [
       "references/what-toyota-reveals-about-organising-agents",
       "references/production-leveling",
       "references/demand-side-thinking",
+      "references/breadboards-and-fat-marker-sketches",
       "references/four-dark-corners-of-requirements-engineering",
       "references/towards-self-driving-codebases",
       "references/topology-of-an-llm-agent-loop",

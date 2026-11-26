@@ -4,7 +4,7 @@
 
 - Callum authorized five local commits in order: category routes, editorial guidance, R2 source storage, the Parnas reference and agent playbook, then the retained breadboards draft. Do not push or publish.
 - Shared navigation, catalogue, instruction and log changes are separated by purpose. The initial index was empty; the starting commit was `9561973`. Reviewed page wording and local source copies are preserved.
-- This commit records slice 4 of five: Add Parnas reference and agent module-design playbook. Production build validation applies to the exact staged snapshot; later slices remain in the working copy. No push or publication.
+- All five approved slices are committed locally, each with a passing production build, catalogue/changelog tests and breadcrumb checks. The 91 source payloads remain ignored. No push or publication; the localhost playbook remains available for review.
 
 ## 2026-11-26 — Serve reference sources from R2
 
@@ -27,6 +27,11 @@
 - Callum asked to add the discussed paper, choose Playbooks or References, obey the filing rules and show it on localhost. References owns articles and papers to return to. File a concise source entry with the original paper, its exact information-hiding passage and alternate reading links; no new interpretation. Keep it local for rendered review.
 - Added the reference page, References registration, generated homepage and matching private KB source note and six-entry overview. The exact quotation matches the original paper; public and private reference bodies match. Existing category migration and unrelated local changes are preserved.
 - Verified: production build, catalogue/changelog tests, rendered breadcrumb checks, docs lint, private wiki links and overview sync pass. Opened the canonical page and followed References → page. The homepage entry uses one line at 1280px and two at 390px; the page and homepage have no horizontal overflow. Opened and read back the private note through Obsidian. Review server: `http://127.0.0.1:4327/references/decomposing-systems-into-modules/`. Local only; no commit, push or publication.
+
+## 2026-11-25 — Breadboards reference retained as draft
+
+- Callum finds the distinction useful but does not consider breadboards and fat-marker sketches part of his agentic coding practice or suitable for the published Field Guide. Set the reference to `draft: true`; retain its text, local category registration and private KB note. Do not publish it without a new explicit decision.
+- Removed the entry from References and both overview editions, and removed its unused legacy redirect. Production build and category checks pass; built output excludes the page, alternate formats, content and discovery links. Localhost homepage omits the entry. Draft source and private KB note remain local; no publication performed.
 
 ## 2026-11-25 — Homepage changelog preview
 
