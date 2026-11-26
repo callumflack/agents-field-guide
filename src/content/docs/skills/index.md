@@ -20,7 +20,7 @@ These three collections cover different stretches of the work: deciding what to 
 
 - [Test audit](/skills/test-audit/). Peter Steinberger’s skill for checking what each test protects, where to prove it, and whether stronger coverage already exists.
 - [Cognitive load](https://www.skills.sh/callumflack/skills/cognitive-load). Adapted from Artem Zakirullin’s prompt for reviewing code that overloads working memory through complex conditionals, shallow abstractions, and needless indirection.
-- [Eric Provencher’s Orchestrate](https://github.com/provencher/codex-skills/tree/main/orchestrate). *Older GPT-5.6 guidance.* Out of date for my current workflow. For newer models, use Eric Provencher’s [Coordinate work in Codex (Sol/Astra 6.2)](/coordinate-work-in-codex/) playbook.
+- [Eric Provencher’s Orchestrate](https://github.com/provencher/codex-skills/tree/main/orchestrate). *Older GPT-5.6 guidance.* Out of date for my current workflow. For newer models, use Eric Provencher’s [Coordinate work in Codex (Sol/Astra 6.2)](/methods/coordinate-work-in-codex/) playbook.
 - [Karpathy Guidelines](https://github.com/multica-ai/andrej-karpathy-skills). A short coding discipline derived from Andrej Karpathy’s observations: surface assumptions, keep the change small, and state what will prove it works.
 - [HumanLayer](https://github.com/humanlayer/skills). Design an agent loop around the human review points, then package the repeatable part as a skill and monitor. I use [`show-me`](https://github.com/humanlayer/skills/tree/main/plugins/show-me) when prose is hard to scan.
 

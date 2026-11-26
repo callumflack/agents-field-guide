@@ -1,5 +1,14 @@
 export const visibleEntries = 6;
 
+export function categoryEntryHref(categoryHref, href) {
+  const pathname = new URL(href, 'https://field-guide.example').pathname;
+  const entryHref = pathname.replace(/\/?$/, '/');
+  if (entryHref !== categoryHref && !entryHref.startsWith(categoryHref)) {
+    throw new Error(`${entryHref}: category URLs must be nested under ${categoryHref}.`);
+  }
+  return entryHref;
+}
+
 export function catalogueEntries(body) {
   return body.replace(/<!--[\s\S]*?-->/g, '').split('\n')
     .filter((line) => line.startsWith('- '));

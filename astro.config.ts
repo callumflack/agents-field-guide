@@ -5,11 +5,13 @@ import nimbus, {
 } from "@cloudflare/nimbus-docs";
 import { externalLinks, tableScroll } from "@cloudflare/nimbus-docs/markdown";
 
+import { guideSite, guideNavigation, legacyRedirects } from "./src/lib/navigation.mjs";
+
 const nimbusConfig = defineNimbusConfig({
   // CHANGE_ME: your site's canonical origin (no trailing slash). Drives
   // canonical URLs, absolute OG image URLs, robots.txt, sitemap, and the
   // links in /llms.txt — leaving the placeholder breaks all of them.
-  site: "https://afg.callum.website",
+  site: guideSite,
   // CHANGE_ME: your project's name — used for <title>, the home H1, and OG.
   title: "Agents Field Guide",
   // CHANGE_ME: a one-line description of your docs — used for meta + OG.
@@ -19,100 +21,14 @@ const nimbusConfig = defineNimbusConfig({
   socialImageAlt: "Agents Field Guide",
   features: { sidebar: false },
   sidebar: {
-    items: [
-      "index",
-      "changelog",
-      {
-        label: "Skills",
-        segment: "/skills",
-        landing: "/skills/",
-        collapsed: true,
-        items: ["skills-i-publish", { autogenerate: { directory: "skills" } }],
-      },
-      {
-        label: "Prompts",
-        segment: "/prompts",
-        landing: "/prompts/",
-        collapsed: true,
-        items: [
-          "ask-for-proof-of-work",
-          "find-implicit-state-machines",
-          { autogenerate: { directory: "prompts" } },
-        ],
-      },
-      {
-        label: "Playbooks",
-        segment: "/methods",
-        landing: "/methods/",
-        collapsed: true,
-        items: [
-          "methods/spacex-five-step-build-process",
-          "leave-room-for-plausible-corrections",
-          "twelve-rules-for-agentic-coding",
-          "understand-an-existing-product",
-          "breadboard-to-proof",
-          "prove-the-user-outcome",
-          "recover-drifting-work",
-          "independently-valuable-steps",
-          "turn-repeatable-agent-work-into-a-script",
-          "give-the-agent-a-way-to-verify",
-          "give-a-long-task-a-worklog",
-          "coordinate-work-in-codex",
-          "give-a-job-to-a-specialist",
-          "automate-agreed-rules",
-        ],
-      },
-      {
-        label: "Field reports",
-        segment: "/field-reports",
-        landing: "/field-reports/",
-        items: [
-          "t3-code-experiment",
-          "why-i-turned-off-automatic-agent-memory",
-          "agentsview-learning",
-        ],
-      },
-      {
-        label: "References",
-        segment: "/references",
-        landing: "/references/",
-        collapsed: true,
-        items: [
-          "what-toyota-reveals-about-organising-agents",
-          "production-leveling",
-          "references/demand-side-thinking",
-          "four-dark-corners-of-requirements-engineering",
-          "towards-self-driving-codebases",
-          "topology-of-an-llm-agent-loop",
-          "case-against-formal-verification",
-        ],
-      },
-      {
-        label: "Tools I use",
-        segment: "/tools",
-        landing: "/tools/",
-        collapsed: true,
-        items: [
-          { label: "Scrawl", link: "https://scrawl.kitlangton.com/" },
-          { label: "Hex", link: "https://github.com/anomalyco/hex" },
-          { label: "2password", link: "https://github.com/kitlangton/2password" },
-        ],
-      },
-    ],
+    items: guideNavigation,
   },
 });
 
 export default defineConfig({
   // nimbus:adapter
   output: "static",
-  redirects: {
-    "/five-step-build-process": "/methods/spacex-five-step-build-process/",
-    "/methods/five-step-build-process": "/methods/spacex-five-step-build-process/",
-    "/external-skills": "/skills/",
-    "/external-skills/test-audit": "/skills/test-audit/",
-    "/experiments": "/field-reports/",
-    "/examples": "/methods/",
-  },
+  redirects: legacyRedirects,
   // Tailwind v4 via its Vite plugin (the integration Astro recommends for
   // Tailwind v4 — replaces the PostCSS plugin, which doesn't build under
   // Astro 7's Vite 8 bundler).

@@ -25,7 +25,7 @@ For agents, examine what makes changing tasks expensive: reconstructing context,
 
 A small stock of finished goods near shipping can absorb fluctuating orders while production and suppliers work steadily. Its location and purpose matter: inventory at one boundary can reduce inventory throughout the system.
 
-This qualifies the [Toyota reference’s discussion of exposing problems](/what-toyota-reveals-about-organising-agents/). Examine whether a buffer absorbs a real fluctuation or conceals a recurring difficulty that needs fixing. For agent work, also examine whether queued results will remain useful while they wait.
+This qualifies the [Toyota reference’s discussion of exposing problems](/references/what-toyota-reveals-about-organising-agents/). Examine whether a buffer absorbs a real fluctuation or conceals a recurring difficulty that needs fixing. For agent work, also examine whether queued results will remain useful while they wait.
 
 The closing question:
 

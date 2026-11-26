@@ -15,7 +15,7 @@ Opus hands implementation to DeepSeek subagents and reviews the diff once. Three
 > - be strict about scope when creating a task
 > - ask for proof of work instead of a summary
 
-[Copy the proof-of-work prompt](/ask-for-proof-of-work/). [Dax’s original post](https://x.com/thdxr/status/2118755687274532893).
+[Copy the proof-of-work prompt](/prompts/ask-for-proof-of-work/). [Dax’s original post](https://x.com/thdxr/status/2118755687274532893).
 
 ## Drew Breunig
 

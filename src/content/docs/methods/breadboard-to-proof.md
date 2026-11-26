@@ -25,7 +25,7 @@ Reopen uploads → Find the same upload
   Failed           → Retry this upload
 ```
 
-The breadboard names the places and actions the person can use. The saved upload ties those places together: it gives the returning user something to find even if the tab and its memory are gone. If retry and completion can overlap, [chart the states and event orders](/find-implicit-state-machines/) before choosing how to handle them.
+The breadboard names the places and actions the person can use. The saved upload ties those places together: it gives the returning user something to find even if the tab and its memory are gone. If retry and completion can overlap, [chart the states and event orders](/prompts/find-implicit-state-machines/) before choosing how to handle them.
 
 ## Give the agent this prompt
 
@@ -54,7 +54,7 @@ Call out which paths you did not exercise.
 
 A success message shows what appeared on screen. It cannot establish that the original result is still there, unique, and usable. The check above covers one interruption in the environment where it ran. To claim retry is safe, run a separate case where the first attempt can finish after retry begins and check that only one usable result remains.
 
-[Ask for proof of work instead of a summary](/ask-for-proof-of-work/) is the reusable version of the last instruction. For a real example of a check going green without establishing the user outcome, see Vana’s [Green without reading data](https://unity-testing-lessons.callumflack.chatgpt.site/#case-three). For the reasoning behind the boundary, see [Four Dark Corners of Requirements Engineering](/four-dark-corners-of-requirements-engineering/).
+[Ask for proof of work instead of a summary](/prompts/ask-for-proof-of-work/) is the reusable version of the last instruction. For a real example of a check going green without establishing the user outcome, see Vana’s [Green without reading data](https://unity-testing-lessons.callumflack.chatgpt.site/#case-three). For the reasoning behind the boundary, see [Four Dark Corners of Requirements Engineering](/references/four-dark-corners-of-requirements-engineering/).
 
 ## After you try it
 

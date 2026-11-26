@@ -16,8 +16,8 @@ Callum Flack used this as a standing rule in his early `AGENTS.md`.
 4. **Run the check through the user’s path.** Reopen the page in a fresh tab with the same account. Find the original upload, verify it has exactly one result, and open that result to check its contents against the expected output.
 5. **Ask for evidence you can review.** Keep the command, the relevant assertion, what happened, and which environment it ran in. Record which other paths still need their own check.
 
-Use the [interrupted upload walkthrough](/breadboard-to-proof/) for a complete example, or paste [the proof-of-work prompt](/ask-for-proof-of-work/).
+Use the [interrupted upload walkthrough](/methods/breadboard-to-proof/) for a complete example, or paste [the proof-of-work prompt](/prompts/ask-for-proof-of-work/).
 
 When you improve a setup against an evaluation, save some cases to see whether the gain carries over. Lance Martin shows how a team used 30 tickets to iterate and reserved 14 for that check. [An eval with held-out support tickets](/eval-with-held-out-support-tickets/).
 
-For the reasoning behind choosing observations that establish a requirement, see [Four Dark Corners of Requirements Engineering](/four-dark-corners-of-requirements-engineering/).
+For the reasoning behind choosing observations that establish a requirement, see [Four Dark Corners of Requirements Engineering](/references/four-dark-corners-of-requirements-engineering/).

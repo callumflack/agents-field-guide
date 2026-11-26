@@ -1,6 +1,14 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { cataloguePreview, entryExcerpt } from '../src/lib/catalogue.mjs';
+import { cataloguePreview, entryExcerpt, categoryEntryHref } from '../src/lib/catalogue.mjs';
+
+test('category URLs follow their category even when a root page has the right breadcrumb', () => {
+  assert.throws(() => categoryEntryHref('/references/', '/production-leveling/'), /nested under \/references\//);
+  assert.throws(() => categoryEntryHref('/references/', '/references-other/page/'), /nested under \/references\//);
+  assert.equal(categoryEntryHref('/references/', '/references/production-leveling/'), '/references/production-leveling/');
+  assert.equal(categoryEntryHref('/references/', '/references/production-leveling#buffers'), '/references/production-leveling/');
+  assert.equal(categoryEntryHref('/skills/', '/skills/#collections'), '/skills/');
+});
 
 test('homepage uses the first six real entries, ignoring groups and comment lists', () => {
   const body = `<!-- Catalogue summary\n- [Handwritten substitute](/wrong/)\n-->\n

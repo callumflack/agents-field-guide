@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-11-26 — Five local atomic commits
+
+- Callum authorized five local commits in order: category routes, editorial guidance, R2 source storage, the Parnas reference and agent playbook, then the retained breadboards draft. Do not push or publish.
+- Shared navigation, catalogue, instruction and log changes are separated by purpose. The initial index was empty; the starting commit was `9561973`. Reviewed page wording and local source copies are preserved.
+- This commit records slice 1 of five: Move guide pages into canonical category routes. Production build validation applies to the exact staged snapshot; later slices remain in the working copy. No push or publication.
+
 ## 2026-11-25 — Homepage changelog preview
 
 - Final direction approved by Callum: a compact “Recently added” section beneath search, with three linked titles and “View changelog →”. No homepage timeline, dates or category labels; the full Changelog retains its dated timeline.
@@ -57,27 +63,73 @@
 - Followed the second Scrawl’s full-size frames: source quotation, Toyota introduction, then the exact quintessential takeaway and its explanation. Retained the three causal sections; added the insights about capable connections and an organisation emerging from improving real work.
 - Added “The quintessential takeaway:” above the takeaway and “The quintessential question:” above the closing question. Further reading follows the divider as the final paragraph. Added no caution section. The KB discussion remains byte-for-byte unchanged. Build and breadcrumb checks pass.
 - Callum authorized publication on 25 Nov 2026 through the existing main-branch Cloudflare Workers Builds pipeline. The public article, category registration and catalogue entries are the publication scope; the KB discussion remains private and unchanged. Verify the build and live article after pushing.
+- Published in commit `87d9a85`; the live article was checked with the approved takeaway and closing question before further reading.
+
+## 2026-11-25 — Production leveling
+
+- Callum requested a short follow-on reference retaining only the essential ideas. Scope: production leveling, the causes of uneven demand, changeover costs and the different purposes of buffers; distinguish manufacturing explanations from proposed agent applications. Keep this addition local.
+- Source: the supplied Wikiwand screenshot and existing raw capture, checked against the Lean Enterprise Institute’s heijunka reference. Preserve the published Toyota page and its private discussion.
+- Callum also requested separate chats for Ryan Singer/Bob Moesta’s demand-side thinking and Shape Up’s breadboarding, fat-marker sketches and circuit analogy. Start those after this reference’s shared catalogue edits, with explicit ownership and local-only delivery.
+- Added the compact reference and matching KB Summary with the supplied screenshot in its evidence folder. Production build, category breadcrumb, two-line mobile homepage entry and wiki-link checks pass; both editions match and the earlier Toyota discussion is byte-for-byte unchanged. The production-leveling note was also checked in Obsidian. Local only.
+- Started user-owned chats `01a21179-fe91-7432-9f83-dfd66689cea7` (Singer/Moesta; owns only `demand-side-thinking.md`) and `01a2117a-4534-7873-a81e-2893f2db4a4e` (Shape Up; owns only `breadboards-and-fat-marker-sketches.md`). This chat owns their pending catalogue registration, mirrored KB references and localhost checks once their source-grounded drafts are ready. Both chats were instructed to keep work local and preserve concurrent edits.
+- Both chats completed their source-grounded drafts (about 420 words each). Demand-side thinking explains circumstances and sought progress, including Singer’s calendar example and movement between problem and solution. The Shape Up reference distinguishes flow from spatial arrangement and treats the circuit analogy as an explanation of abstraction. This chat is integrating their catalogues and mirrored KB editions without changing the earlier breadboard playbook.
+- Integration complete: all three new references are registered under References, the generated homepage and six-entry private overview agree, and matching KB Summaries have one index entry each. The existing breadboard playbook and Toyota discussion are unchanged. Build and wiki-link checks pass. Both new pages were opened at desktop and mobile widths with no horizontal overflow; their breadcrumb links were followed to References. All three homepage entries use two lines at 390px. The references remain local and uncommitted; no publication is authorized for these additions. The two user-owned chats remain available for further discussion.
+- Placement correction: Callum identified the missing forward connection from the Toyota work to production leveling. The new page already linked back, but checking its category breadcrumb had not checked this reading path. Added a contextual forward link in Toyota’s buffer discussion and placed production leveling immediately after Toyota, explicitly labelled as its follow-on in both catalogues. Keep the prior KB discussion unchanged and this correction local.
+- Verified the local Toyota → production-leveling link and the return journey in the browser. Build and overview-sync checks pass; the follow-on catalogue entry uses two lines at 390px with no overflow. The KB Toyota discussion retains its original hash. No publication performed.
 
 ## 2026-11-25 — Publish production leveling
 
 - Callum authorized publication of production leveling and its connection to the Toyota reference. The Toyota page’s final “For more information” paragraph now presents production leveling as the next step; production leveling links back to Toyota. Registered it immediately after Toyota in the catalogue and navigation.
 - Publication scope: these two pages, their catalogue/navigation changes and this receipt. The separate demand-side thinking and Shape Up reference drafts remain local. Both editions of the overview agree; the original KB Toyota discussion remains unchanged. Publish through the existing main-branch Cloudflare Workers Builds pipeline and verify both live directions.
 - Validation: the staged publication alone passes the production build, catalogue tests and breadcrumb checks; localhost confirms the next-step link is in Toyota’s final information paragraph and production leveling links back.
+- Delivery complete: commit `19f21b3` pushed through the existing pipeline. The live Toyota footer contains the final next-step link; followed it to production leveling and followed the return link successfully. The live References catalogue places production leveling immediately after Toyota. Temporary scoped-build copy removed. Independent reference drafts remain local.
+
+## 2026-11-25 — Publication hold
+
+- Callum explicitly requires sign-off before any further publication. This supersedes the earlier instruction to publish the Toyota-footer correction. The wording correction is local only; do not commit for delivery, push, deploy or publish it until Callum explicitly signs off the reviewable wording.
+- Requested sentence: “To find out how scheduling and buffers affect the rest of the system, read production leveling.” Only “production leveling” is linked in this sentence; no bold, “Next” label or colon. The prior published footer remains live until approval.
+- Superseding wording correction: “Learn how scheduling and buffers affect the rest of the system by reading Production leveling.” Only the linked title “Production leveling” is bold, using the supplied public URL. No “Next” label or colon. This remains local under the explicit sign-off gate.
+
+## 2026-11-25 — Category routes and copywriting repair
+
+- Callum signed off publication of the exact explanatory sentence, committed and pushed as `6a9341c`. Verified live: the sentence matches, only the linked title is bold, and there is no “Next:” label. That permission does not publish the following structural changes.
+- Root cause: the sidebar category created a correct breadcrumb independently of a root-level content route, and the existing build check verified only the breadcrumb link. Prose had not enforced category URL structure.
+- Authorized local repair: physical category folders, a shared executable navigation definition, build failure when category routes and breadcrumbs disagree, and backwards-compatible redirects. Preserve presentation and content wording. Also extend the existing writing guide from the accepted Toyota/production-leveling examples and exact related-reading sentence. Keep all new routing and guidance changes local for sign-off.
+- Implemented 34 content moves: category-owned entries and category index pages now live in matching folders. `src/lib/navigation.mjs` is shared by Astro, catalogue checks and changelog discovery; it also owns legacy aliases. The existing catalogue command generates hosting redirect rules and rejects mismatched source paths/URLs before building, then checks rendered breadcrumbs afterwards. Agent-facing Markdown and category discovery URLs use the nested paths.
+- Regression proof: the previous breadcrumb check passed the original flat URLs; the strengthened check rejected them. A temporary root-level References registration also fails the normal prebuild command, while restoring the valid configuration passes. Changelog tests now cover an uncommitted category move using its actual prior Git path so local previews retain original addition dates.
+- Writing guide: added the Toyota and production-leveling examples, their shared causal structure, closing-question/further-reading order, exact approved related-reading sentence, and the reviewed-copy publication boundary. Root agent instructions and Nimbus implementation guidance point to the executable navigation owner; there is no prose category map.
+- Verification: production build, catalogue/changelog tests, typecheck (zero diagnostics), MDX lint and private-overview sync pass. Followed old URLs into the new category URLs for References, Playbooks, Prompts, Field reports and Skills. Toyota links to production leveling locally and its canonical URL matches its breadcrumb. Mobile page/homepage checks have no horizontal overflow. All 26 previously published moved page bodies retain their words and formatting, with link destinations alone changed; the original private Toyota discussion retains its hash.
+- Concurrent user work preserved: the separate Shape Up chat set its reference to `draft: true` and removed it from catalogues/discovery; the Singer/Moesta chat refined its local reference. Both chats are idle. No further publication performed. Routing and writing-guide changes are ready locally and await Callum’s explicit sign-off.
+
+## 2026-11-25 — Rename SpaceX five-step build process
+
+- Callum requested a SpaceX-specific title and slug; interpreted the typed “spacaex” as “spacex”, stated before editing. Renamed the title to “SpaceX five-step build process” and the canonical URL to `/methods/spacex-five-step-build-process/`. Source wording is unchanged. Updated navigation, public/private catalogue titles and the generated homepage; both previous URL forms redirect directly to the renamed page. Local only under the existing sign-off gate.
+- Source correction: the five-step list must transcribe the supplied sign, rather than use the article’s different wording. Replaced it with the sign’s exact numbered lines and capitalization: Make Requirements Less Dumb; Delete the Part or Process Step; Optimize; Accelerate; Automate. Updated both catalogue descriptions to distinguish the sign from the article notes. Compared the complete notes section against the captured article: wording and emphasis match, with heading levels alone adapted. Local only; no publication.
 
 ## 2026-11-25 — Publish demand-side thinking
 
 - Callum approved publication of the rendered reference after Astra’s two wording improvements and the Scrawl definition bullets. Publish the exact page at `/references/demand-side-thinking/` with its catalogue, homepage and navigation entry.
 - Isolated this delivery from the unapproved category-route migration: all existing published page routes and source wording remain at their current production versions. The independent Shape Up draft and routing/writing-guide work remain local.
 - The publication copy passes the production build, catalogue/changelog tests and breadcrumb check. The private reference body now exactly matches the approved public body; its existing index entry and overview description match, and the wiki-link check passes. Publication and live verification are in progress through the existing main-branch Cloudflare Workers Builds pipeline.
+- Delivery complete: commit `098fddc` pushed; Cloudflare Workers build `7df54b12-8380-49ce-9d9d-e85ef25dde21` succeeded. The live authored body exactly matches the approved body, and the live page, category breadcrumb, References catalogue and homepage link were verified. Temporary publication preview stopped and scoped copy removed. Unapproved migration and other drafts remain local.
 
 ## 2026-11-25 — Publish reviewed SpaceX page
 
 - Callum signed off the renamed page and exact transcription of the sign. Publish “SpaceX five-step build process” at `/methods/spacex-five-step-build-process/`; preserve the article notes verbatim. Both old URL forms redirect directly to this canonical route.
 - Isolate this publication from the wider category-route migration, writing-guide changes and independent draft. The shared guide overview already has the approved title and source description. Validate the staged publication, then deliver through the existing main-branch Cloudflare Workers Builds pipeline and verify the rendered title, five steps and old-URL redirects live.
 - Validation: the isolated staged publication passes the production build, catalogue/changelog tests and rendered breadcrumb check. The five numbered lines match the supplied sign exactly; the separate article notes retain their source wording.
+- Delivered in commit `ad499cd` through the existing pipeline. Verified live: canonical nested URL, SpaceX title, all five lines exactly matching the sign, Playbooks breadcrumb, renamed homepage entry, and both previous HTML URLs plus old Markdown/MDX URLs redirecting to the new route. Temporary publication copy removed. Wider routing/writing-guide changes and the independent draft remain local.
+
+## 2026-11-26 — Clarify demand-side thinking for agent work
+
+- Callum requested the preceding explanation worked into the reference, kept concise and shown on localhost before publication. Added the connection between task purpose and agent tradeoffs, a clearly adapted persistent-memory example, and the distinction between shaping ambiguous work and executing settled instructions. Shortened existing source summaries to keep the page compact; preserved definition bullets and sources.
+- Mirrored the body in the existing private Summary. Title, description, catalogue order and overview remain unchanged. This revision is local and awaits rendered review before any publication.
+- Verified: 443 words including metadata; both reference bodies match exactly; wiki-link, production build, catalogue and breadcrumb checks pass. Opened the canonical localhost page, inspected the rendered additions and followed References and its return link. Left the local page open for review; no commit, push or publication.
+- Callum approved publication of the reviewed agent-work revision after one formatting correction: only the terms “demand side” and “supply side” are bold in the two definition bullets. Applied identically in both editions; publish this exact revision without further editorial changes.
 
 ## 2026-11-26 — Publish agent-work clarification
 
 - Callum approved the rendered demand-side reference with the agent-work explanation, memory example and distinction between shaping and settled execution. His final correction limits definition-bullet emphasis to “demand side” and “supply side”; both editions match exactly. Publish this exact revision at `/references/demand-side-thinking/`.
 - Delivery is limited to the reference and this receipt. The separate category-route migration, writing-guide changes and independent draft remain local. Verify the isolated production build, then publish through the existing main-branch Cloudflare Workers Builds pipeline and check the live source and formatting.
 - The isolated publication passes the production build, catalogue/changelog tests and breadcrumb check. The page body matches the reviewed local reference exactly.
+- Delivered in commit `9561973`. Cloudflare Workers build `fcb00899-7491-4d9e-93ac-15c1f1844b99` succeeded. The live authored body exactly matches the approved reference; browser verification confirms only the definition terms are bold and the agent-work explanation is present. Both editions match; unrelated work remains local. Removed the temporary publication copy.

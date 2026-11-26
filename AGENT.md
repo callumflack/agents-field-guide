@@ -13,7 +13,9 @@ src/
 ├── components.ts            # MDX globals — components every .mdx can use without an import
 ├── components/              # AgentDirective, Header, Logo (drawn from logo.ts), Render + ui/<slug>/
 ├── content/
-│   ├── docs/*.mdx
+│   ├── docs/index.mdx
+│   ├── docs/<category>/index.md
+│   ├── docs/<category>/*.{md,mdx}
 │   └── partials/*.mdx       # referenced via <Render file="..." />
 ├── content.config.ts        # registers docsCollection() + partialsCollection()
 ├── layouts/                 # BaseLayout (NimbusHead), DocsLayout (sidebar/TOC/breadcrumbs)
@@ -66,7 +68,7 @@ Rules:
 
 | Goal | Action |
 |---|---|
-| New doc page | Create `src/content/docs/<slug>.mdx`. Sidebar picks it up. |
+| New doc page | Read `src/lib/navigation.mjs`; create the page in its category directory and add it to that category's navigation and index. Run `npm run catalogue:sync` and `npm run build`. |
 | New partial | Create `src/content/partials/<slug>.mdx`. Use via `<Render file="<slug>" />`. |
 | UI from registry | `npx @cloudflare/nimbus-docs add <slug>`. Register in `src/components.ts` if used in MDX. |
 | Feature recipe | `npx @cloudflare/nimbus-docs add <feature-slug> --print`. Prints the recipe for you to follow; it changes no files itself. |
@@ -85,7 +87,9 @@ List installable items: `npx @cloudflare/nimbus-docs list`.
 
 ## Sidebar
 
-The sidebar mirrors `src/content/docs/`. A folder becomes a group, and its `index.mdx` is the group's landing page; set `sidebar.group.label` there to rename the group. Within a group, `sidebar.order` sorts entries (lowest first, otherwise alphabetical), `sidebar.label` shortens a page's rail title, and `sidebar.hidden: true` builds a page without listing it.
+This site supplies its category tree from `src/lib/navigation.mjs`, imported by `astro.config.ts`, the catalogue generator and its checks. Content directories supply the corresponding URL prefixes. Edit that shared owner rather than creating another navigation list. The build rejects disagreements between category ownership, content paths, URLs and breadcrumbs.
+
+Nimbus's default sidebar mirrors `src/content/docs/`. A folder becomes a group, and its `index.mdx` is the group's landing page; set `sidebar.group.label` there to rename the group. Within a group, `sidebar.order` sorts entries (lowest first, otherwise alphabetical), `sidebar.label` shortens a page's rail title, and `sidebar.hidden: true` builds a page without listing it.
 
 To add an external link or fix the top-level order, set `sidebar.items` in `defineNimbusConfig` in `astro.config.ts`. Items you list replace the generated top level, and a listed item's `label` wins over the folder's `sidebar.group.label`:
 

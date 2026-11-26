@@ -10,6 +10,6 @@ When changing behavior, preserve existing presentation. Carry styles forward whe
 
 Preview status belongs only in Field reports. Never add a Preview label or line to any other page or catalogue entry, including the private guide. Showing a page on localhost does not call for a status label.
 
-Register every new page, including a page shown only on localhost, in the correct category in `astro.config.ts`. Before showing Callum the page, open it on localhost and check that its breadcrumb links to that category.
+`src/lib/navigation.mjs` owns category groups and legacy redirects. Register new pages there, including pages shown only on localhost. `npm run catalogue:sync` generates the homepage and redirect rules; `npm run build` checks category content paths, URLs and rendered breadcrumbs together. Before showing Callum a page, open its canonical category URL and follow its breadcrumb.
 
 Treat the standalone site and the private `Agents Field Guide.md` in Obsidian as two editions of the same guide. In the same task, update both editions when changing shared entries, titles, dates, ordering or what appears in the overview. Compare both before finishing. Use the vault's existing note links for private context and public URLs on the site. The site builds from this repo alone.

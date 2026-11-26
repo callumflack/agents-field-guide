@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
-import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import { mkdirSync, mkdtempSync, renameSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -35,6 +35,11 @@ test('addition dates survive edits, renames and a shallow build checkout; uncomm
       { href: '/new/', date: '2026-11-12' },
       { href: '/original/', date: '2026-11-10' },
     ];
+    assert.deepEqual(pageAdditions(pages, cwd).map(({ href, date }) => ({ href, date })), expected);
+
+    mkdirSync(join(cwd, 'references'));
+    renameSync(join(cwd, 'renamed.md'), join(cwd, 'references/renamed.md'));
+    pages[0] = { ...pages[0], file: 'references/renamed.md', previousFile: 'renamed.md' };
     assert.deepEqual(pageAdditions(pages, cwd).map(({ href, date }) => ({ href, date })), expected);
 
     const shallow = join(cwd, 'shallow-build');

@@ -5,8 +5,8 @@ description: "A glossary of prompts you can copy and reuse."
 
 ## Working with agents
 
-- [Ask for proof of work instead of a summary](/ask-for-proof-of-work/). Ask a worker for evidence you can inspect.
-- [Find implicit state machines with Pstack](/find-implicit-state-machines/). Model each subsystem and chart its key flows.
+- [Ask for proof of work instead of a summary](/prompts/ask-for-proof-of-work/). Ask a worker for evidence you can inspect.
+- [Find implicit state machines with Pstack](/prompts/find-implicit-state-machines/). Model each subsystem and chart its key flows.
 - [Review untested branches](/prompts/review-untested-branches/). Decide which checks need tests and which states the types can rule out.
 - [Separate decisions from effects](/prompts/separate-decisions-from-effects/). Review logic that is difficult to test without external dependencies.
 
