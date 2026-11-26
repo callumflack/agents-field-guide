@@ -38,6 +38,7 @@ export const guideNavigation = [
     "landing": "/methods/",
     "collapsed": true,
     "items": [
+      "methods/design-modules-around-hidden-decisions",
       "methods/spacex-five-step-build-process",
       "methods/leave-room-for-plausible-corrections",
       "methods/twelve-rules-for-agentic-coding",
@@ -70,6 +71,7 @@ export const guideNavigation = [
     "landing": "/references/",
     "collapsed": true,
     "items": [
+      "references/decomposing-systems-into-modules",
       "references/what-toyota-reveals-about-organising-agents",
       "references/production-leveling",
       "references/demand-side-thinking",

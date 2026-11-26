@@ -4,6 +4,7 @@ description: Ways to shape work and give agents a way to check it.
 tableOfContents: false
 ---
 
+- [Design modules around hidden decisions](/methods/design-modules-around-hidden-decisions/). A module-design method adapted for agents.
 - [SpaceX five-step build process](/methods/spacex-five-step-build-process/). The sign’s five steps and notes from the article.
 - [Leave room for plausible corrections](/methods/leave-room-for-plausible-corrections/). Keep a cheap route to a plausible design correction.
 - [Twelve rules for agentic coding](/methods/twelve-rules-for-agentic-coding/). Build trust into the codebase before scaling the loop.

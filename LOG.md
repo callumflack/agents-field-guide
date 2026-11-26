@@ -4,7 +4,7 @@
 
 - Callum authorized five local commits in order: category routes, editorial guidance, R2 source storage, the Parnas reference and agent playbook, then the retained breadboards draft. Do not push or publish.
 - Shared navigation, catalogue, instruction and log changes are separated by purpose. The initial index was empty; the starting commit was `9561973`. Reviewed page wording and local source copies are preserved.
-- This commit records slice 3 of five: Store preserved reference sources in R2. Production build validation applies to the exact staged snapshot; later slices remain in the working copy. No push or publication.
+- This commit records slice 4 of five: Add Parnas reference and agent module-design playbook. Production build validation applies to the exact staged snapshot; later slices remain in the working copy. No push or publication.
 
 ## 2026-11-26 — Serve reference sources from R2
 
@@ -16,6 +16,17 @@
 - Updated reference and playbook source links to the verified R2 URLs, copied remote receipts to the private source manifests, and updated the private provenance note. Removed the two duplicate static-site copies after checksum verification. All 91 local payloads are ignored by Git; the production build contains no source payloads. The one-command upload workflow and scoped Keychain login instructions are recorded in `sources/README.md`, with pointers from agent instructions and the writing guide. Build, catalogue, breadcrumb, syntax and whitespace checks pass. No commit, push or guide deployment performed.
 - Final browser verification completed after Callum restored Codex login. Restarted this repository's stale preview on port 4327; the fresh playbook renders all five steps without horizontal overflow at the open 835px viewport. Followed Playbooks → playbook → paper reference → playbook. Both preserved PDF and HTML URLs return HTTP 200 with their intended content types; HTML downloads as an attachment. Left the current playbook open in Codex. R2 provisioning, upload verification and the localhost check are complete; guide changes remain local and uncommitted.
 - Private provenance-link check reports one pre-existing unresolved Topology note link, outside the newly added source section. All nine updated source manifests and their 91 verified object receipts exist; no unrelated wiki links were changed.
+
+## 2026-11-26 — Module-design playbook and reference preservation
+
+- Added the requested five-step agent playbook at `/methods/design-modules-around-hidden-decisions/`, mirrored in the KB Playbooks library and both overviews, with links to the paper reference. Build, catalogue, breadcrumb and paragraph checks pass; desktop/mobile rendering and the category journey were checked. Local only.
+- Callum rejected the expanded archive/permission workflow and explicitly directed all captured sources into one `sources/` folder. Copied all 18 captured source files and 72 images into `sources/<reference-slug>/` and replaced the split-storage instructions with this simple rule. Source metadata records the remaining embedded-media and two image gaps. No commit, push or publication.
+
+## 2026-11-26 — Parnas module decomposition reference
+
+- Callum asked to add the discussed paper, choose Playbooks or References, obey the filing rules and show it on localhost. References owns articles and papers to return to. File a concise source entry with the original paper, its exact information-hiding passage and alternate reading links; no new interpretation. Keep it local for rendered review.
+- Added the reference page, References registration, generated homepage and matching private KB source note and six-entry overview. The exact quotation matches the original paper; public and private reference bodies match. Existing category migration and unrelated local changes are preserved.
+- Verified: production build, catalogue/changelog tests, rendered breadcrumb checks, docs lint, private wiki links and overview sync pass. Opened the canonical page and followed References → page. The homepage entry uses one line at 1280px and two at 390px; the page and homepage have no horizontal overflow. Opened and read back the private note through Obsidian. Review server: `http://127.0.0.1:4327/references/decomposing-systems-into-modules/`. Local only; no commit, push or publication.
 
 ## 2026-11-25 — Homepage changelog preview
 
