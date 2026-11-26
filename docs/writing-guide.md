@@ -30,3 +30,19 @@ Only an explicit request for original writing, interpretation or adaptation perm
 - Write author and source names in the page body so Nimbus can find them in full-text search.
 
 Use the [external skills inventory procedure](external-skills-inventory.md) to refresh the public collection links.
+
+## Copy and structure for requested original writing
+
+Use [What Toyota reveals about organising agents](../src/content/docs/references/what-toyota-reveals-about-organising-agents.md) and [Production leveling](../src/content/docs/references/production-leveling.md) as examples when Callum requests an original reference or adaptation. These examples do not permit rewriting a source that he asks to file verbatim.
+
+Explain the cause and its consequence in ordinary sentences. “Large buffers allow one process to conceal another’s difficulties. Reducing them makes the difficulties affect the line.” Preserve the mechanism that makes the idea useful; framework names alone do not explain it.
+
+The shared shape is: introduce the idea and necessary terms; state the central takeaway; develop a few causal explanations; distinguish source claims from agent applications; close with a question that brings the argument together. A useful opening quotation can precede the introduction. Use this shape where it fits rather than forcing every source into a template.
+
+Keep the closing question above the divider. Put sources and related reading at the end. Connect a follow-on document to the idea it develops, using a complete explanatory sentence with the document title as the link. Callum approved this example:
+
+> Learn how scheduling and buffers affect the rest of the system by reading [**Production leveling**](https://afg.callum.website/references/production-leveling/).
+
+Keep the surrounding sentence ordinary text. The linked title alone may carry emphasis when requested. Do not replace the sentence with an invented navigation label such as “Next:” or add emphasis while publishing approved copy.
+
+Treat a supplied replacement as the copy to implement. Preserve its wording, punctuation, emphasis and link boundary. Check it in the rendered page, show that result for sign-off, and publish the approved version without another editorial pass.

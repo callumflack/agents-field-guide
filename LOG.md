@@ -4,7 +4,7 @@
 
 - Callum authorized five local commits in order: category routes, editorial guidance, R2 source storage, the Parnas reference and agent playbook, then the retained breadboards draft. Do not push or publish.
 - Shared navigation, catalogue, instruction and log changes are separated by purpose. The initial index was empty; the starting commit was `9561973`. Reviewed page wording and local source copies are preserved.
-- This commit records slice 1 of five: Move guide pages into canonical category routes. Production build validation applies to the exact staged snapshot; later slices remain in the working copy. No push or publication.
+- This commit records slice 2 of five: Clarify reviewed-copy and original-writing rules. Production build validation applies to the exact staged snapshot; later slices remain in the working copy. No push or publication.
 
 ## 2026-11-25 — Homepage changelog preview
 
