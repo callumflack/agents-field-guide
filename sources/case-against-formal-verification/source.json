@@ -1,0 +1,113 @@
+{
+  "reference": "case-against-formal-verification",
+  "sources": [
+    {
+      "title": "The Case Against Formal Verification, 50 Years Later - Ivan Gavran",
+      "original_url": "https://ivan-gavran.github.io/0-social-processes-paper",
+      "download_url": "https://ivan-gavran.github.io/0-social-processes-paper",
+      "resolved_url": "https://ivan-gavran.github.io/0-social-processes-paper",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "01-0-social-processes-paper.html",
+      "media_type": "text/html",
+      "bytes": 18101,
+      "sha256": "a504149bb9b7d1f3be181100b0abe764322bf3388b9e9e8b095739aa421e8400",
+      "completeness": "HTML text and 4 associated images captured; 0 images unavailable. Embedded recordings listed separately are not archived.",
+      "assets": [
+        {
+          "url": "https://ivan-gavran.github.io/assets/images/icon/github.svg",
+          "status": "captured",
+          "file": "assets/840df04d4c-github.svg",
+          "bytes": 2962,
+          "sha256": "64df786d0d22fd4153ae2ad8d5466592b1ef42c4617c70daae6d702ea42851ae",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/case-against-formal-verification/64df786d0d22fd4153ae2ad8d5466592b1ef42c4617c70daae6d702ea42851ae/assets/840df04d4c-github.svg",
+          "object_key": "case-against-formal-verification/64df786d0d22fd4153ae2ad8d5466592b1ef42c4617c70daae6d702ea42851ae/assets/840df04d4c-github.svg"
+        },
+        {
+          "url": "https://ivan-gavran.github.io/assets/images/icon/linkedin.svg",
+          "status": "captured",
+          "file": "assets/2a9392aeac-linkedin.svg",
+          "bytes": 1477,
+          "sha256": "40ca10a7ff2d0d8f1bec5ad6a33782da19de6db0cb495a79bfcdc3ab285157af",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/case-against-formal-verification/40ca10a7ff2d0d8f1bec5ad6a33782da19de6db0cb495a79bfcdc3ab285157af/assets/2a9392aeac-linkedin.svg",
+          "object_key": "case-against-formal-verification/40ca10a7ff2d0d8f1bec5ad6a33782da19de6db0cb495a79bfcdc3ab285157af/assets/2a9392aeac-linkedin.svg"
+        },
+        {
+          "url": "https://ivan-gavran.github.io/assets/images/icon/me.svg",
+          "status": "captured",
+          "file": "assets/c170ca0ff4-me.svg",
+          "bytes": 2043,
+          "sha256": "a6d9083b348415af034c3ca4be58e8effb43cbffa5abb91227012f41bac6581e",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/case-against-formal-verification/a6d9083b348415af034c3ca4be58e8effb43cbffa5abb91227012f41bac6581e/assets/c170ca0ff4-me.svg",
+          "object_key": "case-against-formal-verification/a6d9083b348415af034c3ca4be58e8effb43cbffa5abb91227012f41bac6581e/assets/c170ca0ff4-me.svg"
+        },
+        {
+          "url": "https://ivan-gavran.github.io/assets/images/robotReadingEverythingBright.png",
+          "status": "captured",
+          "file": "assets/83d6daff92-robotReadingEverythingBright.png",
+          "bytes": 1688123,
+          "sha256": "912f30eb0d707af0fb7af679459d33aa9f218331c9302fda80c4dd89fc14aa66",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/case-against-formal-verification/912f30eb0d707af0fb7af679459d33aa9f218331c9302fda80c4dd89fc14aa66/assets/83d6daff92-robotReadingEverythingBright.png",
+          "object_key": "case-against-formal-verification/912f30eb0d707af0fb7af679459d33aa9f218331c9302fda80c4dd89fc14aa66/assets/83d6daff92-robotReadingEverythingBright.png"
+        }
+      ],
+      "embedded_recordings_not_archived": [],
+      "text_characters": 9778,
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/case-against-formal-verification/a504149bb9b7d1f3be181100b0abe764322bf3388b9e9e8b095739aa421e8400/01-0-social-processes-paper.html",
+      "object_key": "case-against-formal-verification/a504149bb9b7d1f3be181100b0abe764322bf3388b9e9e8b095739aa421e8400/01-0-social-processes-paper.html"
+    }
+  ],
+  "objects": [
+    {
+      "file": "01-0-social-processes-paper.html",
+      "key": "case-against-formal-verification/a504149bb9b7d1f3be181100b0abe764322bf3388b9e9e8b095739aa421e8400/01-0-social-processes-paper.html",
+      "url": "https://sources.afg.callum.website/case-against-formal-verification/a504149bb9b7d1f3be181100b0abe764322bf3388b9e9e8b095739aa421e8400/01-0-social-processes-paper.html",
+      "sha256": "a504149bb9b7d1f3be181100b0abe764322bf3388b9e9e8b095739aa421e8400",
+      "bytes": 18101,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/2a9392aeac-linkedin.svg",
+      "key": "case-against-formal-verification/40ca10a7ff2d0d8f1bec5ad6a33782da19de6db0cb495a79bfcdc3ab285157af/assets/2a9392aeac-linkedin.svg",
+      "url": "https://sources.afg.callum.website/case-against-formal-verification/40ca10a7ff2d0d8f1bec5ad6a33782da19de6db0cb495a79bfcdc3ab285157af/assets/2a9392aeac-linkedin.svg",
+      "sha256": "40ca10a7ff2d0d8f1bec5ad6a33782da19de6db0cb495a79bfcdc3ab285157af",
+      "bytes": 1477,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/83d6daff92-robotReadingEverythingBright.png",
+      "key": "case-against-formal-verification/912f30eb0d707af0fb7af679459d33aa9f218331c9302fda80c4dd89fc14aa66/assets/83d6daff92-robotReadingEverythingBright.png",
+      "url": "https://sources.afg.callum.website/case-against-formal-verification/912f30eb0d707af0fb7af679459d33aa9f218331c9302fda80c4dd89fc14aa66/assets/83d6daff92-robotReadingEverythingBright.png",
+      "sha256": "912f30eb0d707af0fb7af679459d33aa9f218331c9302fda80c4dd89fc14aa66",
+      "bytes": 1688123,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/840df04d4c-github.svg",
+      "key": "case-against-formal-verification/64df786d0d22fd4153ae2ad8d5466592b1ef42c4617c70daae6d702ea42851ae/assets/840df04d4c-github.svg",
+      "url": "https://sources.afg.callum.website/case-against-formal-verification/64df786d0d22fd4153ae2ad8d5466592b1ef42c4617c70daae6d702ea42851ae/assets/840df04d4c-github.svg",
+      "sha256": "64df786d0d22fd4153ae2ad8d5466592b1ef42c4617c70daae6d702ea42851ae",
+      "bytes": 2962,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/c170ca0ff4-me.svg",
+      "key": "case-against-formal-verification/a6d9083b348415af034c3ca4be58e8effb43cbffa5abb91227012f41bac6581e/assets/c170ca0ff4-me.svg",
+      "url": "https://sources.afg.callum.website/case-against-formal-verification/a6d9083b348415af034c3ca4be58e8effb43cbffa5abb91227012f41bac6581e/assets/c170ca0ff4-me.svg",
+      "sha256": "a6d9083b348415af034c3ca4be58e8effb43cbffa5abb91227012f41bac6581e",
+      "bytes": 2043,
+      "content_type": "text/plain; charset=utf-8"
+    }
+  ]
+}

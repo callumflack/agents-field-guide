@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "sources:upload": "node scripts/upload-sources.mjs",
     "test:changelog": "node --test scripts/changelog.test.mjs",
     "test:catalogue": "node --test scripts/catalogue.test.mjs",
     "catalogue:sync": "node scripts/sync-catalogue.mjs",
@@ -34,6 +35,7 @@
     "@tailwindcss/vite": "^4.1.4",
     "pagefind": "^1.5.2",
     "tailwindcss": "^4.1.4",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "wrangler": "4.168.0"
   }
 }

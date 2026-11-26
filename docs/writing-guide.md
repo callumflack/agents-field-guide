@@ -31,6 +31,12 @@ Only an explicit request for original writing, interpretation or adaptation perm
 
 Use the [external skills inventory procedure](external-skills-inventory.md) to refresh the public collection links.
 
+## Preserve reference sources
+
+Save originals and associated files under `sources/<reference-slug>/`, recording the original URL and capture details in `source.json`. Run `npm run sources:upload -- <reference-slug>` to upload to R2 and verify the downloads. Use the resulting `remote_url` links on the guide page, after the publisher’s original link. Keep source wording intact and adaptations separate.
+
+Source payloads are ignored by Git. Commit only the guide page and small manifests. [Source storage](../sources/README.md) owns the command, configuration and maintenance instructions. Follow the existing rendered-review rule for guide publication.
+
 ## Copy and structure for requested original writing
 
 Use [What Toyota reveals about organising agents](../src/content/docs/references/what-toyota-reveals-about-organising-agents.md) and [Production leveling](../src/content/docs/references/production-leveling.md) as examples when Callum requests an original reference or adaptation. These examples do not permit rewriting a source that he asks to file verbatim.

@@ -33,4 +33,8 @@ The closing question:
 
 ---
 
+Preserved copy: [Heijunka — A Resource Guide | Lean Enterprise Institute (HTML)](https://sources.afg.callum.website/production-leveling/ba76ff9076d09cdfa4ccd772d191265c570cfb3ffcb187ede898f1ede77be89e/02-heijunka.html).
+
 For more information, read [Production leveling](https://www.wikiwand.com/en/Production_leveling) and the Lean Enterprise Institute’s [Heijunka](https://www.lean.org/lexicon-terms/heijunka/). This is an adapted reference; the agent applications are interpretations.
+
+A [preserved HTML source download](https://sources.afg.callum.website/production-leveling/135c3997d271c0c98b0f0e36136729e5830b64d875cce4ef635bee931c896340/wikipedia.html) retains Wikipedia’s [Production leveling article](https://en.wikipedia.org/w/index.php?title=Production_leveling&oldid=1354994410), the source behind Wikiwand’s presentation, with its attribution and CC BY-SA 4.0 notice.

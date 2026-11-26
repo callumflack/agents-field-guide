@@ -38,4 +38,6 @@ This is most useful when shaping ambiguous work. Once the task is settled, carry
 
 ---
 
+Preserved copies: [Unpacking Supply and Demand - Circuit Breaker Podcast (HTML)](https://sources.afg.callum.website/demand-side-thinking/68b9bbfae967afd82bdad1fccef20e69030514f4b112fd28c2c36251f2b9827f/02-unpacking-supply-and-demand.html) · [Ryan Singer: Framing and Hard Conversations – Business of Software (HTML)](https://sources.afg.callum.website/demand-side-thinking/9a46ca28b36ab5749bab802e409fa752ddbab95ca06689a757766ea77a9cd0aa/03-framing-and-hard-conversations.html) · [Shaping on the demand side - Ryan Singer (HTML)](https://sources.afg.callum.website/demand-side-thinking/bd00a002efd367afd5f4abe8ebbee8b0c5345ada332bb29e80d0132985a2738e/04-shaping-on-the-demand-side.html) · [30 Minutes With Ryan Singer on Jobs-to-be-Done (HTML)](https://sources.afg.callum.website/demand-side-thinking/99e8d98a143b68f7b87e17f2a741c4486ddb47c3b70b3fa7fccdf716d25a22d2/01-jtbd-browser-dom.html) · [30 Minutes With Ryan Singer on Jobs-to-be-Done (browser print PDF)](https://sources.afg.callum.website/demand-side-thinking/2335429f96f2de3f7b4ab53e906020d32ee063cd246aaa5e0e571650028b22ab/01-jtbd-browser-print.pdf).
+
 This is an original Field Guide reference based on Singer’s and Moesta’s accounts. The agent applications are interpretations.

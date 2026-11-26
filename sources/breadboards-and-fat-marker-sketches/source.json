@@ -1,0 +1,463 @@
+{
+  "reference": "breadboards-and-fat-marker-sketches",
+  "sources": [
+    {
+      "title": "Principles of Shaping | Shape Up",
+      "original_url": "https://basecamp.com/shapeup/1.1-chapter-02",
+      "download_url": "https://basecamp.com/shapeup/1.1-chapter-02",
+      "resolved_url": "https://basecamp.com/shapeup/1.1-chapter-02",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "01-1.1-chapter-02.html",
+      "media_type": "text/html",
+      "bytes": 51488,
+      "sha256": "130f668a463a84d8a2e9e1f6268c583f74a0318d6618629caf931d3ffccd7d12",
+      "completeness": "HTML text and 3 associated images captured; 0 images unavailable. Embedded recordings listed separately are not archived.",
+      "assets": [
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.1/calendar_screenshot.png",
+          "status": "captured",
+          "file": "assets/57ea25e485-calendar_screenshot.png",
+          "bytes": 105147,
+          "sha256": "f8bcf5d1a0cd1642043ed106ac8b58db460e86acad341bde1a848f20fe1683a3",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/f8bcf5d1a0cd1642043ed106ac8b58db460e86acad341bde1a848f20fe1683a3/assets/57ea25e485-calendar_screenshot.png",
+          "object_key": "breadboards-and-fat-marker-sketches/f8bcf5d1a0cd1642043ed106ac8b58db460e86acad341bde1a848f20fe1683a3/assets/57ea25e485-calendar_screenshot.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.1/calendar_sketch.png",
+          "status": "captured",
+          "file": "assets/633e24b29e-calendar_sketch.png",
+          "bytes": 35502,
+          "sha256": "355ff96889735772138625e1d56acdbc8740186af109b5383cc5954939349cb4",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/355ff96889735772138625e1d56acdbc8740186af109b5383cc5954939349cb4/assets/633e24b29e-calendar_sketch.png",
+          "object_key": "breadboards-and-fat-marker-sketches/355ff96889735772138625e1d56acdbc8740186af109b5383cc5954939349cb4/assets/633e24b29e-calendar_sketch.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.1/levels_of_abstraction.jpeg",
+          "status": "captured",
+          "file": "assets/7120fd74e4-levels_of_abstraction.jpeg",
+          "bytes": 33535,
+          "sha256": "bf55d00941aad5a9c895d24dfefcde27572b8cf35d839155839af190f84ed815",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/bf55d00941aad5a9c895d24dfefcde27572b8cf35d839155839af190f84ed815/assets/7120fd74e4-levels_of_abstraction.jpeg",
+          "object_key": "breadboards-and-fat-marker-sketches/bf55d00941aad5a9c895d24dfefcde27572b8cf35d839155839af190f84ed815/assets/7120fd74e4-levels_of_abstraction.jpeg"
+        }
+      ],
+      "embedded_recordings_not_archived": [],
+      "text_characters": 17312,
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/130f668a463a84d8a2e9e1f6268c583f74a0318d6618629caf931d3ffccd7d12/01-1.1-chapter-02.html",
+      "object_key": "breadboards-and-fat-marker-sketches/130f668a463a84d8a2e9e1f6268c583f74a0318d6618629caf931d3ffccd7d12/01-1.1-chapter-02.html"
+    },
+    {
+      "title": "Find the Elements | Shape Up",
+      "original_url": "https://basecamp.com/shapeup/1.3-chapter-04",
+      "download_url": "https://basecamp.com/shapeup/1.3-chapter-04",
+      "resolved_url": "https://basecamp.com/shapeup/1.3-chapter-04",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "02-1.3-chapter-04.html",
+      "media_type": "text/html",
+      "bytes": 57038,
+      "sha256": "80df10e35f9629f3482e39e5840072d3c9c28503a5572ad7796f1683bbdbc903",
+      "completeness": "HTML text and 13 associated images captured; 0 images unavailable. Embedded recordings listed separately are not archived.",
+      "assets": [
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/calendar_dot_grid.png",
+          "status": "captured",
+          "file": "assets/5f797895e9-calendar_dot_grid.png",
+          "bytes": 35254,
+          "sha256": "7d1e375f646a32517d5d8d7ad444e45a09a54ac8f27e0abb059d71bd68650e55",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/7d1e375f646a32517d5d8d7ad444e45a09a54ac8f27e0abb059d71bd68650e55/assets/5f797895e9-calendar_dot_grid.png",
+          "object_key": "breadboards-and-fat-marker-sketches/7d1e375f646a32517d5d8d7ad444e45a09a54ac8f27e0abb059d71bd68650e55/assets/5f797895e9-calendar_dot_grid.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/ee_breadboard.png",
+          "status": "captured",
+          "file": "assets/9e9adc4421-ee_breadboard.png",
+          "bytes": 54314,
+          "sha256": "f576c579fcb3f3865a3004c9e9e53fd0c97fa14e65a7b81af3ec6fbfe7b31832",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/f576c579fcb3f3865a3004c9e9e53fd0c97fa14e65a7b81af3ec6fbfe7b31832/assets/9e9adc4421-ee_breadboard.png",
+          "object_key": "breadboards-and-fat-marker-sketches/f576c579fcb3f3865a3004c9e9e53fd0c97fa14e65a7b81af3ec6fbfe7b31832/assets/9e9adc4421-ee_breadboard.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/fat_marker_1.png",
+          "status": "captured",
+          "file": "assets/b17f587486-fat_marker_1.png",
+          "bytes": 39570,
+          "sha256": "0584765a210e4d2c130096bbc8e862c363328afb9f227ecbc89421fe6a2544ef",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/0584765a210e4d2c130096bbc8e862c363328afb9f227ecbc89421fe6a2544ef/assets/b17f587486-fat_marker_1.png",
+          "object_key": "breadboards-and-fat-marker-sketches/0584765a210e4d2c130096bbc8e862c363328afb9f227ecbc89421fe6a2544ef/assets/b17f587486-fat_marker_1.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/fat_marker_2.png",
+          "status": "captured",
+          "file": "assets/080ed921e9-fat_marker_2.png",
+          "bytes": 46124,
+          "sha256": "570c445ea82290154b6a06b625ee31fbe780c62ff653ada1be939366bf39c103",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/570c445ea82290154b6a06b625ee31fbe780c62ff653ada1be939366bf39c103/assets/080ed921e9-fat_marker_2.png",
+          "object_key": "breadboards-and-fat-marker-sketches/570c445ea82290154b6a06b625ee31fbe780c62ff653ada1be939366bf39c103/assets/080ed921e9-fat_marker_2.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/fat_marker_3.png",
+          "status": "captured",
+          "file": "assets/b98a08725c-fat_marker_3.png",
+          "bytes": 40458,
+          "sha256": "c2e60aa68225483109cc5ac60f069867b0b739c8c246f76816d10f49f783d58b",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/c2e60aa68225483109cc5ac60f069867b0b739c8c246f76816d10f49f783d58b/assets/b98a08725c-fat_marker_3.png",
+          "object_key": "breadboards-and-fat-marker-sketches/c2e60aa68225483109cc5ac60f069867b0b739c8c246f76816d10f49f783d58b/assets/b98a08725c-fat_marker_3.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/intro_cartoon.png",
+          "status": "captured",
+          "file": "assets/6112be34a6-intro_cartoon.png",
+          "bytes": 53270,
+          "sha256": "7cdeaa7e5e113e22cde722646b3931f1f687ffdeefa3c0e0d20c85ef3f11e700",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/7cdeaa7e5e113e22cde722646b3931f1f687ffdeefa3c0e0d20c85ef3f11e700/assets/6112be34a6-intro_cartoon.png",
+          "object_key": "breadboards-and-fat-marker-sketches/7cdeaa7e5e113e22cde722646b3931f1f687ffdeefa3c0e0d20c85ef3f11e700/assets/6112be34a6-intro_cartoon.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/invoice_breadboard_1.png",
+          "status": "captured",
+          "file": "assets/c29d714414-invoice_breadboard_1.png",
+          "bytes": 4168,
+          "sha256": "0642f3296128bbc742eeeafc5c95d587a806e022c63a6e002ed55f364e83c394",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/0642f3296128bbc742eeeafc5c95d587a806e022c63a6e002ed55f364e83c394/assets/c29d714414-invoice_breadboard_1.png",
+          "object_key": "breadboards-and-fat-marker-sketches/0642f3296128bbc742eeeafc5c95d587a806e022c63a6e002ed55f364e83c394/assets/c29d714414-invoice_breadboard_1.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/invoice_breadboard_2.png",
+          "status": "captured",
+          "file": "assets/b8ad5e3ab8-invoice_breadboard_2.png",
+          "bytes": 7803,
+          "sha256": "11885bd5693110b7fc4c13e28cf5eb7403471825f99268cd6eee50937050fbf5",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/11885bd5693110b7fc4c13e28cf5eb7403471825f99268cd6eee50937050fbf5/assets/b8ad5e3ab8-invoice_breadboard_2.png",
+          "object_key": "breadboards-and-fat-marker-sketches/11885bd5693110b7fc4c13e28cf5eb7403471825f99268cd6eee50937050fbf5/assets/b8ad5e3ab8-invoice_breadboard_2.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/invoice_breadboard_3.png",
+          "status": "captured",
+          "file": "assets/497ac4ff68-invoice_breadboard_3.png",
+          "bytes": 13044,
+          "sha256": "a3c6b0db40bbfc8ab000453dae4506cc757da19796643905f7aae9377cfcdaec",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/a3c6b0db40bbfc8ab000453dae4506cc757da19796643905f7aae9377cfcdaec/assets/497ac4ff68-invoice_breadboard_3.png",
+          "object_key": "breadboards-and-fat-marker-sketches/a3c6b0db40bbfc8ab000453dae4506cc757da19796643905f7aae9377cfcdaec/assets/497ac4ff68-invoice_breadboard_3.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/invoice_breadboard_4.png",
+          "status": "captured",
+          "file": "assets/2abd3b8a4e-invoice_breadboard_4.png",
+          "bytes": 24558,
+          "sha256": "d8497c1d4cbf3756ca16ce9ad4158c90ae1f9738511fbe0a77948076261d0ffb",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/d8497c1d4cbf3756ca16ce9ad4158c90ae1f9738511fbe0a77948076261d0ffb/assets/2abd3b8a4e-invoice_breadboard_4.png",
+          "object_key": "breadboards-and-fat-marker-sketches/d8497c1d4cbf3756ca16ce9ad4158c90ae1f9738511fbe0a77948076261d0ffb/assets/2abd3b8a4e-invoice_breadboard_4.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/invoice_breadboard_5.png",
+          "status": "captured",
+          "file": "assets/dca4c56c7a-invoice_breadboard_5.png",
+          "bytes": 26530,
+          "sha256": "b336abd287b752f0f38c15546d2d7a7981b9182733f1a0a9e8be4be4886a65be",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/b336abd287b752f0f38c15546d2d7a7981b9182733f1a0a9e8be4be4886a65be/assets/dca4c56c7a-invoice_breadboard_5.png",
+          "object_key": "breadboards-and-fat-marker-sketches/b336abd287b752f0f38c15546d2d7a7981b9182733f1a0a9e8be4be4886a65be/assets/dca4c56c7a-invoice_breadboard_5.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/invoice_breadboard_6.png",
+          "status": "captured",
+          "file": "assets/f8dea6c816-invoice_breadboard_6.png",
+          "bytes": 39768,
+          "sha256": "728e11c77b57f3c4ee56c00187a7c760562090f3733a4aec43cc05a2f95bb003",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/728e11c77b57f3c4ee56c00187a7c760562090f3733a4aec43cc05a2f95bb003/assets/f8dea6c816-invoice_breadboard_6.png",
+          "object_key": "breadboards-and-fat-marker-sketches/728e11c77b57f3c4ee56c00187a7c760562090f3733a4aec43cc05a2f95bb003/assets/f8dea6c816-invoice_breadboard_6.png"
+        },
+        {
+          "url": "https://basecamp.com/assets/images/books/shapeup/1.3/invoice_breadboard_7.png",
+          "status": "captured",
+          "file": "assets/c020cd4638-invoice_breadboard_7.png",
+          "bytes": 18522,
+          "sha256": "d5d53fc6b9bf9174d612d8da80f71469d8bfd014094fef9b617426fe8d83ab8b",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/d5d53fc6b9bf9174d612d8da80f71469d8bfd014094fef9b617426fe8d83ab8b/assets/c020cd4638-invoice_breadboard_7.png",
+          "object_key": "breadboards-and-fat-marker-sketches/d5d53fc6b9bf9174d612d8da80f71469d8bfd014094fef9b617426fe8d83ab8b/assets/c020cd4638-invoice_breadboard_7.png"
+        }
+      ],
+      "embedded_recordings_not_archived": [],
+      "text_characters": 20583,
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/80df10e35f9629f3482e39e5840072d3c9c28503a5572ad7796f1683bbdbc903/02-1.3-chapter-04.html",
+      "object_key": "breadboards-and-fat-marker-sketches/80df10e35f9629f3482e39e5840072d3c9c28503a5572ad7796f1683bbdbc903/02-1.3-chapter-04.html"
+    },
+    {
+      "title": "Shaping The Work by Ryan Singer, Head of Strategy, Basecamp | UXDX Europe | UXDX",
+      "original_url": "https://uxdx.com/session/shaping-the-work/",
+      "download_url": "https://uxdx.com/session/shaping-the-work/",
+      "resolved_url": "https://uxdx.com/session/shaping-the-work/",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "03-shaping-the-work.html",
+      "media_type": "text/html",
+      "bytes": 528981,
+      "sha256": "5f37218320105782c1a48d5ba7ad74a952d5a0f454453a857fcd48033c162ec0",
+      "completeness": "HTML text and 2 associated images captured; 0 images unavailable. Embedded recordings listed separately are not archived.",
+      "assets": [
+        {
+          "url": "http://res.cloudinary.com/dvgjejsor/image/upload/v1675248553/profile_pictures-250/rec82eey3Oqn9ibA5.jpg",
+          "status": "captured",
+          "file": "assets/b792017d03-rec82eey3Oqn9ibA5.jpg",
+          "bytes": 7718,
+          "sha256": "0aba6cca9cddcaba5b79ca7c529a0373a04683fb7e39d297e352e480b299eb98",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/0aba6cca9cddcaba5b79ca7c529a0373a04683fb7e39d297e352e480b299eb98/assets/b792017d03-rec82eey3Oqn9ibA5.jpg",
+          "object_key": "breadboards-and-fat-marker-sketches/0aba6cca9cddcaba5b79ca7c529a0373a04683fb7e39d297e352e480b299eb98/assets/b792017d03-rec82eey3Oqn9ibA5.jpg"
+        },
+        {
+          "url": "https://storage.googleapis.com/uxdx-company-logos/ca96d037-264a-482c-bedf-acb1dfd917e8.png",
+          "status": "captured",
+          "file": "assets/a25fa5f50e-ca96d037-264a-482c-bedf-acb1dfd917e8.png",
+          "bytes": 14131,
+          "sha256": "3104cad1f7bd42f0ae7e7990601f8295878662c0adafac08ff2d8ba1a4b9cebe",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/3104cad1f7bd42f0ae7e7990601f8295878662c0adafac08ff2d8ba1a4b9cebe/assets/a25fa5f50e-ca96d037-264a-482c-bedf-acb1dfd917e8.png",
+          "object_key": "breadboards-and-fat-marker-sketches/3104cad1f7bd42f0ae7e7990601f8295878662c0adafac08ff2d8ba1a4b9cebe/assets/a25fa5f50e-ca96d037-264a-482c-bedf-acb1dfd917e8.png"
+        }
+      ],
+      "embedded_recordings_not_archived": [],
+      "text_characters": 35233,
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/5f37218320105782c1a48d5ba7ad74a952d5a0f454453a857fcd48033c162ec0/03-shaping-the-work.html",
+      "object_key": "breadboards-and-fat-marker-sketches/5f37218320105782c1a48d5ba7ad74a952d5a0f454453a857fcd48033c162ec0/03-shaping-the-work.html"
+    },
+    {
+      "title": "later breadboarding skill",
+      "original_url": "https://github.com/rjs/shaping-skills/blob/main/breadboarding/skill.md",
+      "download_url": "https://raw.githubusercontent.com/rjs/shaping-skills/main/breadboarding/skill.md",
+      "resolved_url": "https://raw.githubusercontent.com/rjs/shaping-skills/main/breadboarding/skill.md",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "04-skill.md",
+      "media_type": "text/markdown",
+      "bytes": 60999,
+      "sha256": "0c4e56a9ee5bc17a9cf911b63a384bf81262c4337507a572876cdea9546ca175",
+      "completeness": "Original file captured.",
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/0c4e56a9ee5bc17a9cf911b63a384bf81262c4337507a572876cdea9546ca175/04-skill.md",
+      "object_key": "breadboards-and-fat-marker-sketches/0c4e56a9ee5bc17a9cf911b63a384bf81262c4337507a572876cdea9546ca175/04-skill.md"
+    }
+  ],
+  "objects": [
+    {
+      "file": "01-1.1-chapter-02.html",
+      "key": "breadboards-and-fat-marker-sketches/130f668a463a84d8a2e9e1f6268c583f74a0318d6618629caf931d3ffccd7d12/01-1.1-chapter-02.html",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/130f668a463a84d8a2e9e1f6268c583f74a0318d6618629caf931d3ffccd7d12/01-1.1-chapter-02.html",
+      "sha256": "130f668a463a84d8a2e9e1f6268c583f74a0318d6618629caf931d3ffccd7d12",
+      "bytes": 51488,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "02-1.3-chapter-04.html",
+      "key": "breadboards-and-fat-marker-sketches/80df10e35f9629f3482e39e5840072d3c9c28503a5572ad7796f1683bbdbc903/02-1.3-chapter-04.html",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/80df10e35f9629f3482e39e5840072d3c9c28503a5572ad7796f1683bbdbc903/02-1.3-chapter-04.html",
+      "sha256": "80df10e35f9629f3482e39e5840072d3c9c28503a5572ad7796f1683bbdbc903",
+      "bytes": 57038,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "03-shaping-the-work.html",
+      "key": "breadboards-and-fat-marker-sketches/5f37218320105782c1a48d5ba7ad74a952d5a0f454453a857fcd48033c162ec0/03-shaping-the-work.html",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/5f37218320105782c1a48d5ba7ad74a952d5a0f454453a857fcd48033c162ec0/03-shaping-the-work.html",
+      "sha256": "5f37218320105782c1a48d5ba7ad74a952d5a0f454453a857fcd48033c162ec0",
+      "bytes": 528981,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "04-skill.md",
+      "key": "breadboards-and-fat-marker-sketches/0c4e56a9ee5bc17a9cf911b63a384bf81262c4337507a572876cdea9546ca175/04-skill.md",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/0c4e56a9ee5bc17a9cf911b63a384bf81262c4337507a572876cdea9546ca175/04-skill.md",
+      "sha256": "0c4e56a9ee5bc17a9cf911b63a384bf81262c4337507a572876cdea9546ca175",
+      "bytes": 60999,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/080ed921e9-fat_marker_2.png",
+      "key": "breadboards-and-fat-marker-sketches/570c445ea82290154b6a06b625ee31fbe780c62ff653ada1be939366bf39c103/assets/080ed921e9-fat_marker_2.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/570c445ea82290154b6a06b625ee31fbe780c62ff653ada1be939366bf39c103/assets/080ed921e9-fat_marker_2.png",
+      "sha256": "570c445ea82290154b6a06b625ee31fbe780c62ff653ada1be939366bf39c103",
+      "bytes": 46124,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/2abd3b8a4e-invoice_breadboard_4.png",
+      "key": "breadboards-and-fat-marker-sketches/d8497c1d4cbf3756ca16ce9ad4158c90ae1f9738511fbe0a77948076261d0ffb/assets/2abd3b8a4e-invoice_breadboard_4.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/d8497c1d4cbf3756ca16ce9ad4158c90ae1f9738511fbe0a77948076261d0ffb/assets/2abd3b8a4e-invoice_breadboard_4.png",
+      "sha256": "d8497c1d4cbf3756ca16ce9ad4158c90ae1f9738511fbe0a77948076261d0ffb",
+      "bytes": 24558,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/497ac4ff68-invoice_breadboard_3.png",
+      "key": "breadboards-and-fat-marker-sketches/a3c6b0db40bbfc8ab000453dae4506cc757da19796643905f7aae9377cfcdaec/assets/497ac4ff68-invoice_breadboard_3.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/a3c6b0db40bbfc8ab000453dae4506cc757da19796643905f7aae9377cfcdaec/assets/497ac4ff68-invoice_breadboard_3.png",
+      "sha256": "a3c6b0db40bbfc8ab000453dae4506cc757da19796643905f7aae9377cfcdaec",
+      "bytes": 13044,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/57ea25e485-calendar_screenshot.png",
+      "key": "breadboards-and-fat-marker-sketches/f8bcf5d1a0cd1642043ed106ac8b58db460e86acad341bde1a848f20fe1683a3/assets/57ea25e485-calendar_screenshot.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/f8bcf5d1a0cd1642043ed106ac8b58db460e86acad341bde1a848f20fe1683a3/assets/57ea25e485-calendar_screenshot.png",
+      "sha256": "f8bcf5d1a0cd1642043ed106ac8b58db460e86acad341bde1a848f20fe1683a3",
+      "bytes": 105147,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/5f797895e9-calendar_dot_grid.png",
+      "key": "breadboards-and-fat-marker-sketches/7d1e375f646a32517d5d8d7ad444e45a09a54ac8f27e0abb059d71bd68650e55/assets/5f797895e9-calendar_dot_grid.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/7d1e375f646a32517d5d8d7ad444e45a09a54ac8f27e0abb059d71bd68650e55/assets/5f797895e9-calendar_dot_grid.png",
+      "sha256": "7d1e375f646a32517d5d8d7ad444e45a09a54ac8f27e0abb059d71bd68650e55",
+      "bytes": 35254,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/6112be34a6-intro_cartoon.png",
+      "key": "breadboards-and-fat-marker-sketches/7cdeaa7e5e113e22cde722646b3931f1f687ffdeefa3c0e0d20c85ef3f11e700/assets/6112be34a6-intro_cartoon.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/7cdeaa7e5e113e22cde722646b3931f1f687ffdeefa3c0e0d20c85ef3f11e700/assets/6112be34a6-intro_cartoon.png",
+      "sha256": "7cdeaa7e5e113e22cde722646b3931f1f687ffdeefa3c0e0d20c85ef3f11e700",
+      "bytes": 53270,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/633e24b29e-calendar_sketch.png",
+      "key": "breadboards-and-fat-marker-sketches/355ff96889735772138625e1d56acdbc8740186af109b5383cc5954939349cb4/assets/633e24b29e-calendar_sketch.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/355ff96889735772138625e1d56acdbc8740186af109b5383cc5954939349cb4/assets/633e24b29e-calendar_sketch.png",
+      "sha256": "355ff96889735772138625e1d56acdbc8740186af109b5383cc5954939349cb4",
+      "bytes": 35502,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/7120fd74e4-levels_of_abstraction.jpeg",
+      "key": "breadboards-and-fat-marker-sketches/bf55d00941aad5a9c895d24dfefcde27572b8cf35d839155839af190f84ed815/assets/7120fd74e4-levels_of_abstraction.jpeg",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/bf55d00941aad5a9c895d24dfefcde27572b8cf35d839155839af190f84ed815/assets/7120fd74e4-levels_of_abstraction.jpeg",
+      "sha256": "bf55d00941aad5a9c895d24dfefcde27572b8cf35d839155839af190f84ed815",
+      "bytes": 33535,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/9e9adc4421-ee_breadboard.png",
+      "key": "breadboards-and-fat-marker-sketches/f576c579fcb3f3865a3004c9e9e53fd0c97fa14e65a7b81af3ec6fbfe7b31832/assets/9e9adc4421-ee_breadboard.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/f576c579fcb3f3865a3004c9e9e53fd0c97fa14e65a7b81af3ec6fbfe7b31832/assets/9e9adc4421-ee_breadboard.png",
+      "sha256": "f576c579fcb3f3865a3004c9e9e53fd0c97fa14e65a7b81af3ec6fbfe7b31832",
+      "bytes": 54314,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/a25fa5f50e-ca96d037-264a-482c-bedf-acb1dfd917e8.png",
+      "key": "breadboards-and-fat-marker-sketches/3104cad1f7bd42f0ae7e7990601f8295878662c0adafac08ff2d8ba1a4b9cebe/assets/a25fa5f50e-ca96d037-264a-482c-bedf-acb1dfd917e8.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/3104cad1f7bd42f0ae7e7990601f8295878662c0adafac08ff2d8ba1a4b9cebe/assets/a25fa5f50e-ca96d037-264a-482c-bedf-acb1dfd917e8.png",
+      "sha256": "3104cad1f7bd42f0ae7e7990601f8295878662c0adafac08ff2d8ba1a4b9cebe",
+      "bytes": 14131,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/b17f587486-fat_marker_1.png",
+      "key": "breadboards-and-fat-marker-sketches/0584765a210e4d2c130096bbc8e862c363328afb9f227ecbc89421fe6a2544ef/assets/b17f587486-fat_marker_1.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/0584765a210e4d2c130096bbc8e862c363328afb9f227ecbc89421fe6a2544ef/assets/b17f587486-fat_marker_1.png",
+      "sha256": "0584765a210e4d2c130096bbc8e862c363328afb9f227ecbc89421fe6a2544ef",
+      "bytes": 39570,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/b792017d03-rec82eey3Oqn9ibA5.jpg",
+      "key": "breadboards-and-fat-marker-sketches/0aba6cca9cddcaba5b79ca7c529a0373a04683fb7e39d297e352e480b299eb98/assets/b792017d03-rec82eey3Oqn9ibA5.jpg",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/0aba6cca9cddcaba5b79ca7c529a0373a04683fb7e39d297e352e480b299eb98/assets/b792017d03-rec82eey3Oqn9ibA5.jpg",
+      "sha256": "0aba6cca9cddcaba5b79ca7c529a0373a04683fb7e39d297e352e480b299eb98",
+      "bytes": 7718,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/b8ad5e3ab8-invoice_breadboard_2.png",
+      "key": "breadboards-and-fat-marker-sketches/11885bd5693110b7fc4c13e28cf5eb7403471825f99268cd6eee50937050fbf5/assets/b8ad5e3ab8-invoice_breadboard_2.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/11885bd5693110b7fc4c13e28cf5eb7403471825f99268cd6eee50937050fbf5/assets/b8ad5e3ab8-invoice_breadboard_2.png",
+      "sha256": "11885bd5693110b7fc4c13e28cf5eb7403471825f99268cd6eee50937050fbf5",
+      "bytes": 7803,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/b98a08725c-fat_marker_3.png",
+      "key": "breadboards-and-fat-marker-sketches/c2e60aa68225483109cc5ac60f069867b0b739c8c246f76816d10f49f783d58b/assets/b98a08725c-fat_marker_3.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/c2e60aa68225483109cc5ac60f069867b0b739c8c246f76816d10f49f783d58b/assets/b98a08725c-fat_marker_3.png",
+      "sha256": "c2e60aa68225483109cc5ac60f069867b0b739c8c246f76816d10f49f783d58b",
+      "bytes": 40458,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/c020cd4638-invoice_breadboard_7.png",
+      "key": "breadboards-and-fat-marker-sketches/d5d53fc6b9bf9174d612d8da80f71469d8bfd014094fef9b617426fe8d83ab8b/assets/c020cd4638-invoice_breadboard_7.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/d5d53fc6b9bf9174d612d8da80f71469d8bfd014094fef9b617426fe8d83ab8b/assets/c020cd4638-invoice_breadboard_7.png",
+      "sha256": "d5d53fc6b9bf9174d612d8da80f71469d8bfd014094fef9b617426fe8d83ab8b",
+      "bytes": 18522,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/c29d714414-invoice_breadboard_1.png",
+      "key": "breadboards-and-fat-marker-sketches/0642f3296128bbc742eeeafc5c95d587a806e022c63a6e002ed55f364e83c394/assets/c29d714414-invoice_breadboard_1.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/0642f3296128bbc742eeeafc5c95d587a806e022c63a6e002ed55f364e83c394/assets/c29d714414-invoice_breadboard_1.png",
+      "sha256": "0642f3296128bbc742eeeafc5c95d587a806e022c63a6e002ed55f364e83c394",
+      "bytes": 4168,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/dca4c56c7a-invoice_breadboard_5.png",
+      "key": "breadboards-and-fat-marker-sketches/b336abd287b752f0f38c15546d2d7a7981b9182733f1a0a9e8be4be4886a65be/assets/dca4c56c7a-invoice_breadboard_5.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/b336abd287b752f0f38c15546d2d7a7981b9182733f1a0a9e8be4be4886a65be/assets/dca4c56c7a-invoice_breadboard_5.png",
+      "sha256": "b336abd287b752f0f38c15546d2d7a7981b9182733f1a0a9e8be4be4886a65be",
+      "bytes": 26530,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/f8dea6c816-invoice_breadboard_6.png",
+      "key": "breadboards-and-fat-marker-sketches/728e11c77b57f3c4ee56c00187a7c760562090f3733a4aec43cc05a2f95bb003/assets/f8dea6c816-invoice_breadboard_6.png",
+      "url": "https://sources.afg.callum.website/breadboards-and-fat-marker-sketches/728e11c77b57f3c4ee56c00187a7c760562090f3733a4aec43cc05a2f95bb003/assets/f8dea6c816-invoice_breadboard_6.png",
+      "sha256": "728e11c77b57f3c4ee56c00187a7c760562090f3733a4aec43cc05a2f95bb003",
+      "bytes": 39768,
+      "content_type": "image/png"
+    }
+  ]
+}

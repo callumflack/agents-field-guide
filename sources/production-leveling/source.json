@@ -1,0 +1,297 @@
+{
+  "reference": "production-leveling",
+  "sources": [
+    {
+      "title": "Production leveling",
+      "original_url": "https://www.wikiwand.com/en/Production_leveling",
+      "download_url": "https://www.wikiwand.com/en/Production_leveling",
+      "resolved_url": "https://www.wikiwand.com/en/Production_leveling",
+      "captured": "2026-11-26",
+      "http_status": 403,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "unavailable",
+      "error": "curl: (22) The requested URL returned error: 403"
+    },
+    {
+      "title": "Heijunka — A Resource Guide | Lean Enterprise Institute",
+      "original_url": "https://www.lean.org/lexicon-terms/heijunka/",
+      "download_url": "https://www.lean.org/lexicon-terms/heijunka/",
+      "resolved_url": "https://www.lean.org/lexicon-terms/heijunka/",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "02-heijunka.html",
+      "media_type": "text/html",
+      "bytes": 107939,
+      "sha256": "ba76ff9076d09cdfa4ccd772d191265c570cfb3ffcb187ede898f1ede77be89e",
+      "completeness": "HTML text and 9 associated images captured; 0 images unavailable. Embedded recordings listed separately are not archived.",
+      "assets": [
+        {
+          "url": "https://www.lean.org/wp-content/uploads/2020/07/heijunka_box.gif",
+          "status": "captured",
+          "file": "assets/2ecd2bb799-heijunka_box.gif",
+          "bytes": 44811,
+          "sha256": "3a7adf8e3a7c90f49891c78bcf36c93de17182eb232cb6e01d5c44ae06e20311",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/production-leveling/3a7adf8e3a7c90f49891c78bcf36c93de17182eb232cb6e01d5c44ae06e20311/assets/2ecd2bb799-heijunka_box.gif",
+          "object_key": "production-leveling/3a7adf8e3a7c90f49891c78bcf36c93de17182eb232cb6e01d5c44ae06e20311/assets/2ecd2bb799-heijunka_box.gif"
+        },
+        {
+          "url": "https://www.lean.org/wp-content/uploads/2022/04/IMG_1150-1024x768.jpeg",
+          "status": "captured",
+          "file": "assets/2cecafca79-IMG_1150-1024x768.jpeg",
+          "bytes": 113825,
+          "sha256": "cbea32e756f86659c7045d93d57f3e79e433fa456ad2e5c7e317fc67a8aa7d09",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/production-leveling/cbea32e756f86659c7045d93d57f3e79e433fa456ad2e5c7e317fc67a8aa7d09/assets/2cecafca79-IMG_1150-1024x768.jpeg",
+          "object_key": "production-leveling/cbea32e756f86659c7045d93d57f3e79e433fa456ad2e5c7e317fc67a8aa7d09/assets/2cecafca79-IMG_1150-1024x768.jpeg"
+        },
+        {
+          "url": "https://www.lean.org/wp-content/uploads/2022/04/Kanban_4.jpg",
+          "status": "captured",
+          "file": "assets/c5f88172ff-Kanban_4.jpg",
+          "bytes": 147364,
+          "sha256": "3688d026faab4e80a872daf945dbafe44b06f568127d809e9c0addbbb7fb0865",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/production-leveling/3688d026faab4e80a872daf945dbafe44b06f568127d809e9c0addbbb7fb0865/assets/c5f88172ff-Kanban_4.jpg",
+          "object_key": "production-leveling/3688d026faab4e80a872daf945dbafe44b06f568127d809e9c0addbbb7fb0865/assets/c5f88172ff-Kanban_4.jpg"
+        },
+        {
+          "url": "https://www.lean.org/wp-content/uploads/2022/05/ABC-Production-Analysis_Prerequisite-for-Heijunka-689x1024.png",
+          "status": "captured",
+          "file": "assets/d94fd449bf-ABC-Production-Analysis_Prerequisite-for-Heijunka-689x1024.png",
+          "bytes": 410807,
+          "sha256": "3ec3c1d844a056851b24a118a100f497133f4d6c9c52510c85118e8f10b04694",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/production-leveling/3ec3c1d844a056851b24a118a100f497133f4d6c9c52510c85118e8f10b04694/assets/d94fd449bf-ABC-Production-Analysis_Prerequisite-for-Heijunka-689x1024.png",
+          "object_key": "production-leveling/3ec3c1d844a056851b24a118a100f497133f4d6c9c52510c85118e8f10b04694/assets/d94fd449bf-ABC-Production-Analysis_Prerequisite-for-Heijunka-689x1024.png"
+        },
+        {
+          "url": "https://www.lean.org/wp-content/uploads/2022/05/Finished-Goods-Inventory-Calculation-1024x333.png",
+          "status": "captured",
+          "file": "assets/d1dd787269-Finished-Goods-Inventory-Calculation-1024x333.png",
+          "bytes": 55992,
+          "sha256": "8c643cda7cc2c2aef0eb77ac11933fb39b59b65ea85bfa5f3ea7a2bba952f943",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/production-leveling/8c643cda7cc2c2aef0eb77ac11933fb39b59b65ea85bfa5f3ea7a2bba952f943/assets/d1dd787269-Finished-Goods-Inventory-Calculation-1024x333.png",
+          "object_key": "production-leveling/8c643cda7cc2c2aef0eb77ac11933fb39b59b65ea85bfa5f3ea7a2bba952f943/assets/d1dd787269-Finished-Goods-Inventory-Calculation-1024x333.png"
+        },
+        {
+          "url": "https://www.lean.org/wp-content/uploads/2022/05/Heijunka-versus-Batch-and-Queue-1024x589.png",
+          "status": "captured",
+          "file": "assets/176ca2a867-Heijunka-versus-Batch-and-Queue-1024x589.png",
+          "bytes": 45190,
+          "sha256": "4622390475580db13581e6d6131f7d5f09826ded0cc2a2d3dfed2969c6bc1f53",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/production-leveling/4622390475580db13581e6d6131f7d5f09826ded0cc2a2d3dfed2969c6bc1f53/assets/176ca2a867-Heijunka-versus-Batch-and-Queue-1024x589.png",
+          "object_key": "production-leveling/4622390475580db13581e6d6131f7d5f09826ded0cc2a2d3dfed2969c6bc1f53/assets/176ca2a867-Heijunka-versus-Batch-and-Queue-1024x589.png"
+        },
+        {
+          "url": "https://www.lean.org/wp-content/uploads/2022/05/Heijunka_11.jpg",
+          "status": "captured",
+          "file": "assets/302ce1e0fd-Heijunka_11.jpg",
+          "bytes": 151153,
+          "sha256": "17a0643001086c37c6bae7339aee04bb25de28dd76209936c54dd0373b08aa10",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/production-leveling/17a0643001086c37c6bae7339aee04bb25de28dd76209936c54dd0373b08aa10/assets/302ce1e0fd-Heijunka_11.jpg",
+          "object_key": "production-leveling/17a0643001086c37c6bae7339aee04bb25de28dd76209936c54dd0373b08aa10/assets/302ce1e0fd-Heijunka_11.jpg"
+        },
+        {
+          "url": "https://www.lean.org/wp-content/uploads/2022/05/Heijunka_3.jpg",
+          "status": "captured",
+          "file": "assets/9f0fc0849c-Heijunka_3.jpg",
+          "bytes": 45728,
+          "sha256": "cd2a477ceae3665215dfe10361cc93d23f81b2411e36c1f28159002bc8a99d16",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/production-leveling/cd2a477ceae3665215dfe10361cc93d23f81b2411e36c1f28159002bc8a99d16/assets/9f0fc0849c-Heijunka_3.jpg",
+          "object_key": "production-leveling/cd2a477ceae3665215dfe10361cc93d23f81b2411e36c1f28159002bc8a99d16/assets/9f0fc0849c-Heijunka_3.jpg"
+        },
+        {
+          "url": "https://www.lean.org/wp-content/uploads/2022/05/Heijunka_4.jpg",
+          "status": "captured",
+          "file": "assets/3bb83162eb-Heijunka_4.jpg",
+          "bytes": 48386,
+          "sha256": "e959df7f20c529e8126782bedeece222fd788866511e0aad4e0675a04f287f98",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/production-leveling/e959df7f20c529e8126782bedeece222fd788866511e0aad4e0675a04f287f98/assets/3bb83162eb-Heijunka_4.jpg",
+          "object_key": "production-leveling/e959df7f20c529e8126782bedeece222fd788866511e0aad4e0675a04f287f98/assets/3bb83162eb-Heijunka_4.jpg"
+        }
+      ],
+      "embedded_recordings_not_archived": [],
+      "text_characters": 3869,
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/production-leveling/ba76ff9076d09cdfa4ccd772d191265c570cfb3ffcb187ede898f1ede77be89e/02-heijunka.html",
+      "object_key": "production-leveling/ba76ff9076d09cdfa4ccd772d191265c570cfb3ffcb187ede898f1ede77be89e/02-heijunka.html"
+    },
+    {
+      "title": "Production leveling — Wikipedia",
+      "original_url": "https://en.wikipedia.org/wiki/Production_leveling",
+      "download_url": "https://en.wikipedia.org/wiki/Production_leveling",
+      "resolved_url": "https://en.wikipedia.org/wiki/Production_leveling",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "status": "captured",
+      "file": "wikipedia.html",
+      "media_type": "text/html",
+      "bytes": 111267,
+      "sha256": "135c3997d271c0c98b0f0e36136729e5830b64d875cce4ef635bee931c896340",
+      "redistribution": {
+        "status": "cc_by_sa_4_0",
+        "basis": "The captured Wikipedia page identifies its article text as CC BY-SA 4.0. The preserved HTML includes source, revision, history and license attribution; it is served as non-executable text. Associated image files remain in the private archive.",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Production_leveling&oldid=1354994410"
+      },
+      "reader_copy": "https://sources.afg.callum.website/production-leveling/135c3997d271c0c98b0f0e36136729e5830b64d875cce4ef635bee931c896340/wikipedia.html",
+      "revision": "1354994410",
+      "notes": "Canonical Wikipedia article used alongside the inaccessible Wikiwand presentation.",
+      "assets": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1",
+          "status": "captured",
+          "file": "assets/86d0ec3158-start",
+          "bytes": 68,
+          "sha256": "fe67e12a6497f8518ef1673fd8cf5622871935ff85f204715e78b2009dd48588",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/production-leveling/fe67e12a6497f8518ef1673fd8cf5622871935ff85f204715e78b2009dd48588/assets/86d0ec3158-start",
+          "object_key": "production-leveling/fe67e12a6497f8518ef1673fd8cf5622871935ff85f204715e78b2009dd48588/assets/86d0ec3158-start"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Line_Balancing_di_Ford_Museum.gif/250px-Line_Balancing_di_Ford_Museum.gif?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "status": "unavailable",
+          "error": "curl: (56) Maximum file size exceeded"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "status": "captured",
+          "file": "assets/84f44ae0df-60px-Question_book-new.svg.png",
+          "bytes": 4802,
+          "sha256": "3c7cc39edb2139a44017edbaa9cd7ab2673b634197179979c5358a30d03cae95",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/production-leveling/3c7cc39edb2139a44017edbaa9cd7ab2673b634197179979c5358a30d03cae95/assets/84f44ae0df-60px-Question_book-new.svg.png",
+          "object_key": "production-leveling/3c7cc39edb2139a44017edbaa9cd7ab2673b634197179979c5358a30d03cae95/assets/84f44ae0df-60px-Question_book-new.svg.png"
+        }
+      ],
+      "embedded_recordings_not_archived": [],
+      "text_characters": 13543,
+      "completeness": "HTML text and 2 associated images captured; 1 images unavailable. Embedded recordings listed separately are not archived.",
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/production-leveling/135c3997d271c0c98b0f0e36136729e5830b64d875cce4ef635bee931c896340/wikipedia.html",
+      "object_key": "production-leveling/135c3997d271c0c98b0f0e36136729e5830b64d875cce4ef635bee931c896340/wikipedia.html"
+    }
+  ],
+  "objects": [
+    {
+      "file": "02-heijunka.html",
+      "key": "production-leveling/ba76ff9076d09cdfa4ccd772d191265c570cfb3ffcb187ede898f1ede77be89e/02-heijunka.html",
+      "url": "https://sources.afg.callum.website/production-leveling/ba76ff9076d09cdfa4ccd772d191265c570cfb3ffcb187ede898f1ede77be89e/02-heijunka.html",
+      "sha256": "ba76ff9076d09cdfa4ccd772d191265c570cfb3ffcb187ede898f1ede77be89e",
+      "bytes": 107939,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/176ca2a867-Heijunka-versus-Batch-and-Queue-1024x589.png",
+      "key": "production-leveling/4622390475580db13581e6d6131f7d5f09826ded0cc2a2d3dfed2969c6bc1f53/assets/176ca2a867-Heijunka-versus-Batch-and-Queue-1024x589.png",
+      "url": "https://sources.afg.callum.website/production-leveling/4622390475580db13581e6d6131f7d5f09826ded0cc2a2d3dfed2969c6bc1f53/assets/176ca2a867-Heijunka-versus-Batch-and-Queue-1024x589.png",
+      "sha256": "4622390475580db13581e6d6131f7d5f09826ded0cc2a2d3dfed2969c6bc1f53",
+      "bytes": 45190,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/2cecafca79-IMG_1150-1024x768.jpeg",
+      "key": "production-leveling/cbea32e756f86659c7045d93d57f3e79e433fa456ad2e5c7e317fc67a8aa7d09/assets/2cecafca79-IMG_1150-1024x768.jpeg",
+      "url": "https://sources.afg.callum.website/production-leveling/cbea32e756f86659c7045d93d57f3e79e433fa456ad2e5c7e317fc67a8aa7d09/assets/2cecafca79-IMG_1150-1024x768.jpeg",
+      "sha256": "cbea32e756f86659c7045d93d57f3e79e433fa456ad2e5c7e317fc67a8aa7d09",
+      "bytes": 113825,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/2ecd2bb799-heijunka_box.gif",
+      "key": "production-leveling/3a7adf8e3a7c90f49891c78bcf36c93de17182eb232cb6e01d5c44ae06e20311/assets/2ecd2bb799-heijunka_box.gif",
+      "url": "https://sources.afg.callum.website/production-leveling/3a7adf8e3a7c90f49891c78bcf36c93de17182eb232cb6e01d5c44ae06e20311/assets/2ecd2bb799-heijunka_box.gif",
+      "sha256": "3a7adf8e3a7c90f49891c78bcf36c93de17182eb232cb6e01d5c44ae06e20311",
+      "bytes": 44811,
+      "content_type": "image/gif"
+    },
+    {
+      "file": "assets/302ce1e0fd-Heijunka_11.jpg",
+      "key": "production-leveling/17a0643001086c37c6bae7339aee04bb25de28dd76209936c54dd0373b08aa10/assets/302ce1e0fd-Heijunka_11.jpg",
+      "url": "https://sources.afg.callum.website/production-leveling/17a0643001086c37c6bae7339aee04bb25de28dd76209936c54dd0373b08aa10/assets/302ce1e0fd-Heijunka_11.jpg",
+      "sha256": "17a0643001086c37c6bae7339aee04bb25de28dd76209936c54dd0373b08aa10",
+      "bytes": 151153,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/3bb83162eb-Heijunka_4.jpg",
+      "key": "production-leveling/e959df7f20c529e8126782bedeece222fd788866511e0aad4e0675a04f287f98/assets/3bb83162eb-Heijunka_4.jpg",
+      "url": "https://sources.afg.callum.website/production-leveling/e959df7f20c529e8126782bedeece222fd788866511e0aad4e0675a04f287f98/assets/3bb83162eb-Heijunka_4.jpg",
+      "sha256": "e959df7f20c529e8126782bedeece222fd788866511e0aad4e0675a04f287f98",
+      "bytes": 48386,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/84f44ae0df-60px-Question_book-new.svg.png",
+      "key": "production-leveling/3c7cc39edb2139a44017edbaa9cd7ab2673b634197179979c5358a30d03cae95/assets/84f44ae0df-60px-Question_book-new.svg.png",
+      "url": "https://sources.afg.callum.website/production-leveling/3c7cc39edb2139a44017edbaa9cd7ab2673b634197179979c5358a30d03cae95/assets/84f44ae0df-60px-Question_book-new.svg.png",
+      "sha256": "3c7cc39edb2139a44017edbaa9cd7ab2673b634197179979c5358a30d03cae95",
+      "bytes": 4802,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/86d0ec3158-start",
+      "key": "production-leveling/fe67e12a6497f8518ef1673fd8cf5622871935ff85f204715e78b2009dd48588/assets/86d0ec3158-start",
+      "url": "https://sources.afg.callum.website/production-leveling/fe67e12a6497f8518ef1673fd8cf5622871935ff85f204715e78b2009dd48588/assets/86d0ec3158-start",
+      "sha256": "fe67e12a6497f8518ef1673fd8cf5622871935ff85f204715e78b2009dd48588",
+      "bytes": 68,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "assets/9f0fc0849c-Heijunka_3.jpg",
+      "key": "production-leveling/cd2a477ceae3665215dfe10361cc93d23f81b2411e36c1f28159002bc8a99d16/assets/9f0fc0849c-Heijunka_3.jpg",
+      "url": "https://sources.afg.callum.website/production-leveling/cd2a477ceae3665215dfe10361cc93d23f81b2411e36c1f28159002bc8a99d16/assets/9f0fc0849c-Heijunka_3.jpg",
+      "sha256": "cd2a477ceae3665215dfe10361cc93d23f81b2411e36c1f28159002bc8a99d16",
+      "bytes": 45728,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/c5f88172ff-Kanban_4.jpg",
+      "key": "production-leveling/3688d026faab4e80a872daf945dbafe44b06f568127d809e9c0addbbb7fb0865/assets/c5f88172ff-Kanban_4.jpg",
+      "url": "https://sources.afg.callum.website/production-leveling/3688d026faab4e80a872daf945dbafe44b06f568127d809e9c0addbbb7fb0865/assets/c5f88172ff-Kanban_4.jpg",
+      "sha256": "3688d026faab4e80a872daf945dbafe44b06f568127d809e9c0addbbb7fb0865",
+      "bytes": 147364,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/d1dd787269-Finished-Goods-Inventory-Calculation-1024x333.png",
+      "key": "production-leveling/8c643cda7cc2c2aef0eb77ac11933fb39b59b65ea85bfa5f3ea7a2bba952f943/assets/d1dd787269-Finished-Goods-Inventory-Calculation-1024x333.png",
+      "url": "https://sources.afg.callum.website/production-leveling/8c643cda7cc2c2aef0eb77ac11933fb39b59b65ea85bfa5f3ea7a2bba952f943/assets/d1dd787269-Finished-Goods-Inventory-Calculation-1024x333.png",
+      "sha256": "8c643cda7cc2c2aef0eb77ac11933fb39b59b65ea85bfa5f3ea7a2bba952f943",
+      "bytes": 55992,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/d94fd449bf-ABC-Production-Analysis_Prerequisite-for-Heijunka-689x1024.png",
+      "key": "production-leveling/3ec3c1d844a056851b24a118a100f497133f4d6c9c52510c85118e8f10b04694/assets/d94fd449bf-ABC-Production-Analysis_Prerequisite-for-Heijunka-689x1024.png",
+      "url": "https://sources.afg.callum.website/production-leveling/3ec3c1d844a056851b24a118a100f497133f4d6c9c52510c85118e8f10b04694/assets/d94fd449bf-ABC-Production-Analysis_Prerequisite-for-Heijunka-689x1024.png",
+      "sha256": "3ec3c1d844a056851b24a118a100f497133f4d6c9c52510c85118e8f10b04694",
+      "bytes": 410807,
+      "content_type": "image/png"
+    },
+    {
+      "file": "wikipedia.html",
+      "key": "production-leveling/135c3997d271c0c98b0f0e36136729e5830b64d875cce4ef635bee931c896340/wikipedia.html",
+      "url": "https://sources.afg.callum.website/production-leveling/135c3997d271c0c98b0f0e36136729e5830b64d875cce4ef635bee931c896340/wikipedia.html",
+      "sha256": "135c3997d271c0c98b0f0e36136729e5830b64d875cce4ef635bee931c896340",
+      "bytes": 111267,
+      "content_type": "text/plain; charset=utf-8"
+    }
+  ]
+}

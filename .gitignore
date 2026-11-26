@@ -5,6 +5,15 @@ dist/
 .nimbus/
 .local/
 
+# Source payloads live in R2. Keep the working folder and small manifests.
+/sources/*
+!/sources/README.md
+!/sources/storage.json
+!/sources/*/
+/sources/*/*
+!/sources/*/source.json
+/public/sources/
+
 .env
 .env.local
 .env.*.local

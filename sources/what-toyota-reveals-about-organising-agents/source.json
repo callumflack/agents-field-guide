@@ -1,0 +1,323 @@
+{
+  "reference": "what-toyota-reveals-about-organising-agents",
+  "sources": [
+    {
+      "title": "“What I Learned from Taiichi Ohno,” p. 48 (PDF)",
+      "original_url": "https://www.lean.org/wp-content/uploads/2020/09/birth-of-lean-ch2.pdf",
+      "download_url": "https://www.lean.org/wp-content/uploads/2020/09/birth-of-lean-ch2.pdf",
+      "resolved_url": "https://www.lean.org/wp-content/uploads/2020/09/birth-of-lean-ch2.pdf",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "01-birth-of-lean-ch2.pdf",
+      "media_type": "application/pdf",
+      "bytes": 653107,
+      "sha256": "3ad740f84340e23fc32f6042b4f86b3ff19de63b41f571b286b9e939da32bf18",
+      "completeness": "Original file captured.",
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/3ad740f84340e23fc32f6042b4f86b3ff19de63b41f571b286b9e939da32bf18/01-birth-of-lean-ch2.pdf",
+      "object_key": "what-toyota-reveals-about-organising-agents/3ad740f84340e23fc32f6042b4f86b3ff19de63b41f571b286b9e939da32bf18/01-birth-of-lean-ch2.pdf"
+    },
+    {
+      "title": "Toyota Production System | Vision &amp; Philosophy | Company | Toyota Motor Corporation Official Global Website",
+      "original_url": "https://global.toyota/en/company/vision-and-philosophy/production-system/",
+      "download_url": "https://global.toyota/en/company/vision-and-philosophy/production-system/",
+      "resolved_url": "https://global.toyota/en/company/vision-and-philosophy/production-system/",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "02-production-system.html",
+      "media_type": "text/html",
+      "bytes": 27296,
+      "sha256": "ef26ae43fdb2bb54b5011108e4cd02c2d787b38eea4a28a7ef6b9d1b369fba88",
+      "completeness": "HTML text and 14 associated images captured; 0 images unavailable. Embedded recordings listed separately are not archived.",
+      "assets": [
+        {
+          "url": "https://global.toyota/pages/contents/image/icon_addthis_other.png",
+          "status": "captured",
+          "file": "assets/ce5399aea4-icon_addthis_other.png",
+          "bytes": 103,
+          "sha256": "8ed34a0d7daa16bb3710224b9abb06f4195dd211751b6a1d79028dd873565912",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/8ed34a0d7daa16bb3710224b9abb06f4195dd211751b6a1d79028dd873565912/assets/ce5399aea4-icon_addthis_other.png",
+          "object_key": "what-toyota-reveals-about-organising-agents/8ed34a0d7daa16bb3710224b9abb06f4195dd211751b6a1d79028dd873565912/assets/ce5399aea4-icon_addthis_other.png"
+        },
+        {
+          "url": "https://global.toyota/pages/contents/image/icon_fb.png",
+          "status": "captured",
+          "file": "assets/208c41ec4a-icon_fb.png",
+          "bytes": 1099,
+          "sha256": "7a39f6da58e4eed036f5c4539be4d6d9a5372c82f0e0b8b22f2fac5449ece6fc",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/7a39f6da58e4eed036f5c4539be4d6d9a5372c82f0e0b8b22f2fac5449ece6fc/assets/208c41ec4a-icon_fb.png",
+          "object_key": "what-toyota-reveals-about-organising-agents/7a39f6da58e4eed036f5c4539be4d6d9a5372c82f0e0b8b22f2fac5449ece6fc/assets/208c41ec4a-icon_fb.png"
+        },
+        {
+          "url": "https://global.toyota/pages/contents/image/icon_linkedin.png",
+          "status": "captured",
+          "file": "assets/d3943d846d-icon_linkedin.png",
+          "bytes": 521,
+          "sha256": "56b47182fe2405a70e55fd76c6dabe04eccb83d2e92d1be596bf1a7838e810e0",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/56b47182fe2405a70e55fd76c6dabe04eccb83d2e92d1be596bf1a7838e810e0/assets/d3943d846d-icon_linkedin.png",
+          "object_key": "what-toyota-reveals-about-organising-agents/56b47182fe2405a70e55fd76c6dabe04eccb83d2e92d1be596bf1a7838e810e0/assets/d3943d846d-icon_linkedin.png"
+        },
+        {
+          "url": "https://global.toyota/pages/contents/image/icon_tw.png",
+          "status": "captured",
+          "file": "assets/5439ae3e99-icon_tw.png",
+          "bytes": 1491,
+          "sha256": "52e9056b65d3c8c183ff11be354f59a47793cbf2d9d976ac58f7bd03f3c7d2d0",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/52e9056b65d3c8c183ff11be354f59a47793cbf2d9d976ac58f7bd03f3c7d2d0/assets/5439ae3e99-icon_tw.png",
+          "object_key": "what-toyota-reveals-about-organising-agents/52e9056b65d3c8c183ff11be354f59a47793cbf2d9d976ac58f7bd03f3c7d2d0/assets/5439ae3e99-icon_tw.png"
+        },
+        {
+          "url": "https://global.toyota/pages/global_toyota/company/vision-and-philosophy/production-system_002_2.jpg",
+          "status": "captured",
+          "file": "assets/3b329bb863-production-system_002_2.jpg",
+          "bytes": 229066,
+          "sha256": "c4cb4e51a9ad5e16cbe0d47af10cf249b11115bc0118c859b3b2e8557457dec8",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/c4cb4e51a9ad5e16cbe0d47af10cf249b11115bc0118c859b3b2e8557457dec8/assets/3b329bb863-production-system_002_2.jpg",
+          "object_key": "what-toyota-reveals-about-organising-agents/c4cb4e51a9ad5e16cbe0d47af10cf249b11115bc0118c859b3b2e8557457dec8/assets/3b329bb863-production-system_002_2.jpg"
+        },
+        {
+          "url": "https://global.toyota/pages/global_toyota/company/vision-and-philosophy/production-system_003_2.jpg",
+          "status": "captured",
+          "file": "assets/5e1bcf0751-production-system_003_2.jpg",
+          "bytes": 263931,
+          "sha256": "e194a8b44f33fba569fd8f38fc0efc70580df2db5ac91cc9f440947d7ca51105",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/e194a8b44f33fba569fd8f38fc0efc70580df2db5ac91cc9f440947d7ca51105/assets/5e1bcf0751-production-system_003_2.jpg",
+          "object_key": "what-toyota-reveals-about-organising-agents/e194a8b44f33fba569fd8f38fc0efc70580df2db5ac91cc9f440947d7ca51105/assets/5e1bcf0751-production-system_003_2.jpg"
+        },
+        {
+          "url": "https://global.toyota/pages/global_toyota/company/vision-and-philosophy/production-system_004_2.jpg",
+          "status": "captured",
+          "file": "assets/ce43cd60f9-production-system_004_2.jpg",
+          "bytes": 136158,
+          "sha256": "f020abeaf58696b8883d768c54b3f25bbeee6e6a6a393dbac113e9ec9e02a986",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/f020abeaf58696b8883d768c54b3f25bbeee6e6a6a393dbac113e9ec9e02a986/assets/ce43cd60f9-production-system_004_2.jpg",
+          "object_key": "what-toyota-reveals-about-organising-agents/f020abeaf58696b8883d768c54b3f25bbeee6e6a6a393dbac113e9ec9e02a986/assets/ce43cd60f9-production-system_004_2.jpg"
+        },
+        {
+          "url": "https://global.toyota/pages/global_toyota/company/vision-and-philosophy/production-system_005_2.jpg",
+          "status": "captured",
+          "file": "assets/f8efad5a8a-production-system_005_2.jpg",
+          "bytes": 119261,
+          "sha256": "9a9aa56e952dfc940bfb6e92f0d0507106e4d531e801c0abaf17fe28bca237e5",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/9a9aa56e952dfc940bfb6e92f0d0507106e4d531e801c0abaf17fe28bca237e5/assets/f8efad5a8a-production-system_005_2.jpg",
+          "object_key": "what-toyota-reveals-about-organising-agents/9a9aa56e952dfc940bfb6e92f0d0507106e4d531e801c0abaf17fe28bca237e5/assets/f8efad5a8a-production-system_005_2.jpg"
+        },
+        {
+          "url": "https://global.toyota/pages/global_toyota/company/vision-and-philosophy/production-system_008_2.jpg",
+          "status": "captured",
+          "file": "assets/e13c75ecf5-production-system_008_2.jpg",
+          "bytes": 95156,
+          "sha256": "7ad509f60669453aaaedbc484cfbd48ea445f34300f5a9f43b4a8813252dbb21",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/7ad509f60669453aaaedbc484cfbd48ea445f34300f5a9f43b4a8813252dbb21/assets/e13c75ecf5-production-system_008_2.jpg",
+          "object_key": "what-toyota-reveals-about-organising-agents/7ad509f60669453aaaedbc484cfbd48ea445f34300f5a9f43b4a8813252dbb21/assets/e13c75ecf5-production-system_008_2.jpg"
+        },
+        {
+          "url": "https://global.toyota/pages/global_toyota/company/vision-and-philosophy/production-system_009_2.jpg",
+          "status": "captured",
+          "file": "assets/4f340e5963-production-system_009_2.jpg",
+          "bytes": 125647,
+          "sha256": "dc8f471de8ab71a7bd520d1390dda5420836c9f6c812b9e87050fdd2c9fcbabb",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/dc8f471de8ab71a7bd520d1390dda5420836c9f6c812b9e87050fdd2c9fcbabb/assets/4f340e5963-production-system_009_2.jpg",
+          "object_key": "what-toyota-reveals-about-organising-agents/dc8f471de8ab71a7bd520d1390dda5420836c9f6c812b9e87050fdd2c9fcbabb/assets/4f340e5963-production-system_009_2.jpg"
+        },
+        {
+          "url": "https://global.toyota/pages/global_toyota/company/vision-and-philosophy/production-system_010_en.png",
+          "status": "captured",
+          "file": "assets/1ac27bdaae-production-system_010_en.png",
+          "bytes": 85323,
+          "sha256": "32a18b5ff311ef10ddbfab50495326d93fa9513facf4985eb876826c285f5be8",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/32a18b5ff311ef10ddbfab50495326d93fa9513facf4985eb876826c285f5be8/assets/1ac27bdaae-production-system_010_en.png",
+          "object_key": "what-toyota-reveals-about-organising-agents/32a18b5ff311ef10ddbfab50495326d93fa9513facf4985eb876826c285f5be8/assets/1ac27bdaae-production-system_010_en.png"
+        },
+        {
+          "url": "https://global.toyota/pages/news/images/2020/08/26/1700_toyotatimes/20200826_02_t_w610_en.jpg",
+          "status": "captured",
+          "file": "assets/8834036bf0-20200826_02_t_w610_en.jpg",
+          "bytes": 169993,
+          "sha256": "76fd63516b9a976c9355b2c410bc0dc5894b8179fd13d72b7ca198c7ecd79541",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/76fd63516b9a976c9355b2c410bc0dc5894b8179fd13d72b7ca198c7ecd79541/assets/8834036bf0-20200826_02_t_w610_en.jpg",
+          "object_key": "what-toyota-reveals-about-organising-agents/76fd63516b9a976c9355b2c410bc0dc5894b8179fd13d72b7ca198c7ecd79541/assets/8834036bf0-20200826_02_t_w610_en.jpg"
+        },
+        {
+          "url": "https://global.toyota/pages/news/images/2024/01/19/toyotatimes_01/20240119_01_t_w610_en.jpg",
+          "status": "captured",
+          "file": "assets/8320154a9f-20240119_01_t_w610_en.jpg",
+          "bytes": 50945,
+          "sha256": "ec077b7d757843eb7e668a3cdc2b23a27c837f5697ccca411c77868a4b61794a",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/ec077b7d757843eb7e668a3cdc2b23a27c837f5697ccca411c77868a4b61794a/assets/8320154a9f-20240119_01_t_w610_en.jpg",
+          "object_key": "what-toyota-reveals-about-organising-agents/ec077b7d757843eb7e668a3cdc2b23a27c837f5697ccca411c77868a4b61794a/assets/8320154a9f-20240119_01_t_w610_en.jpg"
+        },
+        {
+          "url": "https://global.toyota/pages/news/images/2024/01/22/toyotatimes_01/20240122_02_t_w610_en.jpg",
+          "status": "captured",
+          "file": "assets/0be6870c4b-20240122_02_t_w610_en.jpg",
+          "bytes": 84841,
+          "sha256": "c2ff893faa7a593b34ea8cff23b53493ad8fd8bb187890f3fffd0bc87f40305b",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/c2ff893faa7a593b34ea8cff23b53493ad8fd8bb187890f3fffd0bc87f40305b/assets/0be6870c4b-20240122_02_t_w610_en.jpg",
+          "object_key": "what-toyota-reveals-about-organising-agents/c2ff893faa7a593b34ea8cff23b53493ad8fd8bb187890f3fffd0bc87f40305b/assets/0be6870c4b-20240122_02_t_w610_en.jpg"
+        }
+      ],
+      "embedded_recordings_not_archived": [],
+      "text_characters": 10112,
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/ef26ae43fdb2bb54b5011108e4cd02c2d787b38eea4a28a7ef6b9d1b369fba88/02-production-system.html",
+      "object_key": "what-toyota-reveals-about-organising-agents/ef26ae43fdb2bb54b5011108e4cd02c2d787b38eea4a28a7ef6b9d1b369fba88/02-production-system.html"
+    }
+  ],
+  "objects": [
+    {
+      "file": "01-birth-of-lean-ch2.pdf",
+      "key": "what-toyota-reveals-about-organising-agents/3ad740f84340e23fc32f6042b4f86b3ff19de63b41f571b286b9e939da32bf18/01-birth-of-lean-ch2.pdf",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/3ad740f84340e23fc32f6042b4f86b3ff19de63b41f571b286b9e939da32bf18/01-birth-of-lean-ch2.pdf",
+      "sha256": "3ad740f84340e23fc32f6042b4f86b3ff19de63b41f571b286b9e939da32bf18",
+      "bytes": 653107,
+      "content_type": "application/pdf"
+    },
+    {
+      "file": "02-production-system.html",
+      "key": "what-toyota-reveals-about-organising-agents/ef26ae43fdb2bb54b5011108e4cd02c2d787b38eea4a28a7ef6b9d1b369fba88/02-production-system.html",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/ef26ae43fdb2bb54b5011108e4cd02c2d787b38eea4a28a7ef6b9d1b369fba88/02-production-system.html",
+      "sha256": "ef26ae43fdb2bb54b5011108e4cd02c2d787b38eea4a28a7ef6b9d1b369fba88",
+      "bytes": 27296,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/0be6870c4b-20240122_02_t_w610_en.jpg",
+      "key": "what-toyota-reveals-about-organising-agents/c2ff893faa7a593b34ea8cff23b53493ad8fd8bb187890f3fffd0bc87f40305b/assets/0be6870c4b-20240122_02_t_w610_en.jpg",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/c2ff893faa7a593b34ea8cff23b53493ad8fd8bb187890f3fffd0bc87f40305b/assets/0be6870c4b-20240122_02_t_w610_en.jpg",
+      "sha256": "c2ff893faa7a593b34ea8cff23b53493ad8fd8bb187890f3fffd0bc87f40305b",
+      "bytes": 84841,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/1ac27bdaae-production-system_010_en.png",
+      "key": "what-toyota-reveals-about-organising-agents/32a18b5ff311ef10ddbfab50495326d93fa9513facf4985eb876826c285f5be8/assets/1ac27bdaae-production-system_010_en.png",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/32a18b5ff311ef10ddbfab50495326d93fa9513facf4985eb876826c285f5be8/assets/1ac27bdaae-production-system_010_en.png",
+      "sha256": "32a18b5ff311ef10ddbfab50495326d93fa9513facf4985eb876826c285f5be8",
+      "bytes": 85323,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/208c41ec4a-icon_fb.png",
+      "key": "what-toyota-reveals-about-organising-agents/7a39f6da58e4eed036f5c4539be4d6d9a5372c82f0e0b8b22f2fac5449ece6fc/assets/208c41ec4a-icon_fb.png",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/7a39f6da58e4eed036f5c4539be4d6d9a5372c82f0e0b8b22f2fac5449ece6fc/assets/208c41ec4a-icon_fb.png",
+      "sha256": "7a39f6da58e4eed036f5c4539be4d6d9a5372c82f0e0b8b22f2fac5449ece6fc",
+      "bytes": 1099,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/3b329bb863-production-system_002_2.jpg",
+      "key": "what-toyota-reveals-about-organising-agents/c4cb4e51a9ad5e16cbe0d47af10cf249b11115bc0118c859b3b2e8557457dec8/assets/3b329bb863-production-system_002_2.jpg",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/c4cb4e51a9ad5e16cbe0d47af10cf249b11115bc0118c859b3b2e8557457dec8/assets/3b329bb863-production-system_002_2.jpg",
+      "sha256": "c4cb4e51a9ad5e16cbe0d47af10cf249b11115bc0118c859b3b2e8557457dec8",
+      "bytes": 229066,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/4f340e5963-production-system_009_2.jpg",
+      "key": "what-toyota-reveals-about-organising-agents/dc8f471de8ab71a7bd520d1390dda5420836c9f6c812b9e87050fdd2c9fcbabb/assets/4f340e5963-production-system_009_2.jpg",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/dc8f471de8ab71a7bd520d1390dda5420836c9f6c812b9e87050fdd2c9fcbabb/assets/4f340e5963-production-system_009_2.jpg",
+      "sha256": "dc8f471de8ab71a7bd520d1390dda5420836c9f6c812b9e87050fdd2c9fcbabb",
+      "bytes": 125647,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/5439ae3e99-icon_tw.png",
+      "key": "what-toyota-reveals-about-organising-agents/52e9056b65d3c8c183ff11be354f59a47793cbf2d9d976ac58f7bd03f3c7d2d0/assets/5439ae3e99-icon_tw.png",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/52e9056b65d3c8c183ff11be354f59a47793cbf2d9d976ac58f7bd03f3c7d2d0/assets/5439ae3e99-icon_tw.png",
+      "sha256": "52e9056b65d3c8c183ff11be354f59a47793cbf2d9d976ac58f7bd03f3c7d2d0",
+      "bytes": 1491,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/5e1bcf0751-production-system_003_2.jpg",
+      "key": "what-toyota-reveals-about-organising-agents/e194a8b44f33fba569fd8f38fc0efc70580df2db5ac91cc9f440947d7ca51105/assets/5e1bcf0751-production-system_003_2.jpg",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/e194a8b44f33fba569fd8f38fc0efc70580df2db5ac91cc9f440947d7ca51105/assets/5e1bcf0751-production-system_003_2.jpg",
+      "sha256": "e194a8b44f33fba569fd8f38fc0efc70580df2db5ac91cc9f440947d7ca51105",
+      "bytes": 263931,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/8320154a9f-20240119_01_t_w610_en.jpg",
+      "key": "what-toyota-reveals-about-organising-agents/ec077b7d757843eb7e668a3cdc2b23a27c837f5697ccca411c77868a4b61794a/assets/8320154a9f-20240119_01_t_w610_en.jpg",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/ec077b7d757843eb7e668a3cdc2b23a27c837f5697ccca411c77868a4b61794a/assets/8320154a9f-20240119_01_t_w610_en.jpg",
+      "sha256": "ec077b7d757843eb7e668a3cdc2b23a27c837f5697ccca411c77868a4b61794a",
+      "bytes": 50945,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/8834036bf0-20200826_02_t_w610_en.jpg",
+      "key": "what-toyota-reveals-about-organising-agents/76fd63516b9a976c9355b2c410bc0dc5894b8179fd13d72b7ca198c7ecd79541/assets/8834036bf0-20200826_02_t_w610_en.jpg",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/76fd63516b9a976c9355b2c410bc0dc5894b8179fd13d72b7ca198c7ecd79541/assets/8834036bf0-20200826_02_t_w610_en.jpg",
+      "sha256": "76fd63516b9a976c9355b2c410bc0dc5894b8179fd13d72b7ca198c7ecd79541",
+      "bytes": 169993,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/ce43cd60f9-production-system_004_2.jpg",
+      "key": "what-toyota-reveals-about-organising-agents/f020abeaf58696b8883d768c54b3f25bbeee6e6a6a393dbac113e9ec9e02a986/assets/ce43cd60f9-production-system_004_2.jpg",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/f020abeaf58696b8883d768c54b3f25bbeee6e6a6a393dbac113e9ec9e02a986/assets/ce43cd60f9-production-system_004_2.jpg",
+      "sha256": "f020abeaf58696b8883d768c54b3f25bbeee6e6a6a393dbac113e9ec9e02a986",
+      "bytes": 136158,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/ce5399aea4-icon_addthis_other.png",
+      "key": "what-toyota-reveals-about-organising-agents/8ed34a0d7daa16bb3710224b9abb06f4195dd211751b6a1d79028dd873565912/assets/ce5399aea4-icon_addthis_other.png",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/8ed34a0d7daa16bb3710224b9abb06f4195dd211751b6a1d79028dd873565912/assets/ce5399aea4-icon_addthis_other.png",
+      "sha256": "8ed34a0d7daa16bb3710224b9abb06f4195dd211751b6a1d79028dd873565912",
+      "bytes": 103,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/d3943d846d-icon_linkedin.png",
+      "key": "what-toyota-reveals-about-organising-agents/56b47182fe2405a70e55fd76c6dabe04eccb83d2e92d1be596bf1a7838e810e0/assets/d3943d846d-icon_linkedin.png",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/56b47182fe2405a70e55fd76c6dabe04eccb83d2e92d1be596bf1a7838e810e0/assets/d3943d846d-icon_linkedin.png",
+      "sha256": "56b47182fe2405a70e55fd76c6dabe04eccb83d2e92d1be596bf1a7838e810e0",
+      "bytes": 521,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/e13c75ecf5-production-system_008_2.jpg",
+      "key": "what-toyota-reveals-about-organising-agents/7ad509f60669453aaaedbc484cfbd48ea445f34300f5a9f43b4a8813252dbb21/assets/e13c75ecf5-production-system_008_2.jpg",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/7ad509f60669453aaaedbc484cfbd48ea445f34300f5a9f43b4a8813252dbb21/assets/e13c75ecf5-production-system_008_2.jpg",
+      "sha256": "7ad509f60669453aaaedbc484cfbd48ea445f34300f5a9f43b4a8813252dbb21",
+      "bytes": 95156,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/f8efad5a8a-production-system_005_2.jpg",
+      "key": "what-toyota-reveals-about-organising-agents/9a9aa56e952dfc940bfb6e92f0d0507106e4d531e801c0abaf17fe28bca237e5/assets/f8efad5a8a-production-system_005_2.jpg",
+      "url": "https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/9a9aa56e952dfc940bfb6e92f0d0507106e4d531e801c0abaf17fe28bca237e5/assets/f8efad5a8a-production-system_005_2.jpg",
+      "sha256": "9a9aa56e952dfc940bfb6e92f0d0507106e4d531e801c0abaf17fe28bca237e5",
+      "bytes": 119261,
+      "content_type": "image/jpeg"
+    }
+  ]
+}

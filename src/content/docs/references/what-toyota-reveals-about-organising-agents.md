@@ -51,4 +51,6 @@ The quintessential question:
 
 ---
 
+Preserved copies: [“What I Learned from Taiichi Ohno,” p. 48 (PDF) (PDF)](https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/3ad740f84340e23fc32f6042b4f86b3ff19de63b41f571b286b9e939da32bf18/01-birth-of-lean-ch2.pdf) · [Toyota Production System | Vision & Philosophy | Company | Toyota Motor Corporation Official Global Website (HTML)](https://sources.afg.callum.website/what-toyota-reveals-about-organising-agents/ef26ae43fdb2bb54b5011108e4cd02c2d787b38eea4a28a7ef6b9d1b369fba88/02-production-system.html).
+
 For more information, read Tanaka’s [full chapter and Q&A](https://www.lean.org/wp-content/uploads/2020/09/birth-of-lean-ch2.pdf). The agent applications here are adapted from his account. Learn how scheduling and buffers affect the rest of the system by reading [**Production leveling**](/references/production-leveling/).

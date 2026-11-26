@@ -1,0 +1,205 @@
+{
+  "reference": "topology-of-an-llm-agent-loop",
+  "sources": [
+    {
+      "title": "The Topology of an LLM Agent Loop With Tool Use - exe.dev blog",
+      "original_url": "https://blog.exe.dev/topology",
+      "download_url": "https://blog.exe.dev/topology",
+      "resolved_url": "https://blog.exe.dev/topology",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "01-topology.html",
+      "media_type": "text/html",
+      "bytes": 47494,
+      "sha256": "c5310c8991e4b85eb9f1722018c7dbf58ccdea14a6376bc787a2b381065ebe33",
+      "completeness": "HTML text and 9 associated images captured; 0 images unavailable. Embedded recordings listed separately are not archived.",
+      "assets": [
+        {
+          "url": "https://blog.exe.dev/assets/topology-amp.svg",
+          "status": "captured",
+          "file": "assets/5a8203696c-topology-amp.svg",
+          "bytes": 29860,
+          "sha256": "0a0239996249c8d73b7263cfeb6af7994f6db3d74335d160900849d1758e542e",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/0a0239996249c8d73b7263cfeb6af7994f6db3d74335d160900849d1758e542e/assets/5a8203696c-topology-amp.svg",
+          "object_key": "topology-of-an-llm-agent-loop/0a0239996249c8d73b7263cfeb6af7994f6db3d74335d160900849d1758e542e/assets/5a8203696c-topology-amp.svg"
+        },
+        {
+          "url": "https://blog.exe.dev/assets/topology-chatgpt.svg",
+          "status": "captured",
+          "file": "assets/ff07be78fa-topology-chatgpt.svg",
+          "bytes": 22600,
+          "sha256": "214077567fd6fc27af9ae1dfe994ca3e977cea4ca392a2dc8ccabe9b7db09380",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/214077567fd6fc27af9ae1dfe994ca3e977cea4ca392a2dc8ccabe9b7db09380/assets/ff07be78fa-topology-chatgpt.svg",
+          "object_key": "topology-of-an-llm-agent-loop/214077567fd6fc27af9ae1dfe994ca3e977cea4ca392a2dc8ccabe9b7db09380/assets/ff07be78fa-topology-chatgpt.svg"
+        },
+        {
+          "url": "https://blog.exe.dev/assets/topology-claude-code.svg",
+          "status": "captured",
+          "file": "assets/d8fe6e4f4f-topology-claude-code.svg",
+          "bytes": 25532,
+          "sha256": "6ffbdb494770f2cc889faa29c0c54bdcba45c7871fa428a4d81d15e8233a3d8d",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/6ffbdb494770f2cc889faa29c0c54bdcba45c7871fa428a4d81d15e8233a3d8d/assets/d8fe6e4f4f-topology-claude-code.svg",
+          "object_key": "topology-of-an-llm-agent-loop/6ffbdb494770f2cc889faa29c0c54bdcba45c7871fa428a4d81d15e8233a3d8d/assets/d8fe6e4f4f-topology-claude-code.svg"
+        },
+        {
+          "url": "https://blog.exe.dev/assets/topology-diagram.svg",
+          "status": "captured",
+          "file": "assets/5e4cf13504-topology-diagram.svg",
+          "bytes": 53386,
+          "sha256": "6032ade528deecb0103f900da76fbf0a77e6e041292a74af1ea072dc3995e737",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/6032ade528deecb0103f900da76fbf0a77e6e041292a74af1ea072dc3995e737/assets/5e4cf13504-topology-diagram.svg",
+          "object_key": "topology-of-an-llm-agent-loop/6032ade528deecb0103f900da76fbf0a77e6e041292a74af1ea072dc3995e737/assets/5e4cf13504-topology-diagram.svg"
+        },
+        {
+          "url": "https://blog.exe.dev/assets/topology-drawing-agent-poster.jpg",
+          "status": "captured",
+          "file": "assets/7a6bdbb1cf-topology-drawing-agent-poster.jpg",
+          "bytes": 138564,
+          "sha256": "5d7a5cb3697db08f4fd1b2e81e9ba8280e8bbdcc0ed1ac83b972849951ccfac7",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/5d7a5cb3697db08f4fd1b2e81e9ba8280e8bbdcc0ed1ac83b972849951ccfac7/assets/7a6bdbb1cf-topology-drawing-agent-poster.jpg",
+          "object_key": "topology-of-an-llm-agent-loop/5d7a5cb3697db08f4fd1b2e81e9ba8280e8bbdcc0ed1ac83b972849951ccfac7/assets/7a6bdbb1cf-topology-drawing-agent-poster.jpg"
+        },
+        {
+          "url": "https://blog.exe.dev/assets/topology-no-jsonl.svg",
+          "status": "captured",
+          "file": "assets/544e59f9fa-topology-no-jsonl.svg",
+          "bytes": 8730,
+          "sha256": "179375a784bff22ee840928852a5c9e0f9f6f38f607d9662b4910f7950277ab9",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/179375a784bff22ee840928852a5c9e0f9f6f38f607d9662b4910f7950277ab9/assets/544e59f9fa-topology-no-jsonl.svg",
+          "object_key": "topology-of-an-llm-agent-loop/179375a784bff22ee840928852a5c9e0f9f6f38f607d9662b4910f7950277ab9/assets/544e59f9fa-topology-no-jsonl.svg"
+        },
+        {
+          "url": "https://blog.exe.dev/assets/topology-shelley.svg",
+          "status": "captured",
+          "file": "assets/c6618f1ac0-topology-shelley.svg",
+          "bytes": 30602,
+          "sha256": "1875631abdeadcd775e5909f23bae80fbecedc7b332c2b1a56ece606527f0ad0",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/1875631abdeadcd775e5909f23bae80fbecedc7b332c2b1a56ece606527f0ad0/assets/c6618f1ac0-topology-shelley.svg",
+          "object_key": "topology-of-an-llm-agent-loop/1875631abdeadcd775e5909f23bae80fbecedc7b332c2b1a56ece606527f0ad0/assets/c6618f1ac0-topology-shelley.svg"
+        },
+        {
+          "url": "https://blog.exe.dev/assets/topology-siri-mac.png",
+          "status": "captured",
+          "file": "assets/d82fd0849d-topology-siri-mac.png",
+          "bytes": 42855,
+          "sha256": "9fe72c92fa76345ed3ed5fbde5122f6a9faa132effd82f3b1873490ca1fcefb8",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/9fe72c92fa76345ed3ed5fbde5122f6a9faa132effd82f3b1873490ca1fcefb8/assets/d82fd0849d-topology-siri-mac.png",
+          "object_key": "topology-of-an-llm-agent-loop/9fe72c92fa76345ed3ed5fbde5122f6a9faa132effd82f3b1873490ca1fcefb8/assets/d82fd0849d-topology-siri-mac.png"
+        },
+        {
+          "url": "https://blog.exe.dev/assets/topology-siri.svg",
+          "status": "captured",
+          "file": "assets/98d5414653-topology-siri.svg",
+          "bytes": 23052,
+          "sha256": "4532ad0f341ef2ce6401b4a493dfee4853203d11c0e6507e6e20cd8ade3e7113",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/4532ad0f341ef2ce6401b4a493dfee4853203d11c0e6507e6e20cd8ade3e7113/assets/98d5414653-topology-siri.svg",
+          "object_key": "topology-of-an-llm-agent-loop/4532ad0f341ef2ce6401b4a493dfee4853203d11c0e6507e6e20cd8ade3e7113/assets/98d5414653-topology-siri.svg"
+        }
+      ],
+      "embedded_recordings_not_archived": [
+        "https://blog.exe.dev/assets/topology-drawing-agent.mp4"
+      ],
+      "text_characters": 8302,
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/c5310c8991e4b85eb9f1722018c7dbf58ccdea14a6376bc787a2b381065ebe33/01-topology.html",
+      "object_key": "topology-of-an-llm-agent-loop/c5310c8991e4b85eb9f1722018c7dbf58ccdea14a6376bc787a2b381065ebe33/01-topology.html"
+    }
+  ],
+  "objects": [
+    {
+      "file": "01-topology.html",
+      "key": "topology-of-an-llm-agent-loop/c5310c8991e4b85eb9f1722018c7dbf58ccdea14a6376bc787a2b381065ebe33/01-topology.html",
+      "url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/c5310c8991e4b85eb9f1722018c7dbf58ccdea14a6376bc787a2b381065ebe33/01-topology.html",
+      "sha256": "c5310c8991e4b85eb9f1722018c7dbf58ccdea14a6376bc787a2b381065ebe33",
+      "bytes": 47494,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/544e59f9fa-topology-no-jsonl.svg",
+      "key": "topology-of-an-llm-agent-loop/179375a784bff22ee840928852a5c9e0f9f6f38f607d9662b4910f7950277ab9/assets/544e59f9fa-topology-no-jsonl.svg",
+      "url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/179375a784bff22ee840928852a5c9e0f9f6f38f607d9662b4910f7950277ab9/assets/544e59f9fa-topology-no-jsonl.svg",
+      "sha256": "179375a784bff22ee840928852a5c9e0f9f6f38f607d9662b4910f7950277ab9",
+      "bytes": 8730,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/5a8203696c-topology-amp.svg",
+      "key": "topology-of-an-llm-agent-loop/0a0239996249c8d73b7263cfeb6af7994f6db3d74335d160900849d1758e542e/assets/5a8203696c-topology-amp.svg",
+      "url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/0a0239996249c8d73b7263cfeb6af7994f6db3d74335d160900849d1758e542e/assets/5a8203696c-topology-amp.svg",
+      "sha256": "0a0239996249c8d73b7263cfeb6af7994f6db3d74335d160900849d1758e542e",
+      "bytes": 29860,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/5e4cf13504-topology-diagram.svg",
+      "key": "topology-of-an-llm-agent-loop/6032ade528deecb0103f900da76fbf0a77e6e041292a74af1ea072dc3995e737/assets/5e4cf13504-topology-diagram.svg",
+      "url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/6032ade528deecb0103f900da76fbf0a77e6e041292a74af1ea072dc3995e737/assets/5e4cf13504-topology-diagram.svg",
+      "sha256": "6032ade528deecb0103f900da76fbf0a77e6e041292a74af1ea072dc3995e737",
+      "bytes": 53386,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/7a6bdbb1cf-topology-drawing-agent-poster.jpg",
+      "key": "topology-of-an-llm-agent-loop/5d7a5cb3697db08f4fd1b2e81e9ba8280e8bbdcc0ed1ac83b972849951ccfac7/assets/7a6bdbb1cf-topology-drawing-agent-poster.jpg",
+      "url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/5d7a5cb3697db08f4fd1b2e81e9ba8280e8bbdcc0ed1ac83b972849951ccfac7/assets/7a6bdbb1cf-topology-drawing-agent-poster.jpg",
+      "sha256": "5d7a5cb3697db08f4fd1b2e81e9ba8280e8bbdcc0ed1ac83b972849951ccfac7",
+      "bytes": 138564,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/98d5414653-topology-siri.svg",
+      "key": "topology-of-an-llm-agent-loop/4532ad0f341ef2ce6401b4a493dfee4853203d11c0e6507e6e20cd8ade3e7113/assets/98d5414653-topology-siri.svg",
+      "url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/4532ad0f341ef2ce6401b4a493dfee4853203d11c0e6507e6e20cd8ade3e7113/assets/98d5414653-topology-siri.svg",
+      "sha256": "4532ad0f341ef2ce6401b4a493dfee4853203d11c0e6507e6e20cd8ade3e7113",
+      "bytes": 23052,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/c6618f1ac0-topology-shelley.svg",
+      "key": "topology-of-an-llm-agent-loop/1875631abdeadcd775e5909f23bae80fbecedc7b332c2b1a56ece606527f0ad0/assets/c6618f1ac0-topology-shelley.svg",
+      "url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/1875631abdeadcd775e5909f23bae80fbecedc7b332c2b1a56ece606527f0ad0/assets/c6618f1ac0-topology-shelley.svg",
+      "sha256": "1875631abdeadcd775e5909f23bae80fbecedc7b332c2b1a56ece606527f0ad0",
+      "bytes": 30602,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/d82fd0849d-topology-siri-mac.png",
+      "key": "topology-of-an-llm-agent-loop/9fe72c92fa76345ed3ed5fbde5122f6a9faa132effd82f3b1873490ca1fcefb8/assets/d82fd0849d-topology-siri-mac.png",
+      "url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/9fe72c92fa76345ed3ed5fbde5122f6a9faa132effd82f3b1873490ca1fcefb8/assets/d82fd0849d-topology-siri-mac.png",
+      "sha256": "9fe72c92fa76345ed3ed5fbde5122f6a9faa132effd82f3b1873490ca1fcefb8",
+      "bytes": 42855,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/d8fe6e4f4f-topology-claude-code.svg",
+      "key": "topology-of-an-llm-agent-loop/6ffbdb494770f2cc889faa29c0c54bdcba45c7871fa428a4d81d15e8233a3d8d/assets/d8fe6e4f4f-topology-claude-code.svg",
+      "url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/6ffbdb494770f2cc889faa29c0c54bdcba45c7871fa428a4d81d15e8233a3d8d/assets/d8fe6e4f4f-topology-claude-code.svg",
+      "sha256": "6ffbdb494770f2cc889faa29c0c54bdcba45c7871fa428a4d81d15e8233a3d8d",
+      "bytes": 25532,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/ff07be78fa-topology-chatgpt.svg",
+      "key": "topology-of-an-llm-agent-loop/214077567fd6fc27af9ae1dfe994ca3e977cea4ca392a2dc8ccabe9b7db09380/assets/ff07be78fa-topology-chatgpt.svg",
+      "url": "https://sources.afg.callum.website/topology-of-an-llm-agent-loop/214077567fd6fc27af9ae1dfe994ca3e977cea4ca392a2dc8ccabe9b7db09380/assets/ff07be78fa-topology-chatgpt.svg",
+      "sha256": "214077567fd6fc27af9ae1dfe994ca3e977cea4ca392a2dc8ccabe9b7db09380",
+      "bytes": 22600,
+      "content_type": "text/plain; charset=utf-8"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "reference": "four-dark-corners-of-requirements-engineering",
+  "sources": [
+    {
+      "title": "Read the original paper by Pamela Zave and Michael Jackson (PDF)",
+      "original_url": "https://www.pamelazave.com/4dc.pdf",
+      "download_url": "https://www.pamelazave.com/4dc.pdf",
+      "resolved_url": "https://www.pamelazave.com/4dc.pdf",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "requires_specific_permission",
+        "basis": "The first-page ACM notice reserves posting on servers and republication for specific permission. Personal/classroom copying permission is distinct.",
+        "evidence": "01-4dc.pdf, page 1"
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "01-4dc.pdf",
+      "media_type": "application/pdf",
+      "bytes": 92312,
+      "sha256": "40a70db91789545b75cc27d33e1998726725d6364fbf20997aec59c346d11174",
+      "completeness": "Original file captured.",
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/four-dark-corners-of-requirements-engineering/40a70db91789545b75cc27d33e1998726725d6364fbf20997aec59c346d11174/01-4dc.pdf",
+      "object_key": "four-dark-corners-of-requirements-engineering/40a70db91789545b75cc27d33e1998726725d6364fbf20997aec59c346d11174/01-4dc.pdf"
+    }
+  ],
+  "objects": [
+    {
+      "file": "01-4dc.pdf",
+      "key": "four-dark-corners-of-requirements-engineering/40a70db91789545b75cc27d33e1998726725d6364fbf20997aec59c346d11174/01-4dc.pdf",
+      "url": "https://sources.afg.callum.website/four-dark-corners-of-requirements-engineering/40a70db91789545b75cc27d33e1998726725d6364fbf20997aec59c346d11174/01-4dc.pdf",
+      "sha256": "40a70db91789545b75cc27d33e1998726725d6364fbf20997aec59c346d11174",
+      "bytes": 92312,
+      "content_type": "application/pdf"
+    }
+  ]
+}

@@ -4,6 +4,8 @@ The Field Guide stores source material verbatim. Do not interpret, rewrite or ad
 
 Read the [Field Guide writing guide](docs/writing-guide.md) for content changes and [AGENT.md](AGENT.md) for Nimbus implementation and checks. The private KB is a source for research. Only material cleared for readers belongs in `src/content/docs/`.
 
+Save originals under `sources/<reference-slug>/` and run `npm run sources:upload -- <reference-slug>`. The command uploads to R2, verifies the downloads and records their URLs in `source.json`. Use those URLs on guide pages. Source payloads stay out of Git; keep the manifests. See [source storage](sources/README.md).
+
 Apply the writing guide’s catalogue rules to every index entry, including prompts. Check the generated homepage after changing catalogue copy.
 
 When changing behavior, preserve existing presentation. Carry styles forward when replacing components, and compare the rendered result against the previous version before finishing.

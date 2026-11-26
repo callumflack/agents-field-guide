@@ -1,0 +1,59 @@
+{
+  "reference": "towards-self-driving-codebases",
+  "sources": [
+    {
+      "title": "Towards Self-Driving Codebases | Detail",
+      "original_url": "https://blog.detail.dev/posts/towards-self-driving-codebases/",
+      "download_url": "https://blog.detail.dev/posts/towards-self-driving-codebases/",
+      "resolved_url": "https://blog.detail.dev/posts/towards-self-driving-codebases/",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "01-towards-self-driving-codebases.html",
+      "media_type": "text/html",
+      "bytes": 22233,
+      "sha256": "ae2f06cfa8d9c8fb9b75d241431f846ffebe5e92353bb94042ff421b12ac0e5b",
+      "completeness": "HTML text and 1 associated images captured; 0 images unavailable. Embedded recordings listed separately are not archived.",
+      "assets": [
+        {
+          "url": "https://blog.detail.dev/viz/hype-cycle.png",
+          "status": "captured",
+          "file": "assets/858ac6b715-hype-cycle.png",
+          "bytes": 421243,
+          "sha256": "ee15be985708c4ad2be96f01b27b9e3553ea223082f1deb50b4c1d82c16f6c81",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/towards-self-driving-codebases/ee15be985708c4ad2be96f01b27b9e3553ea223082f1deb50b4c1d82c16f6c81/assets/858ac6b715-hype-cycle.png",
+          "object_key": "towards-self-driving-codebases/ee15be985708c4ad2be96f01b27b9e3553ea223082f1deb50b4c1d82c16f6c81/assets/858ac6b715-hype-cycle.png"
+        }
+      ],
+      "embedded_recordings_not_archived": [],
+      "text_characters": 12739,
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/towards-self-driving-codebases/ae2f06cfa8d9c8fb9b75d241431f846ffebe5e92353bb94042ff421b12ac0e5b/01-towards-self-driving-codebases.html",
+      "object_key": "towards-self-driving-codebases/ae2f06cfa8d9c8fb9b75d241431f846ffebe5e92353bb94042ff421b12ac0e5b/01-towards-self-driving-codebases.html"
+    }
+  ],
+  "objects": [
+    {
+      "file": "01-towards-self-driving-codebases.html",
+      "key": "towards-self-driving-codebases/ae2f06cfa8d9c8fb9b75d241431f846ffebe5e92353bb94042ff421b12ac0e5b/01-towards-self-driving-codebases.html",
+      "url": "https://sources.afg.callum.website/towards-self-driving-codebases/ae2f06cfa8d9c8fb9b75d241431f846ffebe5e92353bb94042ff421b12ac0e5b/01-towards-self-driving-codebases.html",
+      "sha256": "ae2f06cfa8d9c8fb9b75d241431f846ffebe5e92353bb94042ff421b12ac0e5b",
+      "bytes": 22233,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/858ac6b715-hype-cycle.png",
+      "key": "towards-self-driving-codebases/ee15be985708c4ad2be96f01b27b9e3553ea223082f1deb50b4c1d82c16f6c81/assets/858ac6b715-hype-cycle.png",
+      "url": "https://sources.afg.callum.website/towards-self-driving-codebases/ee15be985708c4ad2be96f01b27b9e3553ea223082f1deb50b4c1d82c16f6c81/assets/858ac6b715-hype-cycle.png",
+      "sha256": "ee15be985708c4ad2be96f01b27b9e3553ea223082f1deb50b4c1d82c16f6c81",
+      "bytes": 421243,
+      "content_type": "image/png"
+    }
+  ]
+}

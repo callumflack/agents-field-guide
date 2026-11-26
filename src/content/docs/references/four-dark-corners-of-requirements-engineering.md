@@ -13,3 +13,5 @@ Pamela Zave and Michael Jackson’s *Four Dark Corners of Requirements Engineeri
 The paper’s test for completion is **S, K ⊢ R**. The implementable specification *S*, together with validated domain knowledge *K*, must entail the customer’s requirements *R*. The specification and domain knowledge must also be consistent. This separates two questions that are easy to collapse. Does the software meet its specification? And would software that meets that specification actually deliver the outcome the customer asked for?
 
 [Read the original paper by Pamela Zave and Michael Jackson (PDF)](https://www.pamelazave.com/4dc.pdf).
+
+Preserved copy: [Read the original paper by Pamela Zave and Michael Jackson (PDF) (PDF)](https://sources.afg.callum.website/four-dark-corners-of-requirements-engineering/40a70db91789545b75cc27d33e1998726725d6364fbf20997aec59c346d11174/01-4dc.pdf).

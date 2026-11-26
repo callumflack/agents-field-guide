@@ -1,0 +1,123 @@
+{
+  "reference": "decomposing-systems-into-modules",
+  "sources": [
+    {
+      "title": "Read the original paper (PDF)",
+      "original_url": "https://dl.acm.org/doi/pdf/10.1145/361598.361623",
+      "download_url": "https://dl.acm.org/doi/pdf/10.1145/361598.361623",
+      "resolved_url": "https://dl.acm.org/doi/pdf/10.1145/361598.361623",
+      "captured": "2026-11-26",
+      "http_status": 403,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "unavailable",
+      "error": "curl: (22) The requested URL returned error: 403"
+    },
+    {
+      "title": "On the Criteria To Be Used in Decomposing Systems into Modules",
+      "original_url": "https://www.cse.sc.edu/~mgv/csce590f20/ParnasCriteria.pdf",
+      "download_url": "https://www.cse.sc.edu/~mgv/csce590f20/ParnasCriteria.pdf",
+      "resolved_url": "https://www.cse.sc.edu/~mgv/csce590f20/ParnasCriteria.pdf",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "permitted_noncommercial",
+        "basis": "The original first-page ACM notice grants noncommercial republication with publication/date credit and acknowledgement of ACM permission. This reader copy retains that notice; the entry supplies the citation and acknowledgement.",
+        "evidence": "02-ParnasCriteria.pdf, page 1"
+      },
+      "reader_copy": "https://sources.afg.callum.website/decomposing-systems-into-modules/7008fd6abc833ded750e52dbac4968e8eda339f66b462ca4427f1953f98df9c4/02-ParnasCriteria.pdf",
+      "status": "captured",
+      "file": "02-ParnasCriteria.pdf",
+      "media_type": "application/pdf",
+      "bytes": 589565,
+      "sha256": "7008fd6abc833ded750e52dbac4968e8eda339f66b462ca4427f1953f98df9c4",
+      "completeness": "Original file captured.",
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/decomposing-systems-into-modules/7008fd6abc833ded750e52dbac4968e8eda339f66b462ca4427f1953f98df9c4/02-ParnasCriteria.pdf",
+      "object_key": "decomposing-systems-into-modules/7008fd6abc833ded750e52dbac4968e8eda339f66b462ca4427f1953f98df9c4/02-ParnasCriteria.pdf"
+    },
+    {
+      "title": "On the Criteria To Be Used in Decomposing Systems into Modules",
+      "original_url": "https://www.cs.lafayette.edu/~gexia/cs301/resources/parnas.html",
+      "download_url": "https://www.cs.lafayette.edu/~gexia/cs301/resources/parnas.html",
+      "resolved_url": "https://www.cs.lafayette.edu/~gexia/cs301/resources/parnas.html",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "03-parnas.html",
+      "media_type": "text/html",
+      "bytes": 29596,
+      "sha256": "a62a3134245213b327baa3a704faf9d020c12450d952b01bc4cb28a811a3578b",
+      "completeness": "HTML text and 2 associated images captured; 0 images unavailable. Embedded recordings listed separately are not archived.",
+      "assets": [
+        {
+          "url": "https://www.cs.lafayette.edu/~gexia/cs301/resources/parnas_files/classic.gif",
+          "status": "captured",
+          "file": "assets/6488676cf9-classic.gif",
+          "bytes": 7217,
+          "sha256": "dc7d88bc748b4dabaf708573bdf4315d339a59c53b083c13914adb3a446acfee",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/decomposing-systems-into-modules/dc7d88bc748b4dabaf708573bdf4315d339a59c53b083c13914adb3a446acfee/assets/6488676cf9-classic.gif",
+          "object_key": "decomposing-systems-into-modules/dc7d88bc748b4dabaf708573bdf4315d339a59c53b083c13914adb3a446acfee/assets/6488676cf9-classic.gif"
+        },
+        {
+          "url": "https://www.cs.lafayette.edu/~gexia/cs301/resources/parnas_files/may96.gif",
+          "status": "captured",
+          "file": "assets/af15b10419-may96.gif",
+          "bytes": 872,
+          "sha256": "2b695156865c104813e0722545db0a0caa4ea86c4b264d3801f01ca7457fa5c9",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/decomposing-systems-into-modules/2b695156865c104813e0722545db0a0caa4ea86c4b264d3801f01ca7457fa5c9/assets/af15b10419-may96.gif",
+          "object_key": "decomposing-systems-into-modules/2b695156865c104813e0722545db0a0caa4ea86c4b264d3801f01ca7457fa5c9/assets/af15b10419-may96.gif"
+        }
+      ],
+      "embedded_recordings_not_archived": [],
+      "text_characters": 27364,
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/decomposing-systems-into-modules/a62a3134245213b327baa3a704faf9d020c12450d952b01bc4cb28a811a3578b/03-parnas.html",
+      "object_key": "decomposing-systems-into-modules/a62a3134245213b327baa3a704faf9d020c12450d952b01bc4cb28a811a3578b/03-parnas.html"
+    }
+  ],
+  "objects": [
+    {
+      "file": "02-ParnasCriteria.pdf",
+      "key": "decomposing-systems-into-modules/7008fd6abc833ded750e52dbac4968e8eda339f66b462ca4427f1953f98df9c4/02-ParnasCriteria.pdf",
+      "url": "https://sources.afg.callum.website/decomposing-systems-into-modules/7008fd6abc833ded750e52dbac4968e8eda339f66b462ca4427f1953f98df9c4/02-ParnasCriteria.pdf",
+      "sha256": "7008fd6abc833ded750e52dbac4968e8eda339f66b462ca4427f1953f98df9c4",
+      "bytes": 589565,
+      "content_type": "application/pdf"
+    },
+    {
+      "file": "03-parnas.html",
+      "key": "decomposing-systems-into-modules/a62a3134245213b327baa3a704faf9d020c12450d952b01bc4cb28a811a3578b/03-parnas.html",
+      "url": "https://sources.afg.callum.website/decomposing-systems-into-modules/a62a3134245213b327baa3a704faf9d020c12450d952b01bc4cb28a811a3578b/03-parnas.html",
+      "sha256": "a62a3134245213b327baa3a704faf9d020c12450d952b01bc4cb28a811a3578b",
+      "bytes": 29596,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/6488676cf9-classic.gif",
+      "key": "decomposing-systems-into-modules/dc7d88bc748b4dabaf708573bdf4315d339a59c53b083c13914adb3a446acfee/assets/6488676cf9-classic.gif",
+      "url": "https://sources.afg.callum.website/decomposing-systems-into-modules/dc7d88bc748b4dabaf708573bdf4315d339a59c53b083c13914adb3a446acfee/assets/6488676cf9-classic.gif",
+      "sha256": "dc7d88bc748b4dabaf708573bdf4315d339a59c53b083c13914adb3a446acfee",
+      "bytes": 7217,
+      "content_type": "image/gif"
+    },
+    {
+      "file": "assets/af15b10419-may96.gif",
+      "key": "decomposing-systems-into-modules/2b695156865c104813e0722545db0a0caa4ea86c4b264d3801f01ca7457fa5c9/assets/af15b10419-may96.gif",
+      "url": "https://sources.afg.callum.website/decomposing-systems-into-modules/2b695156865c104813e0722545db0a0caa4ea86c4b264d3801f01ca7457fa5c9/assets/af15b10419-may96.gif",
+      "sha256": "2b695156865c104813e0722545db0a0caa4ea86c4b264d3801f01ca7457fa5c9",
+      "bytes": 872,
+      "content_type": "image/gif"
+    }
+  ]
+}

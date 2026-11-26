@@ -1,0 +1,422 @@
+{
+  "reference": "demand-side-thinking",
+  "sources": [
+    {
+      "title": "His account on JTBD Radio",
+      "original_url": "https://jobstobedone.org/radio/ryan-singer-jtbd-radio/",
+      "download_url": "https://jobstobedone.org/radio/ryan-singer-jtbd-radio/",
+      "resolved_url": "https://jobstobedone.org/radio/ryan-singer-jtbd-radio/",
+      "captured": "2026-11-26",
+      "http_status": 403,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "unavailable",
+      "error": "curl: (22) The requested URL returned error: 403"
+    },
+    {
+      "title": "Unpacking Supply and Demand - Circuit Breaker Podcast",
+      "original_url": "https://therewiredgroup.com/circuit-breaker-podcast/unpacking-supply-and-demand/",
+      "download_url": "https://therewiredgroup.com/circuit-breaker-podcast/unpacking-supply-and-demand/",
+      "resolved_url": "https://therewiredgroup.com/circuit-breaker-podcast/unpacking-supply-and-demand/",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "02-unpacking-supply-and-demand.html",
+      "media_type": "text/html",
+      "bytes": 127962,
+      "sha256": "68b9bbfae967afd82bdad1fccef20e69030514f4b112fd28c2c36251f2b9827f",
+      "completeness": "HTML text and 2 associated images captured; 0 images unavailable. Embedded recordings listed separately are not archived.",
+      "assets": [
+        {
+          "url": "https://therewiredgroup.com/wp-content/uploads/2022/10/greg_engle.png",
+          "status": "captured",
+          "file": "assets/8c731289ab-greg_engle.png",
+          "bytes": 70225,
+          "sha256": "7aeb7d954483b226220e33db0ef5bd8dd48e57971a8bd4f2c846b87914b7c26f",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/7aeb7d954483b226220e33db0ef5bd8dd48e57971a8bd4f2c846b87914b7c26f/assets/8c731289ab-greg_engle.png",
+          "object_key": "demand-side-thinking/7aeb7d954483b226220e33db0ef5bd8dd48e57971a8bd4f2c846b87914b7c26f/assets/8c731289ab-greg_engle.png"
+        },
+        {
+          "url": "https://therewiredgroup.com/wp-content/uploads/2022/11/bob_moesta.png",
+          "status": "captured",
+          "file": "assets/b1650188bd-bob_moesta.png",
+          "bytes": 153867,
+          "sha256": "9731b73c519bfdc593725170ae55906ad8f83e7da55fbe90f2c3dc4a4dbb279a",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/9731b73c519bfdc593725170ae55906ad8f83e7da55fbe90f2c3dc4a4dbb279a/assets/b1650188bd-bob_moesta.png",
+          "object_key": "demand-side-thinking/9731b73c519bfdc593725170ae55906ad8f83e7da55fbe90f2c3dc4a4dbb279a/assets/b1650188bd-bob_moesta.png"
+        }
+      ],
+      "embedded_recordings_not_archived": [
+        "https://open.spotify.com/embed/episode/7g6qMB23oZBc9lxv3W5cfv?si=93e1a489f04942f1&utm_source=oembed"
+      ],
+      "text_characters": 21221,
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/demand-side-thinking/68b9bbfae967afd82bdad1fccef20e69030514f4b112fd28c2c36251f2b9827f/02-unpacking-supply-and-demand.html",
+      "object_key": "demand-side-thinking/68b9bbfae967afd82bdad1fccef20e69030514f4b112fd28c2c36251f2b9827f/02-unpacking-supply-and-demand.html"
+    },
+    {
+      "title": "Ryan Singer: Framing and Hard Conversations &#8211; Business of Software",
+      "original_url": "https://businessofsoftware.org/talks/framing-and-hard-conversations/",
+      "download_url": "https://businessofsoftware.org/talks/framing-and-hard-conversations/",
+      "resolved_url": "https://businessofsoftware.org/talks/framing-and-hard-conversations/",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "03-framing-and-hard-conversations.html",
+      "media_type": "text/html",
+      "bytes": 203910,
+      "sha256": "9a46ca28b36ab5749bab802e409fa752ddbab95ca06689a757766ea77a9cd0aa",
+      "completeness": "HTML text and 6 associated images captured; 1 images unavailable. Embedded recordings listed separately are not archived.",
+      "assets": [
+        {
+          "url": "https://bos.thebln.com/wp-content/uploads/sites/11/2022/05/icons8-twitter-30.png",
+          "status": "captured",
+          "file": "assets/cf7f10fc49-icons8-twitter-30.png",
+          "bytes": 354,
+          "sha256": "c2010ef62a46f8f5f2ed4580db9a4ecc5647200484d4bba53ed8f132001695e8",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/c2010ef62a46f8f5f2ed4580db9a4ecc5647200484d4bba53ed8f132001695e8/assets/cf7f10fc49-icons8-twitter-30.png",
+          "object_key": "demand-side-thinking/c2010ef62a46f8f5f2ed4580db9a4ecc5647200484d4bba53ed8f132001695e8/assets/cf7f10fc49-icons8-twitter-30.png"
+        },
+        {
+          "url": "https://bos.thebln.com/wp-content/uploads/sites/11/2022/05/linkedinAsset-1.png",
+          "status": "captured",
+          "file": "assets/3edeef2c9e-linkedinAsset-1.png",
+          "bytes": 206,
+          "sha256": "45cd5e12f29ec04bf21ac5b93015962b7498d253eb64c63a474d425bc7e37d3f",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/45cd5e12f29ec04bf21ac5b93015962b7498d253eb64c63a474d425bc7e37d3f/assets/3edeef2c9e-linkedinAsset-1.png",
+          "object_key": "demand-side-thinking/45cd5e12f29ec04bf21ac5b93015962b7498d253eb64c63a474d425bc7e37d3f/assets/3edeef2c9e-linkedinAsset-1.png"
+        },
+        {
+          "url": "https://bos.thebln.com/wp-content/uploads/sites/11/2022/05/slackAsset-1.png",
+          "status": "captured",
+          "file": "assets/2585131613-slackAsset-1.png",
+          "bytes": 260,
+          "sha256": "bdb5a752813fad8c28e967293c183ea5399a98e4e7beb211a9ece91920b88847",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/bdb5a752813fad8c28e967293c183ea5399a98e4e7beb211a9ece91920b88847/assets/2585131613-slackAsset-1.png",
+          "object_key": "demand-side-thinking/bdb5a752813fad8c28e967293c183ea5399a98e4e7beb211a9ece91920b88847/assets/2585131613-slackAsset-1.png"
+        },
+        {
+          "url": "https://businessofsoftware.org/wp-content/themes/bln-corporate/event-images/bos_logo_name_color_plain.svg",
+          "status": "captured",
+          "file": "assets/4471040244-bos_logo_name_color_plain.svg",
+          "bytes": 12103,
+          "sha256": "d9e429eab0d529a1387f104cad3e5bc8a04c796d2e25ff10174dc50834d7ebe3",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/d9e429eab0d529a1387f104cad3e5bc8a04c796d2e25ff10174dc50834d7ebe3/assets/4471040244-bos_logo_name_color_plain.svg",
+          "object_key": "demand-side-thinking/d9e429eab0d529a1387f104cad3e5bc8a04c796d2e25ff10174dc50834d7ebe3/assets/4471040244-bos_logo_name_color_plain.svg"
+        },
+        {
+          "url": "https://businessofsoftware.org/wp-content/uploads/sites/11/2024/11/Ryan-Singer-Felt-Presence-256x256.jpg",
+          "status": "captured",
+          "file": "assets/cb5ccd0711-Ryan-Singer-Felt-Presence-256x256.jpg",
+          "bytes": 10470,
+          "sha256": "03d237d4c9e0f0c7b83f5062dd2d0658e4a2a0765be82943edf6e7df5ee560fa",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/03d237d4c9e0f0c7b83f5062dd2d0658e4a2a0765be82943edf6e7df5ee560fa/assets/cb5ccd0711-Ryan-Singer-Felt-Presence-256x256.jpg",
+          "object_key": "demand-side-thinking/03d237d4c9e0f0c7b83f5062dd2d0658e4a2a0765be82943edf6e7df5ee560fa/assets/cb5ccd0711-Ryan-Singer-Felt-Presence-256x256.jpg"
+        },
+        {
+          "url": "https://businessofsoftware.org/wp-content/uploads/sites/11/2026/04/BoSEU26-%C2%A9-Ian-Clifford-Tuesday-14-April-Class-Photo-6.jpg",
+          "status": "unavailable",
+          "error": "curl: (56) Maximum file size exceeded"
+        },
+        {
+          "url": "https://embed-ssl.wistia.com/deliveries/88ade9b377ae01f9739c6e5caad944a1a4fc7027.jpg?image_crop_resized=960x540",
+          "status": "captured",
+          "file": "assets/e98438ddb4-88ade9b377ae01f9739c6e5caad944a1a4fc7027.jpg",
+          "bytes": 88157,
+          "sha256": "e1e8f34a2263e32f3031cfc8af9e2e90d7392cebdf7d47f91cf0851109983e1a",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/e1e8f34a2263e32f3031cfc8af9e2e90d7392cebdf7d47f91cf0851109983e1a/assets/e98438ddb4-88ade9b377ae01f9739c6e5caad944a1a4fc7027.jpg",
+          "object_key": "demand-side-thinking/e1e8f34a2263e32f3031cfc8af9e2e90d7392cebdf7d47f91cf0851109983e1a/assets/e98438ddb4-88ade9b377ae01f9739c6e5caad944a1a4fc7027.jpg"
+        }
+      ],
+      "embedded_recordings_not_archived": [
+        "https://fast.wistia.net/embed/iframe/lhy1lhwpgf",
+        "https://www.slideshare.net/slideshow/embed_code/key/n6iCVf5SwbT8oN"
+      ],
+      "text_characters": 61876,
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/demand-side-thinking/9a46ca28b36ab5749bab802e409fa752ddbab95ca06689a757766ea77a9cd0aa/03-framing-and-hard-conversations.html",
+      "object_key": "demand-side-thinking/9a46ca28b36ab5749bab802e409fa752ddbab95ca06689a757766ea77a9cd0aa/03-framing-and-hard-conversations.html"
+    },
+    {
+      "title": "Shaping on the demand side - Ryan Singer",
+      "original_url": "https://www.ryansinger.co/shaping-on-the-demand-side/",
+      "download_url": "https://www.ryansinger.co/shaping-on-the-demand-side/",
+      "resolved_url": "https://www.ryansinger.co/shaping-on-the-demand-side/",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "status": "captured",
+      "file": "04-shaping-on-the-demand-side.html",
+      "media_type": "text/html",
+      "bytes": 20227,
+      "sha256": "bd00a002efd367afd5f4abe8ebbee8b0c5345ada332bb29e80d0132985a2738e",
+      "completeness": "HTML text and 4 associated images captured; 0 images unavailable. Embedded recordings listed separately are not archived.",
+      "assets": [
+        {
+          "url": "https://storage.ghost.io/c/03/7b/037bc3be-8be9-49fa-92a5-114056526a14/content/images/2023/07/Screen-Shot-2021-04-09-at-9.19.49-AM-1.png",
+          "status": "captured",
+          "file": "assets/172e66d3b8-Screen-Shot-2021-04-09-at-9.19.49-AM-1.png",
+          "bytes": 219179,
+          "sha256": "c26ffdef8dab74ff1362673abe6fa90cf0c2e46b94e57e92f61a2c786a6145c7",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/c26ffdef8dab74ff1362673abe6fa90cf0c2e46b94e57e92f61a2c786a6145c7/assets/172e66d3b8-Screen-Shot-2021-04-09-at-9.19.49-AM-1.png",
+          "object_key": "demand-side-thinking/c26ffdef8dab74ff1362673abe6fa90cf0c2e46b94e57e92f61a2c786a6145c7/assets/172e66d3b8-Screen-Shot-2021-04-09-at-9.19.49-AM-1.png"
+        },
+        {
+          "url": "https://storage.ghost.io/c/03/7b/037bc3be-8be9-49fa-92a5-114056526a14/content/images/2023/07/Screen-Shot-2021-04-09-at-9.20.09-AM-1.png",
+          "status": "captured",
+          "file": "assets/01709f109e-Screen-Shot-2021-04-09-at-9.20.09-AM-1.png",
+          "bytes": 321469,
+          "sha256": "e723cab5059044ac850f78a55edc086c94be9357a189c6a1d83e223d0b1ca775",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/e723cab5059044ac850f78a55edc086c94be9357a189c6a1d83e223d0b1ca775/assets/01709f109e-Screen-Shot-2021-04-09-at-9.20.09-AM-1.png",
+          "object_key": "demand-side-thinking/e723cab5059044ac850f78a55edc086c94be9357a189c6a1d83e223d0b1ca775/assets/01709f109e-Screen-Shot-2021-04-09-at-9.20.09-AM-1.png"
+        },
+        {
+          "url": "https://storage.ghost.io/c/03/7b/037bc3be-8be9-49fa-92a5-114056526a14/content/images/2023/07/Screen-Shot-2021-04-09-at-9.20.30-AM-1.png",
+          "status": "captured",
+          "file": "assets/0625a678ae-Screen-Shot-2021-04-09-at-9.20.30-AM-1.png",
+          "bytes": 352557,
+          "sha256": "84d2454f3c3940201159ebd4830dfc01cd55dad6782420a9ef2156a32dd0670e",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/84d2454f3c3940201159ebd4830dfc01cd55dad6782420a9ef2156a32dd0670e/assets/0625a678ae-Screen-Shot-2021-04-09-at-9.20.30-AM-1.png",
+          "object_key": "demand-side-thinking/84d2454f3c3940201159ebd4830dfc01cd55dad6782420a9ef2156a32dd0670e/assets/0625a678ae-Screen-Shot-2021-04-09-at-9.20.30-AM-1.png"
+        },
+        {
+          "url": "https://storage.ghost.io/c/03/7b/037bc3be-8be9-49fa-92a5-114056526a14/content/images/2023/07/fae284fd-cf2a-40cc-94f7-b8eafe0c5366-1.png",
+          "status": "captured",
+          "file": "assets/40f3bae361-fae284fd-cf2a-40cc-94f7-b8eafe0c5366-1.png",
+          "bytes": 283274,
+          "sha256": "f12460bfe2a4f20179a9d075eebd8217496798365b48f41911e932d1b3102378",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/f12460bfe2a4f20179a9d075eebd8217496798365b48f41911e932d1b3102378/assets/40f3bae361-fae284fd-cf2a-40cc-94f7-b8eafe0c5366-1.png",
+          "object_key": "demand-side-thinking/f12460bfe2a4f20179a9d075eebd8217496798365b48f41911e932d1b3102378/assets/40f3bae361-fae284fd-cf2a-40cc-94f7-b8eafe0c5366-1.png"
+        }
+      ],
+      "embedded_recordings_not_archived": [],
+      "text_characters": 4617,
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/demand-side-thinking/bd00a002efd367afd5f4abe8ebbee8b0c5345ada332bb29e80d0132985a2738e/04-shaping-on-the-demand-side.html",
+      "object_key": "demand-side-thinking/bd00a002efd367afd5f4abe8ebbee8b0c5345ada332bb29e80d0132985a2738e/04-shaping-on-the-demand-side.html"
+    },
+    {
+      "title": "30 Minutes With Ryan Singer on Jobs-to-be-Done",
+      "original_url": "https://jobstobedone.org/radio/ryan-singer-jtbd-radio/",
+      "download_url": "https://jobstobedone.org/radio/ryan-singer-jtbd-radio/",
+      "resolved_url": "https://jobstobedone.org/radio/ryan-singer-jtbd-radio/",
+      "captured": "2026-11-26",
+      "http_status": 200,
+      "status": "captured",
+      "file": "01-jtbd-browser-dom.html",
+      "media_type": "text/html",
+      "bytes": 104140,
+      "sha256": "99e8d98a143b68f7b87e17f2a741c4486ddb47c3b70b3fa7fccdf716d25a22d2",
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "reader_copy": null,
+      "capture_method": "Rendered browser DOM after the direct download returned 403.",
+      "browser_print": {
+        "file": "01-jtbd-browser-print.pdf",
+        "sha256": "2335429f96f2de3f7b4ab53e906020d32ee063cd246aaa5e0e571650028b22ab",
+        "bytes": 1400984,
+        "media_type": "application/pdf",
+        "storage": "r2",
+        "remote_url": "https://sources.afg.callum.website/demand-side-thinking/2335429f96f2de3f7b4ab53e906020d32ee063cd246aaa5e0e571650028b22ab/01-jtbd-browser-print.pdf",
+        "object_key": "demand-side-thinking/2335429f96f2de3f7b4ab53e906020d32ee063cd246aaa5e0e571650028b22ab/01-jtbd-browser-print.pdf"
+      },
+      "assets": [
+        {
+          "url": "https://jobstobedone.org/wp-content/themes/jtbd2026/assets/img/cheat-sheet.png",
+          "status": "captured",
+          "file": "assets/dc479e7022-cheat-sheet.png",
+          "bytes": 317595,
+          "sha256": "3df9716e1caecd3bb876e27a298605503e53544751b6ce8e8ff2a75edabf6d78",
+          "storage": "r2",
+          "remote_url": "https://sources.afg.callum.website/demand-side-thinking/3df9716e1caecd3bb876e27a298605503e53544751b6ce8e8ff2a75edabf6d78/assets/dc479e7022-cheat-sheet.png",
+          "object_key": "demand-side-thinking/3df9716e1caecd3bb876e27a298605503e53544751b6ce8e8ff2a75edabf6d78/assets/dc479e7022-cheat-sheet.png"
+        }
+      ],
+      "embedded_recordings_not_archived": [
+        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/324966615%3Fsecret_token%3Ds-2fvV3&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"
+      ],
+      "text_characters": 39772,
+      "completeness": "HTML text and 1 associated images captured; 0 images unavailable. Embedded recordings listed separately are not archived.",
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/demand-side-thinking/99e8d98a143b68f7b87e17f2a741c4486ddb47c3b70b3fa7fccdf716d25a22d2/01-jtbd-browser-dom.html",
+      "object_key": "demand-side-thinking/99e8d98a143b68f7b87e17f2a741c4486ddb47c3b70b3fa7fccdf716d25a22d2/01-jtbd-browser-dom.html"
+    }
+  ],
+  "objects": [
+    {
+      "file": "01-jtbd-browser-dom.html",
+      "key": "demand-side-thinking/99e8d98a143b68f7b87e17f2a741c4486ddb47c3b70b3fa7fccdf716d25a22d2/01-jtbd-browser-dom.html",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/99e8d98a143b68f7b87e17f2a741c4486ddb47c3b70b3fa7fccdf716d25a22d2/01-jtbd-browser-dom.html",
+      "sha256": "99e8d98a143b68f7b87e17f2a741c4486ddb47c3b70b3fa7fccdf716d25a22d2",
+      "bytes": 104140,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "01-jtbd-browser-print.pdf",
+      "key": "demand-side-thinking/2335429f96f2de3f7b4ab53e906020d32ee063cd246aaa5e0e571650028b22ab/01-jtbd-browser-print.pdf",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/2335429f96f2de3f7b4ab53e906020d32ee063cd246aaa5e0e571650028b22ab/01-jtbd-browser-print.pdf",
+      "sha256": "2335429f96f2de3f7b4ab53e906020d32ee063cd246aaa5e0e571650028b22ab",
+      "bytes": 1400984,
+      "content_type": "application/pdf"
+    },
+    {
+      "file": "02-unpacking-supply-and-demand.html",
+      "key": "demand-side-thinking/68b9bbfae967afd82bdad1fccef20e69030514f4b112fd28c2c36251f2b9827f/02-unpacking-supply-and-demand.html",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/68b9bbfae967afd82bdad1fccef20e69030514f4b112fd28c2c36251f2b9827f/02-unpacking-supply-and-demand.html",
+      "sha256": "68b9bbfae967afd82bdad1fccef20e69030514f4b112fd28c2c36251f2b9827f",
+      "bytes": 127962,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "03-framing-and-hard-conversations.html",
+      "key": "demand-side-thinking/9a46ca28b36ab5749bab802e409fa752ddbab95ca06689a757766ea77a9cd0aa/03-framing-and-hard-conversations.html",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/9a46ca28b36ab5749bab802e409fa752ddbab95ca06689a757766ea77a9cd0aa/03-framing-and-hard-conversations.html",
+      "sha256": "9a46ca28b36ab5749bab802e409fa752ddbab95ca06689a757766ea77a9cd0aa",
+      "bytes": 203910,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "04-shaping-on-the-demand-side.html",
+      "key": "demand-side-thinking/bd00a002efd367afd5f4abe8ebbee8b0c5345ada332bb29e80d0132985a2738e/04-shaping-on-the-demand-side.html",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/bd00a002efd367afd5f4abe8ebbee8b0c5345ada332bb29e80d0132985a2738e/04-shaping-on-the-demand-side.html",
+      "sha256": "bd00a002efd367afd5f4abe8ebbee8b0c5345ada332bb29e80d0132985a2738e",
+      "bytes": 20227,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/01709f109e-Screen-Shot-2021-04-09-at-9.20.09-AM-1.png",
+      "key": "demand-side-thinking/e723cab5059044ac850f78a55edc086c94be9357a189c6a1d83e223d0b1ca775/assets/01709f109e-Screen-Shot-2021-04-09-at-9.20.09-AM-1.png",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/e723cab5059044ac850f78a55edc086c94be9357a189c6a1d83e223d0b1ca775/assets/01709f109e-Screen-Shot-2021-04-09-at-9.20.09-AM-1.png",
+      "sha256": "e723cab5059044ac850f78a55edc086c94be9357a189c6a1d83e223d0b1ca775",
+      "bytes": 321469,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/0625a678ae-Screen-Shot-2021-04-09-at-9.20.30-AM-1.png",
+      "key": "demand-side-thinking/84d2454f3c3940201159ebd4830dfc01cd55dad6782420a9ef2156a32dd0670e/assets/0625a678ae-Screen-Shot-2021-04-09-at-9.20.30-AM-1.png",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/84d2454f3c3940201159ebd4830dfc01cd55dad6782420a9ef2156a32dd0670e/assets/0625a678ae-Screen-Shot-2021-04-09-at-9.20.30-AM-1.png",
+      "sha256": "84d2454f3c3940201159ebd4830dfc01cd55dad6782420a9ef2156a32dd0670e",
+      "bytes": 352557,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/172e66d3b8-Screen-Shot-2021-04-09-at-9.19.49-AM-1.png",
+      "key": "demand-side-thinking/c26ffdef8dab74ff1362673abe6fa90cf0c2e46b94e57e92f61a2c786a6145c7/assets/172e66d3b8-Screen-Shot-2021-04-09-at-9.19.49-AM-1.png",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/c26ffdef8dab74ff1362673abe6fa90cf0c2e46b94e57e92f61a2c786a6145c7/assets/172e66d3b8-Screen-Shot-2021-04-09-at-9.19.49-AM-1.png",
+      "sha256": "c26ffdef8dab74ff1362673abe6fa90cf0c2e46b94e57e92f61a2c786a6145c7",
+      "bytes": 219179,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/2585131613-slackAsset-1.png",
+      "key": "demand-side-thinking/bdb5a752813fad8c28e967293c183ea5399a98e4e7beb211a9ece91920b88847/assets/2585131613-slackAsset-1.png",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/bdb5a752813fad8c28e967293c183ea5399a98e4e7beb211a9ece91920b88847/assets/2585131613-slackAsset-1.png",
+      "sha256": "bdb5a752813fad8c28e967293c183ea5399a98e4e7beb211a9ece91920b88847",
+      "bytes": 260,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/3edeef2c9e-linkedinAsset-1.png",
+      "key": "demand-side-thinking/45cd5e12f29ec04bf21ac5b93015962b7498d253eb64c63a474d425bc7e37d3f/assets/3edeef2c9e-linkedinAsset-1.png",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/45cd5e12f29ec04bf21ac5b93015962b7498d253eb64c63a474d425bc7e37d3f/assets/3edeef2c9e-linkedinAsset-1.png",
+      "sha256": "45cd5e12f29ec04bf21ac5b93015962b7498d253eb64c63a474d425bc7e37d3f",
+      "bytes": 206,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/40f3bae361-fae284fd-cf2a-40cc-94f7-b8eafe0c5366-1.png",
+      "key": "demand-side-thinking/f12460bfe2a4f20179a9d075eebd8217496798365b48f41911e932d1b3102378/assets/40f3bae361-fae284fd-cf2a-40cc-94f7-b8eafe0c5366-1.png",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/f12460bfe2a4f20179a9d075eebd8217496798365b48f41911e932d1b3102378/assets/40f3bae361-fae284fd-cf2a-40cc-94f7-b8eafe0c5366-1.png",
+      "sha256": "f12460bfe2a4f20179a9d075eebd8217496798365b48f41911e932d1b3102378",
+      "bytes": 283274,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/4471040244-bos_logo_name_color_plain.svg",
+      "key": "demand-side-thinking/d9e429eab0d529a1387f104cad3e5bc8a04c796d2e25ff10174dc50834d7ebe3/assets/4471040244-bos_logo_name_color_plain.svg",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/d9e429eab0d529a1387f104cad3e5bc8a04c796d2e25ff10174dc50834d7ebe3/assets/4471040244-bos_logo_name_color_plain.svg",
+      "sha256": "d9e429eab0d529a1387f104cad3e5bc8a04c796d2e25ff10174dc50834d7ebe3",
+      "bytes": 12103,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "assets/8c731289ab-greg_engle.png",
+      "key": "demand-side-thinking/7aeb7d954483b226220e33db0ef5bd8dd48e57971a8bd4f2c846b87914b7c26f/assets/8c731289ab-greg_engle.png",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/7aeb7d954483b226220e33db0ef5bd8dd48e57971a8bd4f2c846b87914b7c26f/assets/8c731289ab-greg_engle.png",
+      "sha256": "7aeb7d954483b226220e33db0ef5bd8dd48e57971a8bd4f2c846b87914b7c26f",
+      "bytes": 70225,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/b1650188bd-bob_moesta.png",
+      "key": "demand-side-thinking/9731b73c519bfdc593725170ae55906ad8f83e7da55fbe90f2c3dc4a4dbb279a/assets/b1650188bd-bob_moesta.png",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/9731b73c519bfdc593725170ae55906ad8f83e7da55fbe90f2c3dc4a4dbb279a/assets/b1650188bd-bob_moesta.png",
+      "sha256": "9731b73c519bfdc593725170ae55906ad8f83e7da55fbe90f2c3dc4a4dbb279a",
+      "bytes": 153867,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/cb5ccd0711-Ryan-Singer-Felt-Presence-256x256.jpg",
+      "key": "demand-side-thinking/03d237d4c9e0f0c7b83f5062dd2d0658e4a2a0765be82943edf6e7df5ee560fa/assets/cb5ccd0711-Ryan-Singer-Felt-Presence-256x256.jpg",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/03d237d4c9e0f0c7b83f5062dd2d0658e4a2a0765be82943edf6e7df5ee560fa/assets/cb5ccd0711-Ryan-Singer-Felt-Presence-256x256.jpg",
+      "sha256": "03d237d4c9e0f0c7b83f5062dd2d0658e4a2a0765be82943edf6e7df5ee560fa",
+      "bytes": 10470,
+      "content_type": "image/jpeg"
+    },
+    {
+      "file": "assets/cf7f10fc49-icons8-twitter-30.png",
+      "key": "demand-side-thinking/c2010ef62a46f8f5f2ed4580db9a4ecc5647200484d4bba53ed8f132001695e8/assets/cf7f10fc49-icons8-twitter-30.png",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/c2010ef62a46f8f5f2ed4580db9a4ecc5647200484d4bba53ed8f132001695e8/assets/cf7f10fc49-icons8-twitter-30.png",
+      "sha256": "c2010ef62a46f8f5f2ed4580db9a4ecc5647200484d4bba53ed8f132001695e8",
+      "bytes": 354,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/dc479e7022-cheat-sheet.png",
+      "key": "demand-side-thinking/3df9716e1caecd3bb876e27a298605503e53544751b6ce8e8ff2a75edabf6d78/assets/dc479e7022-cheat-sheet.png",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/3df9716e1caecd3bb876e27a298605503e53544751b6ce8e8ff2a75edabf6d78/assets/dc479e7022-cheat-sheet.png",
+      "sha256": "3df9716e1caecd3bb876e27a298605503e53544751b6ce8e8ff2a75edabf6d78",
+      "bytes": 317595,
+      "content_type": "image/png"
+    },
+    {
+      "file": "assets/e98438ddb4-88ade9b377ae01f9739c6e5caad944a1a4fc7027.jpg",
+      "key": "demand-side-thinking/e1e8f34a2263e32f3031cfc8af9e2e90d7392cebdf7d47f91cf0851109983e1a/assets/e98438ddb4-88ade9b377ae01f9739c6e5caad944a1a4fc7027.jpg",
+      "url": "https://sources.afg.callum.website/demand-side-thinking/e1e8f34a2263e32f3031cfc8af9e2e90d7392cebdf7d47f91cf0851109983e1a/assets/e98438ddb4-88ade9b377ae01f9739c6e5caad944a1a4fc7027.jpg",
+      "sha256": "e1e8f34a2263e32f3031cfc8af9e2e90d7392cebdf7d47f91cf0851109983e1a",
+      "bytes": 88157,
+      "content_type": "image/jpeg"
+    }
+  ]
+}
