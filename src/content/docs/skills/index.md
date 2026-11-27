@@ -7,6 +7,7 @@ lastUpdated: 2026-11-23
 ## Skills I publish
 
 - [My skills](https://www.skills.sh/callumflack/skills). The skills I write and publish.
+- [Intent collection](https://github.com/callumflack/skills#intent-specialists). Six portable skills for the roles in the [Intent specialists playbook](/methods/give-a-job-to-a-specialist/).
 
 ## Complete agent coding methods
 
@@ -28,10 +29,14 @@ These three collections cover different stretches of the work: deciding what to 
 
 - [Emil Kowalski](https://github.com/emilkowalski/skills). Design motion and gestures. Start with `animate` or `review-animations`; use `choreograph` when elements move together, `gestures` when motion follows the finger, and `remove-animations` when motion gets in the way.
 - [Jakub Krehel](https://github.com/jakubkrehel/skills). Improve the whole interface. Start with `better-interface` for a ranked review, or pick the part you need: layout, type, color, copy, accessibility, or polish. `build-design` translates a design into existing components; `state-machine` lays out the visible states of a component so you can work on each one.
+- [outtrue](https://github.com/jakubkrehel/outtrue). Jakub Krehel’s Oxlint rules for design-system tokens, props, imports and composition.
+- [Jakub Antalik](https://github.com/Jakubantalik/transitions.dev). Transitions.dev pairs a library of CSS transitions with a skill for reviewing and adding UI motion.
+- [Ibelick’s UI Skills](https://github.com/ibelick/ui-skills). Design engineering skills, including `component-canvas` for exploring existing UI components and their variants.
 - [Benji Taylor’s Stageshow](https://github.com/benjitaylor/skills). Build a still or animated product mockup for a launch page, feature card, or walkthrough.
 - [Vojtěch Holík’s Good CSS](https://github.com/vojtaholik/good-css). Find a native CSS solution before adding breakpoints, wrappers, or JavaScript.
 - **Florian Kiem.** Use [Prefer Container Queries](https://raw.githubusercontent.com/flornkm/skills/main/skills/prefer-container-queries/SKILL.md) for components that adapt to their own space, and [WebGL Components](https://raw.githubusercontent.com/flornkm/skills/main/skills/webgl-components/SKILL.md) for small shader visuals embedded in a real interface.
-- [shadcn/ui](https://github.com/shadcn-ui/ui). Find and compose components from registries, or migrate a shadcn project from Radix to Base UI.
+- [**shadcn/ui**](https://github.com/shadcn-ui/ui). Find and compose components from registries, using Base UI, React Aria or Radix.
+- [@shadcn/lint](https://github.com/shadcn-ui/lint). An agent-first linter for Tailwind design systems.
 - [Vercel’s agent skills](https://github.com/vercel-labs/agent-skills). Implement view transitions or check a site against Web Interface Guidelines.
 
 ## Runtime and framework skills
