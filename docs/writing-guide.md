@@ -31,6 +31,14 @@ Only an explicit request for original writing, interpretation or adaptation perm
 
 Use the [external skills inventory procedure](external-skills-inventory.md) to refresh the public collection links.
 
+## Changelog
+
+New catalogue pages keep their Git addition dates. The changelog dates edits to existing public pages and catalogue entries by commit and uses the commit subject as the update text. Write a subject that tells readers what changed. A new page and its catalogue link appear once as an addition. The homepage’s Recently added list shows new pages.
+
+Publishing a draft and withdrawing a public page both create updates. Draft-only work, infrastructure, and the generated homepage stay out of the changelog.
+
+After committing a public content update locally, open the resulting changelog before pushing. Review the entry with the changed pages. After deployment, check the same entry on the live site.
+
 ## Preserve reference sources
 
 Save originals and associated files under `sources/<reference-slug>/`, recording the original URL and capture details in `source.json`. Run `npm run sources:upload -- <reference-slug>` to upload to R2 and verify the downloads. Use the resulting `remote_url` links on the guide page, after the publisher’s original link. Keep source wording intact and adaptations separate.

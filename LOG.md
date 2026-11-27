@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-11-27 — Include edits in the changelog
+
+- Callum asked for a durable changelog rule after commit `a9b1e38` changed the public Skills index and Intent playbook without generating an entry. Keep first-publication dates and generate dated updates from public content commits. Begin with `a9b1e38`. Keep the homepage’s Recently added list focused on new pages.
+- Prepare the rule and rendered changelog locally. The new presentation is subject to the Field Guide’s normal sign-off before publication.
+- The rendered changelog now lists the 27 November update with working links to Skills and Intent specialists. The playbook retains its 17 November addition entry. Git fixtures, typecheck, docs lint, the production build, and the rendered homepage check passed. The update is ready for local review.
+
 ## 2026-11-26 — Five local atomic commits
 
 - Callum authorized five local commits in order: category routes, editorial guidance, R2 source storage, the Parnas reference and agent playbook, then the retained breadboards draft. Do not push or publish.

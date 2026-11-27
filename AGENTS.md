@@ -8,6 +8,8 @@ Save originals under `sources/<reference-slug>/` and run `npm run sources:upload
 
 Apply the writing guide’s catalogue rules to every index entry, including prompts. Check the generated homepage after changing catalogue copy.
 
+Public content commits generate changelog updates. Follow the [changelog rules](docs/writing-guide.md#changelog) and check the rendered entry before and after publishing.
+
 When changing behavior, preserve existing presentation. Carry styles forward when replacing components, and compare the rendered result against the previous version before finishing.
 
 Preview status belongs only in Field reports. Never add a Preview label or line to any other page or catalogue entry, including the private guide. Showing a page on localhost does not call for a status label.

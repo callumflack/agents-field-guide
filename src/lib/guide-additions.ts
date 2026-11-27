@@ -1,5 +1,6 @@
 import { getCollection } from "astro:content";
-import { pageAdditions } from "./changelog.mjs";
+import { relative, resolve } from "node:path";
+import { pageAdditions, pageUpdates } from "./changelog.mjs";
 import { catalogueEntries } from "./catalogue.mjs";
 import { categoryGroups, legacyRedirects } from "./navigation.mjs";
 
@@ -27,4 +28,26 @@ export async function guideAdditions() {
     }
   }
   return pageAdditions([...pages.values()], process.cwd());
+}
+
+export async function guideUpdates() {
+  const cwd = process.cwd();
+  const docs = await getCollection("docs");
+  const pagesByFile = new Map<string, { title: string; href: string }>();
+  for (const entry of docs) {
+    if (entry.data.draft || !entry.filePath) continue;
+    const slug = entry.id.replace(/\/index$/, "");
+    pagesByFile.set(relative(cwd, resolve(cwd, entry.filePath)), {
+      title: entry.data.title,
+      href: slug === "index" ? "/" : `/${slug}/`,
+    });
+  }
+
+  return pageUpdates(cwd).map(({ files, ...update }) => ({
+    ...update,
+    pages: files.flatMap((file) => {
+      const page = pagesByFile.get(file);
+      return page ? [page] : [];
+    }),
+  }));
 }

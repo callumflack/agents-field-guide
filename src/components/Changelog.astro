@@ -1,18 +1,26 @@
 ---
-import { guideAdditions } from "../lib/guide-additions";
+import { guideAdditions, guideUpdates } from "../lib/guide-additions";
 
-const additions = await guideAdditions();
-const dates = [...new Set(additions.map((page) => page.date))];
+const [additions, updates] = await Promise.all([guideAdditions(), guideUpdates()]);
+const dates = [...new Set([...additions, ...updates].map((entry) => entry.date))].sort((a, b) => b.localeCompare(a));
 const formatDate = (date: string) => new Intl.DateTimeFormat("en-AU", {
   day: "numeric", month: "short", year: "numeric", timeZone: "UTC",
 }).format(new Date(`${date}T00:00:00Z`));
 ---
 
-<ol class="changelog" data-slot="changelog" aria-label="Pages added to the guide">
+<ol class="changelog" data-slot="changelog" aria-label="Guide changes">
   {dates.map((date) => (
     <li class="change-day">
       <time datetime={date}>{formatDate(date)}</time>
       <ul class="change-pages">
+        {updates.filter((update) => update.date === date).map((update) => (
+          <li class="change-page">
+            <span class="change-title">{update.summary}</span>
+            <span class="change-category">
+              Update{update.pages.map((page) => <> · <a href={page.href}>{page.title}</a></>)}
+            </span>
+          </li>
+        ))}
         {additions.filter((page) => page.date === date).map((page) => (
           <li class="change-page">
             <a href={page.href}>{page.title}</a>
@@ -68,7 +76,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-AU", {
     background: var(--nb-muted-foreground);
     box-shadow: 0 0 0 4px var(--nb-background);
   }
-  .change-page a {
+  .change-page > a, .change-title {
     color: var(--nb-foreground);
     font-weight: 500;
     line-height: 1.75rem;
@@ -82,6 +90,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-AU", {
     font-size: 0.8125rem;
     line-height: 1.5rem;
   }
+  .change-category a { color: inherit; }
   .change-day:last-child .change-pages { padding-bottom: 0; }
   @media (max-width: 36rem) {
     .change-day { grid-template-columns: minmax(0, 1fr); }
