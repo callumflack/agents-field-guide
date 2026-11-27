@@ -1,5 +1,12 @@
 # Worklog
 
+## 2026-11-27 — Summarize grouped changelog updates
+
+- Callum wants each public change listed inside a squash entry. Generate details from the release commit and its first parent, using the original Skills and Intent update as the review example. Keep the new presentation local for rendered sign-off.
+- Callum rejected the first preview’s 13-line breakdown. Use one short bullet per changed page and group repeated actions into sentences. The Skills bullet should name the added entries. The Intent bullet should describe the six installs together and include the link back to Skills.
+- The local preview renders two linked bullets. The squash test, production build, catalogue and breadcrumb checks, typecheck and MDX lint pass.
+- Callum approved that preview and requested publication to main. The repo instructions now distinguish new-page additions from short updates to existing public pages and catalogues.
+
 ## 2026-11-27 — Include edits in the changelog
 
 - Callum asked for a durable changelog rule after commit `a9b1e38` changed the public Skills index and Intent playbook without generating an entry. Keep first-publication dates and generate dated updates from public content commits. Begin with `a9b1e38`. Keep the homepage’s Recently added list focused on new pages.

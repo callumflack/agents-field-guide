@@ -33,21 +33,15 @@ export async function guideAdditions() {
 export async function guideUpdates() {
   const cwd = process.cwd();
   const docs = await getCollection("docs");
-  const pagesByFile = new Map<string, { title: string; href: string }>();
+  const hrefsByFile = new Map<string, string>();
   for (const entry of docs) {
     if (entry.data.draft || !entry.filePath) continue;
     const slug = entry.id.replace(/\/index$/, "");
-    pagesByFile.set(relative(cwd, resolve(cwd, entry.filePath)), {
-      title: entry.data.title,
-      href: slug === "index" ? "/" : `/${slug}/`,
-    });
+    hrefsByFile.set(relative(cwd, resolve(cwd, entry.filePath)), slug === "index" ? "/" : `/${slug}/`);
   }
 
-  return pageUpdates(cwd).map(({ files, ...update }) => ({
+  return pageUpdates(cwd).map(({ pages, ...update }) => ({
     ...update,
-    pages: files.flatMap((file) => {
-      const page = pagesByFile.get(file);
-      return page ? [page] : [];
-    }),
+    pages: pages.map(({ file, ...page }) => ({ ...page, href: hrefsByFile.get(file) })),
   }));
 }

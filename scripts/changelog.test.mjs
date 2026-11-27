@@ -111,10 +111,20 @@ test('updates include public page and catalogue edits, while additions and draft
   commit('2026-11-14T23:30:00Z', 'Publish the completed draft');
 
   assert.deepEqual(pageUpdates(cwd, since), [
-    { date: '2026-11-15', summary: 'Publish the completed draft', files: [draft] },
-    { date: '2026-11-14', summary: 'Withdraw the guide and rename a catalogue entry', files: [page, index] },
-    { date: '2026-11-13', summary: 'Add another page and improve the existing guide', files: [page] },
-    { date: '2026-11-11', summary: 'Clarify the guide and add an external reference', files: [page, index] },
+    { date: '2026-11-15', summary: 'Publish the completed draft', pages: [
+      { file: draft, title: 'Draft', note: 'Published.' },
+    ] },
+    { date: '2026-11-14', summary: 'Withdraw the guide and rename a catalogue entry', pages: [
+      { file: page, title: 'Guide', note: 'Withdrawn.' },
+      { file: index, title: 'References', note: 'Updated Renamed external. Removed Guide.' },
+    ] },
+    { date: '2026-11-13', summary: 'Add another page and improve the existing guide', pages: [
+      { file: page, title: 'Guide', note: 'Updated the opening text.' },
+    ] },
+    { date: '2026-11-11', summary: 'Clarify the guide and add an external reference', pages: [
+      { file: page, title: 'Guide', note: 'Updated the opening text.' },
+      { file: index, title: 'References', note: 'Added External.' },
+    ] },
   ]);
 });
 
@@ -137,16 +147,53 @@ test('first-parent releases include renamed and removed public pages once, using
     cwd, stdio: 'pipe', env: { ...process.env, GIT_AUTHOR_DATE: '2026-11-12T23:30:00Z', GIT_COMMITTER_DATE: '2026-11-12T23:30:00Z' },
   });
   assert.deepEqual(pageUpdates(cwd, since), [
-    { date: '2026-11-13', summary: 'Rename one reference and remove another', files: [removed, renamed] },
+    { date: '2026-11-13', summary: 'Rename one reference and remove another', pages: [
+      { file: removed, title: 'Removed', note: 'Removed.' },
+      { file: renamed, title: 'Original', note: 'Moved the page.' },
+    ] },
   ]);
 });
 
-test('the UI skills release records both the Skills index and Intent playbook', () => {
+test('a squash lists each surviving public change under one release subject', (t) => {
+  const { cwd, git, write, commit } = historyFixture(t);
+  const index = 'src/content/docs/skills/index.md';
+  const guide = 'src/content/docs/methods/compose.md';
+  const draft = 'src/content/docs/methods/draft.md';
+  write(index, doc('Skills', '## UI\n\n- [Components](https://example.test/components). Use the old registry.\n- [Old tool](https://example.test/old).'));
+  write(guide, doc('Compose an interface', '## Install\n\nInstall the package.\n\n## Verify\n\nRun the checks.'));
+  write(draft, doc('Draft', 'Keep this private.', true));
+  const since = commit('10', 'Initial pages');
+  git('checkout', '-b', 'feature');
+
+  const catalogue = '## UI\n\n- [Components](https://example.test/components). Use Base UI or Radix.\n- [Lint](https://example.test/lint).';
+  write(index, doc('Skills', `${catalogue}\n- [Temporary](https://example.test/temp).`));
+  write(draft, doc('Private title', 'Private changes.', true));
+  commit('11', 'Update the catalogue');
+
+  write('src/content/docs/skills/guide.md', doc('New guide', 'New page'));
+  write(index, doc('Skills', `${catalogue}\n- [New guide](/skills/guide/).`));
+  write(guide, doc('Compose an interface', '## Install\n\nInstall the package.\n\n[Install for CLI](https://example.test/cli).\n\n[Install for desktop](https://example.test/desktop).\n\n[Setup guide](https://example.test/setup).\n\n## Verify\n\nRun the checks in the browser.'));
+  commit('12', 'Add a guide and edit the playbook');
+
+  git('checkout', 'main');
+  git('merge', '--squash', 'feature');
+  commit('13', 'Publish the UI changes');
+
+  const updates = pageUpdates(cwd, since);
+  assert.equal(updates.length, 1);
+  assert.equal(updates[0].summary, 'Publish the UI changes');
+  assert.deepEqual(updates[0].pages, [
+    { file: guide, title: 'Compose an interface', note: 'Added 2 install links and a link to “Setup guide”. Updated “Verify”.' },
+    { file: index, title: 'Skills', note: 'Updated Components. Use Base UI or Radix. Added Lint. Removed Old tool.' },
+  ]);
+});
+
+test('the UI skills release fits in two bullets and names the distinct public updates', () => {
   const cwd = fileURLToPath(new URL('..', import.meta.url));
   const release = pageUpdates(cwd).find(({ summary }) => summary === 'Add UI skills and link the Intent specialist collection');
-  assert.deepEqual(release, {
-    date: '2026-11-27',
-    summary: 'Add UI skills and link the Intent specialist collection',
-    files: ['src/content/docs/methods/give-a-job-to-a-specialist.md', 'src/content/docs/skills/index.md'],
-  });
+  assert.equal(release.date, '2026-11-27');
+  assert.deepEqual(release.pages.map(({ title, note }) => [title, note]), [
+    ['Intent specialists', 'Added 6 install links and a link to “Intent collection in the Skills index”.'],
+    ['Skills', 'Added Intent collection, outtrue, Jakub Antalik, Ibelick’s UI Skills and @shadcn/lint. Updated shadcn/ui. Find and compose components from registries, using Base UI, React Aria or Radix.'],
+  ]);
 });

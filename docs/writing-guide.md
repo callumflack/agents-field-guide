@@ -33,7 +33,7 @@ Use the [external skills inventory procedure](external-skills-inventory.md) to r
 
 ## Changelog
 
-New catalogue pages keep their Git addition dates. The changelog dates edits to existing public pages and catalogue entries by commit and uses the commit subject as the update text. Write a subject that tells readers what changed. A new page and its catalogue link appear once as an addition. The homepage’s Recently added list shows new pages.
+New catalogue pages keep their Git addition dates. The changelog compares each public update commit with its first parent. The commit subject is the heading, with one short bullet per changed page. The bullets name distinct catalogue and page updates and group repeated actions such as adding several install links. This works the same way for a squash commit. Write a subject that tells readers what shipped. A new page and its catalogue link appear once as an addition. The homepage’s Recently added list shows new pages.
 
 Publishing a draft and withdrawing a public page both create updates. Draft-only work, infrastructure, and the generated homepage stay out of the changelog.
 
