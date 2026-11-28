@@ -1,0 +1,35 @@
+{
+  "reference": "the-world-and-the-machine",
+  "sources": [
+    {
+      "title": "The World and the Machine",
+      "original_url": "https://doi.org/10.1145/225014.225041",
+      "download_url": "https://users.ece.utexas.edu/~perry/education/SE-Intro/jackson-icse95.pdf",
+      "captured": "2026-11-28",
+      "status": "captured",
+      "file": "jackson-the-world-and-the-machine-icse95.pdf",
+      "media_type": "application/pdf",
+      "bytes": 1112924,
+      "sha256": "48c6ab4b1e17360ab32be09d0042b43630d3afcd8da7d453c17042a959ab6061",
+      "completeness": "Complete 10-page PDF supplied by Callum; its download metadata points to the University of Texas copy.",
+      "redistribution": {
+        "status": "permitted_noncommercial",
+        "basis": "The ACM notice allows noncommercial copying with the copyright notice, publication title and date, and acknowledgement of ACM permission.",
+        "evidence": "jackson-the-world-and-the-machine-icse95.pdf, page 1"
+      },
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/the-world-and-the-machine/48c6ab4b1e17360ab32be09d0042b43630d3afcd8da7d453c17042a959ab6061/jackson-the-world-and-the-machine-icse95.pdf",
+      "object_key": "the-world-and-the-machine/48c6ab4b1e17360ab32be09d0042b43630d3afcd8da7d453c17042a959ab6061/jackson-the-world-and-the-machine-icse95.pdf"
+    }
+  ],
+  "objects": [
+    {
+      "file": "jackson-the-world-and-the-machine-icse95.pdf",
+      "key": "the-world-and-the-machine/48c6ab4b1e17360ab32be09d0042b43630d3afcd8da7d453c17042a959ab6061/jackson-the-world-and-the-machine-icse95.pdf",
+      "url": "https://sources.afg.callum.website/the-world-and-the-machine/48c6ab4b1e17360ab32be09d0042b43630d3afcd8da7d453c17042a959ab6061/jackson-the-world-and-the-machine-icse95.pdf",
+      "sha256": "48c6ab4b1e17360ab32be09d0042b43630d3afcd8da7d453c17042a959ab6061",
+      "bytes": 1112924,
+      "content_type": "application/pdf"
+    }
+  ]
+}

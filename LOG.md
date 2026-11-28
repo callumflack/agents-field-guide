@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-11-28 — File The World and the Machine
+
+- Callum asked for Jackson’s paper in References with a short section on building with agents. Attribute Jackson’s argument separately, mirror the entry in Obsidian and show the site on localhost for sign-off. Preserve the supplied ICSE ’95 PDF with the noncommercial copying acknowledgement from its first page.
+- Both editions and their References overviews match. The verbatim quotation matches page 283. The archive uploader verified the PDF checksum and the entry links to the copy with ACM credit. The production build and vault checks pass. Followed the live localhost breadcrumb and homepage link, and left `http://127.0.0.1:4339/references/the-world-and-the-machine/` open for review. Site delivery is local.
+- Callum signed off the rendered reference with “Building with agents” and authorized publication with its catalogue links and source manifest. Deliver the reviewed wording through Workers Builds on `main` and verify the single live changelog addition.
+
 ## 2026-11-28 — Apply No Silver Bullet to building with agents
 
 - Callum asked to adapt the preceding discussion into a short section, keeping Brooks’s argument distinct from our application. Mirror it in both editions and show the rendered local page for review.
