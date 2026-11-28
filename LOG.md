@@ -1,5 +1,16 @@
 # Worklog
 
+## 2026-11-28 — Apply No Silver Bullet to building with agents
+
+- Callum asked to adapt the preceding discussion into a short section, keeping Brooks’s argument distinct from our application. Mirror it in both editions and show the rendered local page for review.
+- Both editions match. The production build and vault link checks pass. Verified the rendered source paragraph, four application bullets and References breadcrumb, then left the browser on the section for review. Delivery is local.
+- Callum signed off the rendered page and authorized publication of the reference with “Building with agents,” its catalogue links and source manifest. Publish the approved text through Workers Builds on `main` and verify the live page and its single changelog addition.
+
+## 2026-11-28 — File No Silver Bullet
+
+- Callum asked to read the supplied 1986 UNC report and add it to References. Add the UNC PDF and a verbatim excerpt in both editions. Place the entry first in References. Keep the site local for rendered sign-off. Preserve the supplied bytes locally; the report has no republication notice and the site can link to UNC’s original.
+- Filed the paper in both editions. The printed page 14 quotation, six-entry overviews and PDF checksums match. Production build and rendered breadcrumb checks pass. Opened the canonical page at `http://127.0.0.1:4339/references/no-silver-bullet/`, followed its References breadcrumb, and opened it from the homepage. The Obsidian note opens and reads back through its CLI, and its evidence link passes the vault checker. Source upload was a dry run; the entry is local and awaits rendered sign-off before publication.
+
 ## 2026-11-27 — Summarize grouped changelog updates
 
 - Callum wants each public change listed inside a squash entry. Generate details from the release commit and its first parent, using the original Skills and Intent update as the review example. Keep the new presentation local for rendered sign-off.

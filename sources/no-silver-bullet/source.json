@@ -1,0 +1,21 @@
+{
+  "reference": "no-silver-bullet",
+  "sources": [
+    {
+      "title": "No Silver Bullet — Essence and Accidents of Software Engineering",
+      "original_url": "https://www.cs.unc.edu/techreports/86-020.pdf",
+      "captured": "2026-11-28",
+      "status": "captured",
+      "file": "no-silver-bullet-86-020.pdf",
+      "media_type": "application/pdf",
+      "bytes": 807175,
+      "sha256": "a4a11dcb6ff7dcdfcc680e27760126d86c568cbb99a53a2bf58dc9041fbb190e",
+      "completeness": "Complete 21-page PDF supplied by Callum; its download metadata points to the UNC original.",
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "storage": "local"
+    }
+  ]
+}

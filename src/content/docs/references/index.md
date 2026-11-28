@@ -4,6 +4,7 @@ description: Articles and papers I return to.
 tableOfContents: false
 ---
 
+- [No Silver Bullet](/references/no-silver-bullet/). Paper on essential and accidental software difficulties.
 - [Decomposing systems into modules](/references/decomposing-systems-into-modules/). Paper on module boundaries.
 - [What Toyota reveals about organising agents](/references/what-toyota-reveals-about-organising-agents/). Production flow, exposed problems and practical help.
 - [Production leveling](/references/production-leveling/). Follow-on to Toyota: volume, mix, changeovers and buffers.

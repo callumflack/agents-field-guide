@@ -71,6 +71,7 @@ export const guideNavigation = [
     "landing": "/references/",
     "collapsed": true,
     "items": [
+      "references/no-silver-bullet",
       "references/decomposing-systems-into-modules",
       "references/what-toyota-reveals-about-organising-agents",
       "references/production-leveling",
