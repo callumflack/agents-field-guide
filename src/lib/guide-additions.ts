@@ -1,7 +1,7 @@
 import { getCollection } from "astro:content";
 import { relative, resolve } from "node:path";
 import { pageAdditions, pageUpdates } from "./changelog.mjs";
-import { catalogueEntries } from "./catalogue.mjs";
+import { cataloguePageHrefs } from "./catalogue.mjs";
 import { categoryGroups, legacyRedirects } from "./navigation.mjs";
 
 export async function guideAdditions() {
@@ -12,9 +12,7 @@ export async function guideAdditions() {
   for (const id of categories) {
     const category = docs.find((entry) => entry.id === id || entry.id === `${id}/index`);
     if (!category) continue;
-    for (const line of catalogueEntries(category.body ?? "")) {
-      const href = line.match(/^- \[[^\]]+\]\((\/(?!\/)[^)#]+)\)/)?.[1];
-      if (!href) continue;
+    for (const href of cataloguePageHrefs(category.body ?? "")) {
       const page = docs.find((entry) => `/${entry.id}/` === href);
       if (!page || page.data.draft || !page.filePath) continue;
       const previousSlug = Object.entries(legacyRedirects).find(([, target]) => target === href)?.[0];

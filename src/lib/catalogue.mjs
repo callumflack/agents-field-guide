@@ -14,6 +14,20 @@ export function catalogueEntries(body) {
     .filter((line) => line.startsWith('- '));
 }
 
+export function cataloguePageHrefs(body) {
+  return catalogueEntries(body).flatMap((line) => {
+    const href = line.match(/^- \[[^\]]+\]\((\/(?!\/)[^)#]+)\)/)?.[1];
+    return href ? [href] : [];
+  });
+}
+
+export function guidePageHref(file) {
+  const path = file.match(/^src\/content\/docs\/(.+)\.mdx?$/)?.[1];
+  if (!path) return undefined;
+  const slug = path.replace(/(^|\/)index$/, '');
+  return slug ? `/${slug.replace(/\/$/, '')}/` : '/';
+}
+
 export function entryExcerpt(entry) {
   const match = entry.match(/^(- (?:\[[^\]]+\]\([^)]+\)|\*\*.+?\*\*)\.?)(?: (.*))?$/);
   if (!match?.[2]) return entry;

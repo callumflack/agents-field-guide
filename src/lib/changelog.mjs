@@ -30,8 +30,9 @@ export function pageAdditions(pages, cwd) {
  * New pages already appear in pageAdditions; generated catalogues are excluded.
  * @param {string} cwd
  * @param {string} since Exclusive first-parent history boundary.
+ * @param {string} until Inclusive first-parent history boundary.
  */
-export function pageUpdates(cwd, since = '33e36679d20ed1b5c356dae00c43ac8a97263558') {
+export function pageUpdates(cwd, since = '33e36679d20ed1b5c356dae00c43ac8a97263558', until = 'HEAD') {
   const git = (...args) => execFileSync('git', args, { cwd, encoding: 'utf8' });
   if (git('rev-parse', '--is-shallow-repository').trim() === 'true') {
     throw new Error('The changelog needs full Git history. Fetch the complete history before building.');
@@ -43,7 +44,7 @@ export function pageUpdates(cwd, since = '33e36679d20ed1b5c356dae00c43ac8a972635
     timeZone: 'Australia/Brisbane', year: 'numeric', month: '2-digit', day: '2-digit',
   });
 
-  return git('log', '--first-parent', '--format=%H%x00%cI%x00%s', `${since}..HEAD`)
+  return git('log', '--first-parent', '--format=%H%x00%cI%x00%s', `${since}..${until}`)
     .split('\n').filter(Boolean).flatMap((release) => {
       const [hash, committedAt, summary] = release.split('\0');
       const parent = `${hash}^1`;

@@ -37,7 +37,7 @@ New catalogue pages keep their Git addition dates. The changelog compares each p
 
 Publishing a draft and withdrawing a public page both create updates. Draft-only work, infrastructure, and the generated homepage stay out of the changelog.
 
-After committing a public content update locally, open the resulting changelog before pushing. Review the entry with the changed pages. After deployment, check the same entry on the live site.
+After committing a public content update locally, open the resulting changelog before pushing. Review the entry with the changed pages. After deployment, use the [release check](../README.md#release-check) with the approved preview to verify the live pages and changelog.
 
 ## Preserve reference sources
 
@@ -58,5 +58,7 @@ Keep the closing question above the divider. Put sources and related reading at 
 > Learn how scheduling and buffers affect the rest of the system by reading [**Production leveling**](https://afg.callum.website/references/production-leveling/).
 
 Keep the surrounding sentence ordinary text. The linked title alone may carry emphasis when requested. Do not replace the sentence with an invented navigation label such as “Next:” or add emphasis while publishing approved copy.
+
+Use the [cross-reference check](../README.md#cross-reference-check) to see what connects two pages before adding a related link. Link in both directions when each link helps its reader. A small extension can belong on an existing page.
 
 Treat a supplied replacement as the copy to implement. Preserve its wording, punctuation, emphasis and link boundary. Check it in the rendered page, show that result for sign-off, and publish the approved version without another editorial pass.

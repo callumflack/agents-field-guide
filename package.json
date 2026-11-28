@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "astro dev",
     "sources:upload": "node scripts/upload-sources.mjs",
+    "release:check": "node scripts/check-release.mjs",
+    "refs:check": "node scripts/check-references.mjs",
+    "test:guide-checks": "node --test scripts/guide-checks.test.mjs",
     "test:changelog": "node --test scripts/changelog.test.mjs",
     "test:catalogue": "node --test scripts/catalogue.test.mjs",
     "catalogue:sync": "node scripts/sync-catalogue.mjs",
@@ -34,6 +37,7 @@
     "@astrojs/language-server": "2.16.13",
     "@tailwindcss/vite": "^4.1.4",
     "pagefind": "^1.5.2",
+    "parse5": "8.1.1",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.8.3",
     "satteri": "0.10.5",
