@@ -17,6 +17,6 @@ Requirements and implementation details emerge during the work, so designers bac
 
 ## Building with agents
 
-Put enforceable rules in tests or types. Keep the design rationale somewhere the next agent can find it. Record why the choice was made and revise that record when the choice changes.
+Put enforceable rules in tests or types. Pstack’s [Encode Lessons in Structure](/skills/pstack-principles/#meta) applies this when an instruction keeps coming up. Keep the design rationale somewhere the next agent can find it. Record why the choice was made and revise that record when the choice changes.
 
 Our [changelog fix](https://github.com/callumflack/agents-field-guide/commit/fae5b403f748814144d15818a711fc7643879aaa) does both. The regression test checks that moving an unchanged source link produces no false additions or removals. The worklog records why the changelog treats it as the same source.
