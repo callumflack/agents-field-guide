@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-11-28 — File Office Procedure as Practical Action
+
+- Callum asked to add Suchman’s paper to References with a short “Building with agents” section and a localhost review. Keep the accounting study and our application distinct, mirror both editions, and preserve the original ACM PDF under its noncommercial copying notice.
+- Retrieved the publisher PDF through ACM’s open-access download and verified its archive checksum. The quote matches page 326, both editions and their References overviews agree, and the build and Obsidian checks pass. Followed the local References breadcrumb and homepage link and left the canonical page open for review. Site delivery is local.
+- Callum signed off the rendered reference with “Building with agents” and authorized publication with its catalogue links and source manifest. Deliver the reviewed copy through Workers Builds on `main` and verify the live section and single changelog addition.
+
 ## 2026-11-28 — Apply Four Dark Corners to building with agents
 
 - Callum asked to take up this reference next. Add a local “Building with agents” section to both editions using R2’s documented read-after-write guarantee and the reader-facing cache as a concrete assumption to investigate. Show the local reference for review after the separate Naur and End-to-End release.

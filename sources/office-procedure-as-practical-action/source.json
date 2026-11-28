@@ -1,0 +1,35 @@
+{
+  "reference": "office-procedure-as-practical-action",
+  "sources": [
+    {
+      "title": "Office Procedure as Practical Action: Models of Work and System Design",
+      "original_url": "https://doi.org/10.1145/357442.357445",
+      "download_url": "https://dl.acm.org/doi/pdf/10.1145/357442.357445?download=true",
+      "captured": "2026-11-28",
+      "status": "captured",
+      "file": "suchman-1983.pdf",
+      "media_type": "application/pdf",
+      "bytes": 600131,
+      "sha256": "e6a2f8e3fcf8c273668c63226e4c23c2aebf31be3109426dbb24f767acbcca64",
+      "completeness": "Complete nine-page journal article downloaded from ACM Digital Library.",
+      "redistribution": {
+        "status": "permitted_noncommercial",
+        "basis": "The ACM notice allows noncommercial copying with the copyright notice, publication title and date, and acknowledgement of ACM permission.",
+        "evidence": "suchman-1983.pdf, page 1"
+      },
+      "storage": "r2",
+      "remote_url": "https://sources.afg.callum.website/office-procedure-as-practical-action/e6a2f8e3fcf8c273668c63226e4c23c2aebf31be3109426dbb24f767acbcca64/suchman-1983.pdf",
+      "object_key": "office-procedure-as-practical-action/e6a2f8e3fcf8c273668c63226e4c23c2aebf31be3109426dbb24f767acbcca64/suchman-1983.pdf"
+    }
+  ],
+  "objects": [
+    {
+      "file": "suchman-1983.pdf",
+      "key": "office-procedure-as-practical-action/e6a2f8e3fcf8c273668c63226e4c23c2aebf31be3109426dbb24f767acbcca64/suchman-1983.pdf",
+      "url": "https://sources.afg.callum.website/office-procedure-as-practical-action/e6a2f8e3fcf8c273668c63226e4c23c2aebf31be3109426dbb24f767acbcca64/suchman-1983.pdf",
+      "sha256": "e6a2f8e3fcf8c273668c63226e4c23c2aebf31be3109426dbb24f767acbcca64",
+      "bytes": 600131,
+      "content_type": "application/pdf"
+    }
+  ]
+}
