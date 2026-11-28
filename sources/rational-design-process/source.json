@@ -1,0 +1,22 @@
+{
+  "reference": "rational-design-process",
+  "sources": [
+    {
+      "title": "A Rational Design Process: How and Why to Fake It",
+      "original_url": "https://doi.org/10.1109/TSE.1986.6312940",
+      "download_url": "https://www.laputan.org/pub/papers/Fake.pdf",
+      "captured": "2026-11-28",
+      "status": "captured",
+      "file": "parnas-clements-1986.pdf",
+      "media_type": "application/pdf",
+      "bytes": 151959,
+      "sha256": "238cf14e335b62f8d194ca4db0ad1620f18926c033ed249f6adb4dbe78951d81",
+      "completeness": "Six scanned journal pages, numbered 251–256, including the article, conclusion and references. The IEEE bibliographic range is 251–257.",
+      "redistribution": {
+        "status": "not_established",
+        "basis": "The scan bears an IEEE copyright notice and provides no permission for a new public mirror."
+      },
+      "storage": "local"
+    }
+  ]
+}

@@ -71,6 +71,7 @@ export const guideNavigation = [
     "landing": "/references/",
     "collapsed": true,
     "items": [
+      "references/rational-design-process",
       "references/office-procedure-as-practical-action",
       "references/programming-as-theory-building",
       "references/end-to-end-arguments-in-system-design",

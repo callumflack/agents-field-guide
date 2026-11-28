@@ -4,6 +4,7 @@ description: Articles and papers I return to.
 tableOfContents: false
 ---
 
+- [A Rational Design Process: How and Why to Fake It](/references/rational-design-process/). Paper on design documentation and rejected alternatives.
 - [Office Procedure as Practical Action](/references/office-procedure-as-practical-action/). Paper on how office workers carry out procedures in practice.
 - [Programming as Theory Building](/references/programming-as-theory-building/). Paper on how programmers understand and adapt a program.
 - [End-to-End Arguments in System Design](/references/end-to-end-arguments-in-system-design/). Paper on where functions belong in layered systems.

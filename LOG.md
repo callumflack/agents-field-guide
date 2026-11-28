@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-11-28 — File A Rational Design Process
+
+- Callum asked to add Parnas and Clements’s paper to References, with a short, separate application to building with agents, and to show it on localhost. Mirror the entry in Obsidian, preserve the PDF locally and pause the reading list after this entry.
+- The reference text and overview match across both editions. Verified the quotation and PDF, opened the private note in Obsidian, and followed the local References breadcrumb and homepage link after the build passed. The PDF is preserved locally and the site links to the public scan. Left the local reference open for review and paused the reading list.
+- Callum signed off the rendered reference and authorized publication with its Building with agents section. Publish the reviewed copy through Workers Builds on `main` and verify the page and its single changelog addition.
+
 ## 2026-11-28 — File Office Procedure as Practical Action
 
 - Callum asked to add Suchman’s paper to References with a short “Building with agents” section and a localhost review. Keep the accounting study and our application distinct, mirror both editions, and preserve the original ACM PDF under its noncommercial copying notice.
