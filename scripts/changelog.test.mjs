@@ -129,6 +129,25 @@ test('updates include public page and catalogue edits, while additions and draft
   ]);
 });
 
+test('a catalogue entry is updated when a new guide links to its original source', (t) => {
+  const { cwd, write, commit } = historyFixture(t);
+  const index = 'src/content/docs/skills/index.md';
+  const source = 'https://example.test/collection';
+  const description = 'Browse the collection’s principles.';
+  write(index, doc('Skills', `- [Original collection](${source}). ${description}\n- [Old collection](https://example.test/old). ${description}`));
+  const since = commit('10', 'List external collections');
+
+  write('src/content/docs/skills/principles.md', doc('Principles', `[Collection](${source})`));
+  write(index, doc('Skills', `- [Collection](/skills/principles/). ${description}`));
+  commit('11', 'Add a principles index');
+
+  assert.deepEqual(pageUpdates(cwd, since), [{
+    date: '2026-11-11', summary: 'Add a principles index', pages: [
+      { file: index, title: 'Skills', note: 'Updated Collection. Removed Old collection.' },
+    ],
+  }]);
+});
+
 test('first-parent releases include renamed and removed public pages once, using their release subject', (t) => {
   const { cwd, git, write, commit } = historyFixture(t);
   const original = 'src/content/docs/references/original.md';
@@ -195,7 +214,7 @@ test('adding a section preserves unchanged source links in the changelog', () =>
   const before = readDocument(doc('Guide', `${source}\n\n[Old resource](https://example.test/old).`));
   const after = readDocument(doc('Guide', `## Building with agents\n\n[Provider documentation](https://example.test/provider).\n\n${source}`));
 
-  assert.deepEqual(documentChanges(before, after, path, path, () => false), [
+  assert.deepEqual(documentChanges(before, after, path, path, () => undefined), [
     'Removed a link to “Old resource”.',
     'Added a link to “Provider documentation”.',
     'Added “Building with agents”.',

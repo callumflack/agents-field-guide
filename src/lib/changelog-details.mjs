@@ -87,7 +87,7 @@ function sectionParts(section, catalogue) {
   return { items, prose: JSON.stringify(prose) };
 }
 
-function itemChanges(previous, current, catalogue, isNewPageLink) {
+function itemChanges(previous, current, catalogue, findNewPage) {
   const unmatched = new Set(previous);
   const pairs = current.map((item) => {
     const match = [...unmatched].find(({ value }) => value === item.value);
@@ -99,7 +99,16 @@ function itemChanges(previous, current, catalogue, isNewPageLink) {
   for (const pair of pairs) {
     const { item } = pair;
     if (pair.match) continue;
-    const match = [...unmatched].find((old) => old.name === item.name || (item.href && old.href === item.href));
+    const newPage = catalogue ? findNewPage(item.href) : undefined;
+    let match = [...unmatched].find((old) => old.name === item.name || (item.href && old.href === item.href));
+    if (!match && newPage) {
+      const opening = sections(newPage.after.body, newPage.file).get('');
+      const [source] = sectionParts(opening, false).items;
+      if (source?.href) {
+        match = [...unmatched].find((old) => old.href === source.href && old.description === item.description
+          && !current.some((entry) => entry.name === old.name || entry.href === old.href));
+      }
+    }
     pair.match = match;
     if (match) {
       unmatched.delete(match);
@@ -107,7 +116,7 @@ function itemChanges(previous, current, catalogue, isNewPageLink) {
         kind, action: 'Updated', name: item.name,
         description: item.description !== match.description ? item.description : undefined,
       });
-    } else if (!catalogue || !isNewPageLink(item.href)) {
+    } else if (!newPage) {
       details.push({ kind, action: 'Added', name: item.name, value: item.value });
     }
   }
@@ -147,7 +156,7 @@ function changeSentences(details) {
 }
 
 /** @returns {string[]} */
-export function documentChanges(before, after, oldFile, file, isNewPageLink) {
+export function documentChanges(before, after, oldFile, file, findNewPage) {
   const catalogue = /\/index\.mdx?$/.test(file);
   const previous = sections(before.body, oldFile);
   const current = sections(after.body, file);
@@ -160,7 +169,7 @@ export function documentChanges(before, after, oldFile, file, isNewPageLink) {
     const name = (section ?? oldSection).name;
     const oldParts = sectionParts(oldSection, catalogue);
     const parts = sectionParts(section, catalogue);
-    const { details, reordered } = itemChanges(oldParts.items, parts.items, catalogue, isNewPageLink);
+    const { details, reordered } = itemChanges(oldParts.items, parts.items, catalogue, findNewPage);
     const headingChanged = JSON.stringify(oldSection?.heading) !== JSON.stringify(section?.heading);
     // Catalogue links to first publications may be the entire new section.
     const headingOnly = headingChanged && (oldSection && section || !catalogue || (!parts.items.length && !oldParts.items.length));

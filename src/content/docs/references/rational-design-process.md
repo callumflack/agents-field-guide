@@ -17,6 +17,6 @@ Requirements and implementation details emerge during the work, so designers bac
 
 ## Building with agents
 
-Have the agent record why a consequential design choice holds in the place a future maintainer will look. Update that account while the work is underway. Include the requirement, the relevant evidence and the alternatives a maintainer might reconsider.
+Put enforceable rules in tests or types. Keep the design rationale somewhere the next agent can find it. Record why the choice was made and revise that record when the choice changes.
 
-Our changelog fix is a small example. An unchanged source link can move under a new heading. Reporting a removal and an addition misleads readers, so the generator pairs the removal with the identical addition and omits the move. The regression test exercises that case alongside a real addition and removal. A later agent has a reason for the rule and a case it can run.
+Our [changelog fix](https://github.com/callumflack/agents-field-guide/commit/fae5b403f748814144d15818a711fc7643879aaa) does both. The regression test checks that moving an unchanged source link produces no false additions or removals. The worklog records why the changelog treats it as the same source.

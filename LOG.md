@@ -1,5 +1,12 @@
 # Worklog
 
+## 2026-11-28 — Design rationale and Pstack principles
+
+- Callum asked to shorten the agent section in A Rational Design Process and distinguish rules enforced in tests or types from design rationale the next agent can find. He also asked for a Pstack principles index. Mirror both in Obsidian and show both pages on localhost for review.
+- Both editions match. Checked all 24 links against public Pstack files, followed both category breadcrumbs, and opened the Pstack index from the homepage. The build passed and both localhost tabs are open for review.
+- Callum approved both previews for publication. The changelog reported the Pstack catalogue link change as a removal. Correct the changelog before pushing and verify both approved pages and their live entries.
+- The changelog now treats the catalogue link as an update when the new page opens with the original source and the catalogue description matches. The regression also checks an unrelated removal with the same description. Compared against the prior build history and confirmed all earlier changelog entries match.
+
 ## 2026-11-28 — File A Rational Design Process
 
 - Callum asked to add Parnas and Clements’s paper to References, with a short, separate application to building with agents, and to show it on localhost. Mirror the entry in Obsidian, preserve the PDF locally and pause the reading list after this entry.

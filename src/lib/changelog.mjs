@@ -60,7 +60,7 @@ export function pageUpdates(cwd, since = '33e36679d20ed1b5c356dae00c43ac8a972635
           after: status === 'D' || !isTrackedDoc(file) ? undefined : readDocument(git('show', `${hash}:${file}`)),
         });
       }
-      const addedPages = new Set(changes.filter(({ status, after }) => status === 'A' && isPublic(after)).map(({ file }) => file));
+      const addedPages = new Map(changes.filter(({ status, after }) => status === 'A' && isPublic(after)).map((page) => [page.file, page]));
       const pages = changes.flatMap(({ status, file, oldFile, before, after }) => {
         const wasPublic = isPublic(before);
         const nowPublic = isPublic(after);
@@ -71,16 +71,16 @@ export function pageUpdates(cwd, since = '33e36679d20ed1b5c356dae00c43ac8a972635
           return [{ file, title, note: after ? 'Withdrawn.' : 'Removed.' }];
         }
 
-        const isNewPageLink = (href) => {
-          if (!href || /^(?:[a-z]+:|\/\/)/i.test(href)) return false;
+        const findNewPage = (href) => {
+          if (!href || /^(?:[a-z]+:|\/\/)/i.test(href)) return undefined;
           const target = href.split(/[?#]/)[0];
           const path = target.startsWith('/')
             ? `src/content/docs${target}`
             : posix.join(posix.dirname(file), target);
           const stem = path.replace(/\/$/, '').replace(/\.mdx?$/, '');
-          return [`${stem}.md`, `${stem}.mdx`, `${stem}/index.md`, `${stem}/index.mdx`].some((page) => addedPages.has(page));
+          return [`${stem}.md`, `${stem}.mdx`, `${stem}/index.md`, `${stem}/index.mdx`].map((page) => addedPages.get(page)).find(Boolean);
         };
-        const sentences = documentChanges(before, after, oldFile, file, isNewPageLink);
+        const sentences = documentChanges(before, after, oldFile, file, findNewPage);
         if (before.metadata.description !== after.metadata.description) sentences.unshift('Updated the page description.');
         if (before.metadata.title !== after.metadata.title) sentences.unshift('Renamed the page.');
         if (oldFile !== file) sentences.unshift('Moved the page.');

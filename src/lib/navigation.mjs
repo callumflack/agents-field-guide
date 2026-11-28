@@ -10,6 +10,7 @@ export const guideNavigation = [
     "collapsed": true,
     "items": [
       "skills/skills-i-publish",
+      "skills/pstack-principles",
       {
         "autogenerate": {
           "directory": "skills"
