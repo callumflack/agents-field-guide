@@ -108,12 +108,25 @@ function itemChanges(previous, current, catalogue, isNewPageLink) {
         description: item.description !== match.description ? item.description : undefined,
       });
     } else if (!catalogue || !isNewPageLink(item.href)) {
-      details.push({ kind, action: 'Added', name: item.name });
+      details.push({ kind, action: 'Added', name: item.name, value: item.value });
     }
   }
-  for (const item of unmatched) details.push({ kind, action: 'Removed', name: item.name });
+  for (const item of unmatched) details.push({ kind, action: 'Removed', name: item.name, value: item.value });
   const order = pairs.flatMap(({ match }) => match ? [previous.indexOf(match)] : []);
   return { details, reordered: order.some((index, i) => index < order[i - 1]) };
+}
+
+function withoutMovedLinks(changes) {
+  const removedLinks = Map.groupBy(changes.filter(({ kind, action }) => kind === 'link' && action === 'Removed'), ({ value }) => value);
+  const movedLinks = new Set();
+  for (const change of changes) {
+    if (change.kind !== 'link' || change.action !== 'Added') continue;
+    const removed = removedLinks.get(change.value)?.pop();
+    if (!removed) continue;
+    movedLinks.add(removed);
+    movedLinks.add(change);
+  }
+  return changes.filter((change) => !movedLinks.has(change));
 }
 
 function changeSentences(details) {
@@ -162,5 +175,5 @@ export function documentChanges(before, after, oldFile, file, isNewPageLink) {
   if (JSON.stringify(survivingSections(previous, current)) !== JSON.stringify(survivingSections(current, previous))) {
     notes.push('Reordered page sections.');
   }
-  return [...changeSentences(changes), ...notes];
+  return [...changeSentences(withoutMovedLinks(changes)), ...notes];
 }

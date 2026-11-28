@@ -5,6 +5,7 @@
 - Callum asked to take up this reference next. Add a local “Building with agents” section to both editions using R2’s documented read-after-write guarantee and the reader-facing cache as a concrete assumption to investigate. Show the local reference for review after the separate Naur and End-to-End release.
 - Added the matching section in both editions. The source discussion matches the prior revision. Production build, Obsidian link and read-back checks, and the rendered References breadcrumb pass. Left the new section open on localhost for review.
 - Callum signed off the rendered “Building with agents” section and authorized publishing the updated reference. Deliver the reviewed copy through Workers Builds on `main` and verify the live section and its changelog update.
+- The release preview exposed false link removals and additions when the new heading changed where existing source links were grouped. The changelog now cancels matching moves of unchanged links. A regression test covers the move and confirms that real additions and removals still appear.
 
 ## 2026-11-28 — File Naur and End-to-End Arguments
 

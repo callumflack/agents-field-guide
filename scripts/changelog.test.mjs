@@ -6,6 +6,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { pageAdditions, pageUpdates } from '../src/lib/changelog.mjs';
+import { documentChanges, readDocument } from '../src/lib/changelog-details.mjs';
 
 test('addition dates survive edits, renames and a shallow build checkout; uncommitted pages are omitted', () => {
   const cwd = mkdtempSync(join(tmpdir(), 'field-guide-changelog-'));
@@ -185,6 +186,19 @@ test('a squash lists each surviving public change under one release subject', (t
   assert.deepEqual(updates[0].pages, [
     { file: guide, title: 'Compose an interface', note: 'Added 2 install links and a link to “Setup guide”. Updated “Verify”.' },
     { file: index, title: 'Skills', note: 'Updated Components. Use Base UI or Radix. Added Lint. Removed Old tool.' },
+  ]);
+});
+
+test('adding a section preserves unchanged source links in the changelog', () => {
+  const path = 'src/content/docs/references/guide.md';
+  const source = 'Source: [Original paper](https://example.test/paper).';
+  const before = readDocument(doc('Guide', `${source}\n\n[Old resource](https://example.test/old).`));
+  const after = readDocument(doc('Guide', `## Building with agents\n\n[Provider documentation](https://example.test/provider).\n\n${source}`));
+
+  assert.deepEqual(documentChanges(before, after, path, path, () => false), [
+    'Removed a link to “Old resource”.',
+    'Added a link to “Provider documentation”.',
+    'Added “Building with agents”.',
   ]);
 });
 
