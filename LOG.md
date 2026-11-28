@@ -1,10 +1,17 @@
 # Worklog
 
+## 2026-11-28 — Apply Four Dark Corners to building with agents
+
+- Callum asked to take up this reference next. Add a local “Building with agents” section to both editions using R2’s documented read-after-write guarantee and the reader-facing cache as a concrete assumption to investigate. Show the local reference for review after the separate Naur and End-to-End release.
+- Added the matching section in both editions. The source discussion matches the prior revision. Production build, Obsidian link and read-back checks, and the rendered References breadcrumb pass. Left the new section open on localhost for review.
+- Callum signed off the rendered “Building with agents” section and authorized publishing the updated reference. Deliver the reviewed copy through Workers Builds on `main` and verify the live section and its changelog update.
+
 ## 2026-11-28 — File Naur and End-to-End Arguments
 
 - Callum asked for both papers in References, each with a short application to building with agents, and a localhost review. Keep the authors’ arguments distinct, mirror both entries in Obsidian, and place them first in the requested order. Preserve the supplied Naur reprint and the authors’ MIT PDF locally. Use public source links in the guide; the copies carry no established permission for a new public mirror.
 - Both reference bodies, PDF checksums and six-entry overviews match across editions. Checked Naur’s quotation against journal page 260 and the file-transfer quotation against page 3 of the MIT copy. Production build, vault links and Obsidian read-back pass. Confirmed both homepage entries and References breadcrumbs in the browser and left both canonical localhost pages open. Site delivery is local for review.
 - Callum signed off both rendered references with their “Building with agents” sections and authorized publication with their catalogue links and source manifests. Deliver the approved wording through Workers Builds on `main` and verify both live changelog additions.
+- Published in commit `1776c75`. Workers Builds succeeded. Both live page bodies match the approved copies, both sections and catalogue links render, and the changelog lists each addition once.
 
 ## 2026-11-28 — File The World and the Machine
 
