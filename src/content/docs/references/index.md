@@ -4,6 +4,8 @@ description: Articles and papers I return to.
 tableOfContents: false
 ---
 
+- [Programming as Theory Building](/references/programming-as-theory-building/). Paper on how programmers understand and adapt a program.
+- [End-to-End Arguments in System Design](/references/end-to-end-arguments-in-system-design/). Paper on where functions belong in layered systems.
 - [The World and the Machine](/references/the-world-and-the-machine/). Paper on the relationship between software and the world it serves.
 - [No Silver Bullet](/references/no-silver-bullet/). Paper on essential and accidental software difficulties.
 - [Decomposing systems into modules](/references/decomposing-systems-into-modules/). Paper on module boundaries.

@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-11-28 — File Naur and End-to-End Arguments
+
+- Callum asked for both papers in References, each with a short application to building with agents, and a localhost review. Keep the authors’ arguments distinct, mirror both entries in Obsidian, and place them first in the requested order. Preserve the supplied Naur reprint and the authors’ MIT PDF locally. Use public source links in the guide; the copies carry no established permission for a new public mirror.
+- Both reference bodies, PDF checksums and six-entry overviews match across editions. Checked Naur’s quotation against journal page 260 and the file-transfer quotation against page 3 of the MIT copy. Production build, vault links and Obsidian read-back pass. Confirmed both homepage entries and References breadcrumbs in the browser and left both canonical localhost pages open. Site delivery is local for review.
+- Callum signed off both rendered references with their “Building with agents” sections and authorized publication with their catalogue links and source manifests. Deliver the approved wording through Workers Builds on `main` and verify both live changelog additions.
+
 ## 2026-11-28 — File The World and the Machine
 
 - Callum asked for Jackson’s paper in References with a short section on building with agents. Attribute Jackson’s argument separately, mirror the entry in Obsidian and show the site on localhost for sign-off. Preserve the supplied ICSE ’95 PDF with the noncommercial copying acknowledgement from its first page.

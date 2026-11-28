@@ -71,6 +71,8 @@ export const guideNavigation = [
     "landing": "/references/",
     "collapsed": true,
     "items": [
+      "references/programming-as-theory-building",
+      "references/end-to-end-arguments-in-system-design",
       "references/the-world-and-the-machine",
       "references/no-silver-bullet",
       "references/decomposing-systems-into-modules",

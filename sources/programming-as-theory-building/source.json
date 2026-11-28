@@ -1,0 +1,22 @@
+{
+  "reference": "programming-as-theory-building",
+  "sources": [
+    {
+      "title": "Programming as Theory Building",
+      "original_url": "https://doi.org/10.1016/0165-6074(85)90032-8",
+      "download_url": "https://pages.cs.wisc.edu/~remzi/Naur.pdf",
+      "captured": "2026-11-28",
+      "status": "captured",
+      "file": "Naur.pdf",
+      "media_type": "application/pdf",
+      "bytes": 908308,
+      "sha256": "0bcd908a5862694cd228527edaf7a4b5a1f118da8c7edfaf8ad34c1e5fcbc9c4",
+      "completeness": "Complete 14-page scan supplied by Callum, including the reprinted paper and editorial commentary. The guide cites the original journal pagination.",
+      "redistribution": {
+        "status": "not_established",
+        "basis": null
+      },
+      "storage": "local"
+    }
+  ]
+}
